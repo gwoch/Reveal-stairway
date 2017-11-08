@@ -633,3 +633,108 @@ LogInit: Object subsystem initialized
 [2017.11.08-23.42.28:211][193]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
 [2017.11.08-23.42.28:261][193]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
 [2017.11.08-23.42.35:700][629]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-23.43.11:319][138]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-23.43.13:273][198]LogInit: Transaction tracking system initialized
+[2017.11.08-23.43.13:273][198]EditorErrors: New page: Matinee Initialization
+[2017.11.08-23.44.25:444][212]LogExit: Transaction tracking system shut down
+[2017.11.08-23.44.25:541][212]LogSavePackage: Save=85.66ms
+[2017.11.08-23.44.25:541][212]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway1552EC8549FD095F6DDE5A83EFC52B21.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.08-23.44.25:545][212]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.08-23.44.25:581][212]LogSavePackage: Save=8.26ms
+[2017.11.08-23.44.25:581][212]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData754DB380494340276408B2B47968145D.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.08-23.44.25:584][212]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.08-23.44.26:889][285]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-23.44.26:901][285]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-23.44.26:901][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-23.44.26:901][285]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 23:44:26)
+[2017.11.08-23.44.26:901][285]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-23.44.26:906][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005232s)
+[2017.11.08-23.44.26:908][285]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-23.44.26:908][285]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2017.11.08-23.44.26:908][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.007101s)
+[2017.11.08-23.44.26:920][285]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-23.44.26:925][285]LogInit: FAudioDevice initialized.
+[2017.11.08-23.44.26:962][285]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-23.44.26:964][285]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-23.44.26
+[2017.11.08-23.44.26:965][285]LogWorld: Bringing up level for play took: 0.002088
+[2017.11.08-23.44.26:967][285]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.863
+[2017.11.08-23.44.26:967][285]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-23.44.50:209][679]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-23.44.50:272][679]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-23.44.55:287][969]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-23.44.58:852][ 98]LogInit: Transaction tracking system initialized
+[2017.11.08-23.44.58:852][ 98]EditorErrors: New page: Matinee Initialization
+[2017.11.08-23.45.41:119][592]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-23.45.42:361][663]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (2nd_Woodblank_Blueprint)
+[2017.11.08-23.45.42:791][686]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (4th_W)
+[2017.11.08-23.45.43:299][714]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (5th_W)
+[2017.11.08-23.45.44:776][800]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (6th_W)
+[2017.11.08-23.48.28:784][172]LogExit: Transaction tracking system shut down
+[2017.11.08-23.48.28:879][172]LogSavePackage: Save=86.09ms
+[2017.11.08-23.48.28:879][172]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway31B8420549AF132124CDEF96B2ADA70B.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.08-23.48.28:884][172]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.08-23.48.28:928][172]LogSavePackage: Save=8.65ms
+[2017.11.08-23.48.28:928][172]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltDataB202EAA7480993BBD34AC79E747E2F82.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.08-23.48.28:930][172]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.08-23.48.30:519][265]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-23.48.30:595][266]LogEditorViewport: Clicking on Actor (double click): MatineeActor (MatineeActor3)
+[2017.11.08-23.48.33:585][358]LogInit: Transaction tracking system initialized
+[2017.11.08-23.48.33:585][358]EditorErrors: New page: Matinee Initialization
+[2017.11.08-23.48.41:319][749]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (7th_W)
+[2017.11.08-23.48.52:665][367]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (5th_W)
+[2017.11.08-23.48.54:276][461]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (6th_W)
+[2017.11.08-23.48.55:172][512]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (7th_W)
+[2017.11.08-23.50.14:423][122]Cmd: TRANSACTION UNDO
+[2017.11.08-23.50.14:423][122]LogEditorTransaction: Undo Move Selected Keys
+[2017.11.08-23.51.34:754][682]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (8th_W)
+[2017.11.08-23.53.16:191][519]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-23.53.16:205][519]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-23.53.16:205][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-23.53.16:205][519]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 23:53:16)
+[2017.11.08-23.53.16:205][519]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-23.53.16:210][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004522s)
+[2017.11.08-23.53.16:211][519]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-23.53.16:211][519]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2017.11.08-23.53.16:211][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.005779s)
+[2017.11.08-23.53.16:222][519]LogExit: Transaction tracking system shut down
+[2017.11.08-23.53.16:226][519]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-23.53.16:232][519]LogInit: FAudioDevice initialized.
+[2017.11.08-23.53.16:265][519]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-23.53.16:268][519]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-23.53.16
+[2017.11.08-23.53.16:268][519]LogWorld: Bringing up level for play took: 0.002179
+[2017.11.08-23.53.16:271][519]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.167
+[2017.11.08-23.53.16:272][519]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-23.53.30:462][370]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-23.53.30:520][370]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-23.53.31:645][426]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-23.53.31:660][426]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-23.53.31:660][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-23.53.31:661][426]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 23:53:31)
+[2017.11.08-23.53.31:661][426]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-23.53.31:666][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005586s)
+[2017.11.08-23.53.31:667][426]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-23.53.31:667][426]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2017.11.08-23.53.31:668][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.006978s)
+[2017.11.08-23.53.31:684][426]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-23.53.31:690][426]LogInit: FAudioDevice initialized.
+[2017.11.08-23.53.31:725][426]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-23.53.31:728][426]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-23.53.31
+[2017.11.08-23.53.31:729][426]LogWorld: Bringing up level for play took: 0.002463
+[2017.11.08-23.53.31:732][426]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.373
+[2017.11.08-23.53.31:732][426]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-23.53.43:458][129]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-23.53.43:513][129]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-23.53.47:967][389]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-23.53.50:846][449]LogInit: Transaction tracking system initialized
+[2017.11.08-23.53.50:846][449]EditorErrors: New page: Matinee Initialization
+[2017.11.08-23.54.08:238][402]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-23.54.10:268][520]Cmd: TRANSACTION UNDO
+[2017.11.08-23.54.10:268][520]LogEditorTransaction: Undo Delete Selected Keys
+[2017.11.08-23.54.14:317][762]LogEditorTransaction: Undo Update Key Frame
+[2017.11.08-23.54.39:072][223]LogExit: Transaction tracking system shut down
+[2017.11.08-23.54.39:195][223]LogSavePackage: Save=111.43ms
+[2017.11.08-23.54.39:195][223]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayCCD93F4A4CEB340E940F42B6C760C7DD.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.08-23.54.39:200][223]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.08-23.54.39:246][223]LogSavePackage: Save=9.46ms
+[2017.11.08-23.54.39:246][223]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltDataDF72907C4070C2ACF38636AA3364E99E.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.08-23.54.39:248][223]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
