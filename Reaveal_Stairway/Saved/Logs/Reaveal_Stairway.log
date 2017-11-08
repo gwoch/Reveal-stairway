@@ -1,4 +1,4 @@
-﻿Log file open, 11/07/17 22:27:07
+﻿Log file open, 11/08/17 09:18:17
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Reaveal_Stairway
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-792401009) SRandInit(-792401009).
+LogInit: Display: RandInit(-1027092745) SRandInit(-1027092745).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.188458
+LogStats: Stats thread started at 0.183065
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,1033 +113,621 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.07-22.27.08:180][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.07-22.27.08:180][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.07-22.27.08:190][  0]LogInit: Computer: DESKTOP-UTLPHC3
-[2017.11.07-22.27.08:190][  0]LogInit: User: Leszek
-[2017.11.07-22.27.08:190][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.07-22.27.08:190][  0]LogInit: High frequency timer resolution =2.742185 MHz
-[2017.11.07-22.27.08:190][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.11.07-22.27.08:190][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.07-22.27.08:190][  0]LogMemory: Process Physical Memory: 281.21 MB used, 281.21 MB peak
-[2017.11.07-22.27.08:190][  0]LogMemory: Process Virtual Memory: 282.29 MB used, 282.29 MB peak
-[2017.11.07-22.27.08:190][  0]LogMemory: Physical Memory: 8495.63 MB used,  7740.31 MB free, 16235.95 MB total
-[2017.11.07-22.27.08:190][  0]LogMemory: Virtual Memory: 710.63 MB used,  7740.31 MB free, 134217728.00 MB total
-[2017.11.07-22.27.08:741][  0]LogInit: Using OS detected language (en-US).
-[2017.11.07-22.27.08:741][  0]LogInit: Using OS detected locale (en-GB).
-[2017.11.07-22.27.08:745][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.07-22.27.09:590][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.07-22.27.09:651][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2017.11.07-22.27.09:651][  0]LogD3D11RHI:       4031/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.11.07-22.27.09:658][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2017.11.07-22.27.09:658][  0]LogD3D11RHI:       128/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.11.07-22.27.09:661][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.07-22.27.09:662][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.07-22.27.09:662][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.07-22.27.09:675][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.07-22.27.09:675][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2017.11.07-22.27.09:675][  0]LogWindows: EnumDisplayDevices:
-[2017.11.07-22.27.09:675][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2017.11.07-22.27.09:675][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
-[2017.11.07-22.27.09:676][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2017.11.07-22.27.09:676][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.11.07-22.27.09:676][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2017.11.07-22.27.09:676][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.11.07-22.27.09:676][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.11.07-22.27.09:676][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.07-22.27.09:704][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.07-22.27.09:719][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.11.07-22.27.09:721][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Intermediate/Shaders/WorkingDirectory/21256/).
-[2017.11.07-22.27.09:721][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Leszek/AppData/Local/Temp/UnrealShaderWorkingDir/9071E7164A6C146873168EBE0E290A58/'.
-[2017.11.07-22.27.09:721][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.07-22.27.10:855][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.07-22.27.10:941][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.07-22.27.11:040][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.07-22.27.11:148][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.07-22.27.11:241][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.07-22.27.11:340][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.07-22.27.11:439][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.07-22.27.11:530][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.07-22.27.11:619][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.07-22.27.11:707][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.07-22.27.11:796][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.07-22.27.11:896][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.07-22.27.11:988][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.07-22.27.12:082][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.07-22.27.12:175][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.07-22.27.12:358][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.07-22.27.12:358][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.07-22.27.12:441][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.07-22.27.12:597][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.07-22.27.12:647][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.07-22.27.12:734][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.07-22.27.12:821][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.07-22.27.12:911][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.07-22.27.13:000][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.07-22.27.13:000][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.07-22.27.13:924][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.07-22.27.14:014][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/Leszek/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.07-22.27.14:014][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Leszek/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.07-22.27.14:015][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.07-22.27.14:015][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.07-22.27.14:015][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.07-22.27.14:015][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.07-22.27.14:035][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.07-22.27.14:048][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Leszek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.07-22.27.14:060][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.07-22.27.14:060][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.07-22.27.14:061][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.07-22.27.14:061][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.07-22.27.14:385][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
-[2017.11.07-22.27.14:583][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.07-22.27.14:752][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.07-22.27.15:296][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.07-22.27.15:373][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.07-22.27.15:373][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.07-22.27.15:373][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.07-22.27.15:373][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.07-22.27.15:373][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.07-22.27.15:836][  0]LogNetVersion: Reaveal_Stairway , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 489707589)
-[2017.11.07-22.27.16:151][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.058896 seconds
-[2017.11.07-22.27.16:159][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.11.07-22.27.16:159][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.11.07-22.27.16:159][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.07-22.27.16:271][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.07-22.27.20:480][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.07-22.27.20:544][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.07-22.27.21:865][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.07-22.27.22:555][  0]SourceControl: Source control is disabled
-[2017.11.07-22.27.22:555][  0]SourceControl: Source control is disabled
-[2017.11.07-22.27.22:647][  0]SourceControl: Source control is disabled
-[2017.11.07-22.27.22:750][  0]SourceControl: Source control is disabled
-[2017.11.07-22.27.23:861][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.07-22.27.24:358][  0]LogOcInput: OculusInput pre-init called
-[2017.11.07-22.27.24:841][  0]LogEngine: Initializing Engine...
-[2017.11.07-22.27.24:844][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.07-22.27.25:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.07-22.27.25:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.07-22.27.25:429][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.07-22.27.25:445][  0]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-22.27.25:456][  0]LogInit: FAudioDevice initialized.
-[2017.11.07-22.27.25:525][  0]LogDerivedDataCache: Saved boot cache 0.07s 93MB C:/Users/Leszek/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.07-22.27.25:531][  0]LogInit: Texture streaming: Enabled
-[2017.11.07-22.27.25:748][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.07-22.27.26:158][  0]LogInit: Transaction tracking system initialized
-[2017.11.07-22.27.26:746][  0]BlueprintLog: New page: Editor Load
-[2017.11.07-22.27.28:351][  0]LocalizationService: Localization service is disabled
-[2017.11.07-22.27.29:257][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2017.11.07-22.27.29:257][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2017.11.07-22.27.29:257][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
-[2017.11.07-22.27.29:560][  0]LogConsoleResponse: Display: 
-[2017.11.07-22.27.29:790][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.07-22.27.29:791][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.07-22.27.29:791][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.07-22.27.30:261][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/' took 0.02s
-[2017.11.07-22.27.31:624][  0]SourceControl: Source control is disabled
-[2017.11.07-22.27.31:625][  0]LightingResults: New page: Lighting Build
-[2017.11.07-22.27.31:697][  0]MapCheck: New page: Map Check
-[2017.11.07-22.27.31:697][  0]LightingResults: New page: Lighting Build
-[2017.11.07-22.27.32:251][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.11.07-22.27.32:264][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.07-22.27.32:286][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.07-22.27.32:371][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.08ms to complete.
-[2017.11.07-22.27.32:371][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.746
-[2017.11.07-22.27.32:450][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.07-22.27.32:569][  0]LogCollectionManager: Loaded 0 collections in 0.001594 seconds
-[2017.11.07-22.27.32:686][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Collections/' took 0.01s
-[2017.11.07-22.27.32:686][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Developers/Leszek/Collections/' took 0.01s
-[2017.11.07-22.27.32:686][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Collections/' took 0.01s
-[2017.11.07-22.27.32:686][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.11.07-22.27.32:695][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2386 classes and 500 folders.
-[2017.11.07-22.27.32:817][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.07-22.27.32:872][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.07-22.27.32:947][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.11.07-22.27.32:972][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.07-22.27.32:974][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.07-22.27.32:981][  0]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.07-22.27.33:088][  0]LogRenderer: Reallocating scene render targets to support 964x488 Format 10 NumSamples 1 (Frame:1).
-[2017.11.07-22.27.33:313][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.11.07-22.27.33:313][  0]LogLoad: (Engine Initialization) Total time: 27.35 seconds
-[2017.11.07-22.27.33:313][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.07-22.27.33:314][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.07-22.27.33:352][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.07-22.27.33:397][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.07-22.27.33:412][  1]LogAssetRegistry: Asset discovery search completed in 19.0476 seconds
-[2017.11.07-22.27.33:414][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.11.07-22.27.33:414][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000121 seconds (updated 0 objects)
-[2017.11.07-22.28.11:719][293]LogSlate: Took 0.000444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.07-22.28.11:755][293]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-22.28.11:771][293]Cmd: MAP LOAD FILE="../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.07-22.28.11:771][293]LightingResults: New page: Lighting Build
-[2017.11.07-22.28.11:772][293]LoadErrors: New page: Loading map: Reveal_Stairway.umap
-[2017.11.07-22.28.11:772][293]MapCheck: New page: Map Check
-[2017.11.07-22.28.11:772][293]LightingResults: New page: Lighting Build
-[2017.11.07-22.28.11:787][293]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.07-22.28.11:812][293]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.07-22.28.11:902][293]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89.571ms to complete.
-[2017.11.07-22.28.11:902][293]LogFileHelpers: Loading map 'Reveal_Stairway' took 0.132
-[2017.11.07-22.33.03:107][310]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
-[2017.11.07-22.33.03:817][310]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.11.07-22.33.03:885][311]LogSlate: Took 0.000449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.11.07-22.35.36:411][420]LogEditorTransaction: Undo Delete current selection
-[2017.11.07-22.35.36:417][420]LogScript: Warning: Attempted to access TRASH_TextRenderComponent_9 via property TextRender, but TRASH_TextRenderComponent_9 is pending kill
-	Light_BP_C /Engine/Transient.World_1:PersistentLevel.Light_BP_C_1
-	Function /Game/Class_BluePrint/Light_BP.Light_BP_C:ExecuteUbergraph_Light_BP:0060
-[2017.11.07-22.35.36:442][420]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.07-22.35.46:065][988]BlueprintLog: New page: Compile Light_BP
-[2017.11.07-22.36.45:523][774]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-22.36.45:573][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-22.36.45:574][774]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 22:36:45)
-[2017.11.07-22.36.45:574][774]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-22.36.45:576][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002308s)
-[2017.11.07-22.36.45:577][774]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-22.36.45:577][774]LogPlayLevel: PIE: World Init took: (0.001112s)
-[2017.11.07-22.36.45:577][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003707s)
-[2017.11.07-22.36.45:599][774]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-22.36.45:605][774]LogInit: FAudioDevice initialized.
-[2017.11.07-22.36.45:647][774]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-22.36.45:651][774]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-22.36.45
-[2017.11.07-22.36.45:651][774]LogWorld: Bringing up level for play took: 0.002189
-[2017.11.07-22.36.45:721][774]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2017.11.07-22.36.45:724][774]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.505
-[2017.11.07-22.37.49:456][224]LogRenderer: Reallocating scene render targets to support 1020x724 Format 10 NumSamples 1 (Frame:1).
-[2017.11.07-22.38.14:076][695]BlueprintLog: New page: Compile Light_BP
-[2017.11.07-22.38.16:906][843]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-22.38.16:923][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-22.38.16:923][843]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 22:38:16)
-[2017.11.07-22.38.16:923][843]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-22.38.16:925][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002077s)
-[2017.11.07-22.38.16:926][843]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-22.38.16:926][843]LogPlayLevel: PIE: World Init took: (0.001016s)
-[2017.11.07-22.38.16:926][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003412s)
-[2017.11.07-22.38.16:945][843]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-22.38.16:950][843]LogInit: FAudioDevice initialized.
-[2017.11.07-22.38.16:983][843]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-22.38.16:986][843]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-22.38.16
-[2017.11.07-22.38.16:986][843]LogWorld: Bringing up level for play took: 0.002573
-[2017.11.07-22.38.16:989][843]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.229
-[2017.11.07-22.39.08:847][939]BlueprintLog: New page: Compile Light_BP
-[2017.11.07-22.39.11:689][ 87]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-22.39.11:705][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-22.39.11:705][ 87]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 22:39:11)
-[2017.11.07-22.39.11:705][ 87]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-22.39.11:708][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002377s)
-[2017.11.07-22.39.11:708][ 87]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-22.39.11:709][ 87]LogPlayLevel: PIE: World Init took: (0.000777s)
-[2017.11.07-22.39.11:709][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003393s)
-[2017.11.07-22.39.11:729][ 87]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-22.39.11:736][ 87]LogInit: FAudioDevice initialized.
-[2017.11.07-22.39.11:773][ 87]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-22.39.11:776][ 87]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-22.39.11
-[2017.11.07-22.39.11:776][ 87]LogWorld: Bringing up level for play took: 0.001503
-[2017.11.07-22.39.11:778][ 87]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.56
-[2017.11.07-22.40.19:488][802]BlueprintLog: New page: Compile Light_BP
-[2017.11.07-22.40.19:500][802]LogBlueprint: Error: [Compiler Light_BP] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2017.11.07-22.40.19:624][802]LogBlueprint: Warning: [Compiler Light_BP] [0793.66] Compile of Light_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 134 ms] (/Game/Class_BluePrint/Light_BP.Light_BP)
-[2017.11.07-22.40.40:180][ 35]LogEditorTransaction: Undo Delete current selection
-[2017.11.07-22.40.45:383][345]LogEditorTransaction: Undo Move Node
-[2017.11.07-22.40.45:796][368]LogEditorTransaction: Undo Create Pin Link
-[2017.11.07-22.40.46:113][387]LogEditorTransaction: Undo Create Pin Link
-[2017.11.07-22.40.46:219][388]LogSavePackage: Save=30.62ms
-[2017.11.07-22.40.46:219][388]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto1A11452904D4DDE042203E3878981FB29.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto1.umap'
-[2017.11.07-22.40.46:223][388]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto1.umap
-[2017.11.07-22.40.46:225][388]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.065
-[2017.11.07-22.40.46:225][388]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.065
-[2017.11.07-22.40.46:233][388]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Class_BluePrint/Light_BP] ([1] browsable assets)...
-[2017.11.07-22.40.46:255][388]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Class_BluePrint/Light_BP.Light_BP]
-[2017.11.07-22.40.46:255][388]OBJ SavePackage: Finished generating thumbnails for package [/Game/Class_BluePrint/Light_BP]
-[2017.11.07-22.40.46:295][388]LogSavePackage: Save=35.08ms
-[2017.11.07-22.40.46:295][388]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Light_BP_Auto114A33624485BC7ECE8E45695A3F7D123.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/Light_BP_Auto1.uasset'
-[2017.11.07-22.40.46:297][388]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/Light_BP_Auto1.uasset
-[2017.11.07-22.40.46:298][388]LogFileHelpers: Auto-saving content packages took 0.067
-[2017.11.07-22.40.47:128][438]LogEditorTransaction: Undo Create Pin Link
-[2017.11.07-22.40.47:446][457]LogEditorTransaction: Undo Create Pin Link
-[2017.11.07-22.43.24:393][714]BlueprintLog: New page: Compile Light_BP
-[2017.11.07-22.43.31:047][ 90]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-22.43.31:062][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-22.43.31:062][ 90]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 22:43:31)
-[2017.11.07-22.43.31:062][ 90]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-22.43.31:064][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002062s)
-[2017.11.07-22.43.31:065][ 90]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-22.43.31:065][ 90]LogPlayLevel: PIE: World Init took: (0.001150s)
-[2017.11.07-22.43.31:066][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003493s)
-[2017.11.07-22.43.31:087][ 90]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-22.43.31:093][ 90]LogInit: FAudioDevice initialized.
-[2017.11.07-22.43.31:131][ 90]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-22.43.31:133][ 90]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-22.43.31
-[2017.11.07-22.43.31:134][ 90]LogWorld: Bringing up level for play took: 0.002015
-[2017.11.07-22.43.31:137][ 90]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.081
-[2017.11.07-22.46.43:133][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-22.46.43:938][615]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
-[2017.11.07-22.46.51:634][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-22.46.52:718][129]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2017.11.07-22.50.58:692][  1]LogSavePackage: Save=33.51ms
-[2017.11.07-22.50.58:692][  1]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto2EC0694BE439528492EEAF493EBBA68F7.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto2.umap'
-[2017.11.07-22.50.58:694][  1]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto2.umap
-[2017.11.07-22.50.58:697][  1]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.073
-[2017.11.07-22.50.58:697][  1]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.073
-[2017.11.07-22.50.58:702][  1]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Class_BluePrint/Light_BP] ([1] browsable assets)...
-[2017.11.07-22.50.58:725][  1]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Class_BluePrint/Light_BP.Light_BP]
-[2017.11.07-22.50.58:725][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/Class_BluePrint/Light_BP]
-[2017.11.07-22.50.58:775][  1]LogSavePackage: Save=42.83ms
-[2017.11.07-22.50.58:775][  1]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Light_BP_Auto24CC0947F4ED5B452E2A1628E47F644EC.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/Light_BP_Auto2.uasset'
-[2017.11.07-22.50.58:779][  1]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/Light_BP_Auto2.uasset
-[2017.11.07-22.50.58:779][  1]LogFileHelpers: Auto-saving content packages took 0.078
-[2017.11.07-22.52.06:447][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-22.52.10:570][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-22.52.11:491][560]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-22.52.12:232][602]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.07-22.52.13:016][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-22.52.14:781][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-22.52.15:499][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-22.52.16:129][829]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-22.52.17:789][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.11.07-22.52.18:516][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.11.07-22.52.19:220][  8]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.07-22.52.19:821][ 42]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-22.53.53:267][951]LogEditorTransaction: Undo Create Pin Link
-[2017.11.07-22.53.53:797][979]LogEditorTransaction: Undo Move Node
-[2017.11.07-22.53.54:570][ 23]LogEditorTransaction: Undo Add Node
-[2017.11.07-22.54.14:213][176]LogEditorTransaction: Undo Move Nodes
-[2017.11.07-22.54.14:564][194]LogEditorTransaction: Undo Rename Node
-[2017.11.07-22.54.14:948][213]LogEditorTransaction: Undo Add Node
-[2017.11.07-22.58.56:836][320]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.11.07-22.58.57:417][352]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-22.59.11:806][205]Cmd: TRANSACTION UNDO
-[2017.11.07-22.59.11:806][205]LogEditorTransaction: Undo Scale Components
-[2017.11.07-22.59.15:452][417]Cmd: TRANSACTION UNDO
-[2017.11.07-22.59.15:452][417]LogEditorTransaction: Undo Scale Components
-[2017.11.07-22.59.19:071][631]Cmd: TRANSACTION UNDO
-[2017.11.07-22.59.19:071][631]LogEditorTransaction: Undo Scale Components
-[2017.11.07-23.06.38:238][616]LogSavePackage: Save=34.98ms
-[2017.11.07-23.06.38:238][616]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto302FAA84B43944382C59ABAB4828A1F29.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto3.umap'
-[2017.11.07-23.06.38:241][616]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto3.umap
-[2017.11.07-23.06.38:243][616]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.071
-[2017.11.07-23.06.38:243][616]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.071
-[2017.11.07-23.06.38:248][616]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Class_BluePrint/Light_BP] ([1] browsable assets)...
-[2017.11.07-23.06.38:277][616]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Class_BluePrint/Light_BP.Light_BP]
-[2017.11.07-23.06.38:277][616]OBJ SavePackage: Finished generating thumbnails for package [/Game/Class_BluePrint/Light_BP]
-[2017.11.07-23.06.38:317][616]LogSavePackage: Save=35.40ms
-[2017.11.07-23.06.38:317][616]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Light_BP_Auto39B840B4940C2C6100251BE8056EBA652.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/Light_BP_Auto3.uasset'
-[2017.11.07-23.06.38:321][616]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/Light_BP_Auto3.uasset
-[2017.11.07-23.06.38:321][616]LogFileHelpers: Auto-saving content packages took 0.075
-[2017.11.07-23.08.31:403][967]BlueprintLog: New page: Compile Light_BP
-[2017.11.07-23.08.33:743][ 74]LogSavePackage: Save=29.22ms
-[2017.11.07-23.08.33:743][ 74]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway8029734F479507C0605AF39CCF93B8B7.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
-[2017.11.07-23.08.33:748][ 74]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
-[2017.11.07-23.08.33:784][ 74]LogSavePackage: Save=11.67ms
-[2017.11.07-23.08.33:785][ 74]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltDataA7A54C6D4F5F2C580D0C188A708010E0.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
-[2017.11.07-23.08.33:787][ 74]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
-[2017.11.07-23.08.42:137][572]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.08.42:153][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.08.42:153][572]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:08:42)
-[2017.11.07-23.08.42:153][572]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.08.42:156][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002724s)
-[2017.11.07-23.08.42:157][572]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.08.42:157][572]LogPlayLevel: PIE: World Init took: (0.001039s)
-[2017.11.07-23.08.42:158][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004074s)
-[2017.11.07-23.08.42:178][572]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.08.42:184][572]LogInit: FAudioDevice initialized.
-[2017.11.07-23.08.42:219][572]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.08.42:221][572]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.08.42
-[2017.11.07-23.08.42:221][572]LogWorld: Bringing up level for play took: 0.001764
-[2017.11.07-23.08.42:225][572]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 1.006
-[2017.11.07-23.08.59:823][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.11.07-23.09.05:673][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.11.07-23.09.06:381][  6]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.09.10:547][249]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.09.10:561][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.09.10:561][249]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:09:10)
-[2017.11.07-23.09.10:561][249]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.09.10:562][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001671s)
-[2017.11.07-23.09.10:563][249]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.09.10:564][249]LogPlayLevel: PIE: World Init took: (0.001638s)
-[2017.11.07-23.09.10:564][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003574s)
-[2017.11.07-23.09.10:586][249]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.09.10:590][249]LogInit: FAudioDevice initialized.
-[2017.11.07-23.09.10:624][249]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.09.10:625][249]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.09.10
-[2017.11.07-23.09.10:625][249]LogWorld: Bringing up level for play took: 0.001092
-[2017.11.07-23.09.10:628][249]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.591
-[2017.11.07-23.10.04:517][464]BlueprintLog: New page: Compile Light_BP
-[2017.11.07-23.10.17:750][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.11.07-23.10.19:309][ 92]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.11.06:640][918]LogSavePackage: Save=27.52ms
-[2017.11.07-23.11.06:640][918]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayD0D36BD14749F01D3C781E923A7D2FE9.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
-[2017.11.07-23.11.06:645][918]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
-[2017.11.07-23.11.06:677][918]LogSavePackage: Save=8.96ms
-[2017.11.07-23.11.06:678][918]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltDataEA2F818F46FAB2AA5BEA7D9713CD3834.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
-[2017.11.07-23.11.06:680][918]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
-[2017.11.07-23.11.31:657][403]Cmd: TRANSACTION UNDO
-[2017.11.07-23.11.31:657][403]LogEditorTransaction: Undo Move Components
-[2017.11.07-23.11.41:808][  2]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.11.41:824][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.11.41:824][  2]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:11:41)
-[2017.11.07-23.11.41:825][  2]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.11.41:826][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001638s)
-[2017.11.07-23.11.41:827][  2]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.11.41:827][  2]LogPlayLevel: PIE: World Init took: (0.000811s)
-[2017.11.07-23.11.41:827][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.002672s)
-[2017.11.07-23.11.41:846][  2]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.11.41:850][  2]LogInit: FAudioDevice initialized.
-[2017.11.07-23.11.41:880][  2]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.11.41:882][  2]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.11.41
-[2017.11.07-23.11.41:882][  2]LogWorld: Bringing up level for play took: 0.001414
-[2017.11.07-23.11.41:885][  2]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.666
-[2017.11.07-23.12.01:232][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.12.03:048][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.12.03:501][285]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.12.11:558][760]Cmd: SELECT NONE
-[2017.11.07-23.12.12:425][812]Cmd: SELECT NONE
-[2017.11.07-23.13.29:804][670]BlueprintLog: New page: Compile Light_BP
-[2017.11.07-23.13.33:565][873]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.13.33:582][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.13.33:582][873]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:13:33)
-[2017.11.07-23.13.33:582][873]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.13.33:584][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001644s)
-[2017.11.07-23.13.33:584][873]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.13.33:585][873]LogPlayLevel: PIE: World Init took: (0.001053s)
-[2017.11.07-23.13.33:585][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.002976s)
-[2017.11.07-23.13.33:608][873]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.13.33:613][873]LogInit: FAudioDevice initialized.
-[2017.11.07-23.13.33:648][873]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.13.33:651][873]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.13.33
-[2017.11.07-23.13.33:651][873]LogWorld: Bringing up level for play took: 0.001384
-[2017.11.07-23.13.33:654][873]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.435
-[2017.11.07-23.13.54:139][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.13.55:172][152]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.13.57:018][259]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.07-23.13.58:087][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.13.58:713][355]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.14.05:196][736]Cmd: TRANSACTION UNDO
-[2017.11.07-23.14.05:197][736]LogEditorTransaction: Undo Edit Source Radius
-[2017.11.07-23.14.19:067][558]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.14.19:078][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.14.19:078][558]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:14:19)
-[2017.11.07-23.14.19:078][558]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.14.19:081][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002335s)
-[2017.11.07-23.14.19:082][558]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.14.19:082][558]LogPlayLevel: PIE: World Init took: (0.001201s)
-[2017.11.07-23.14.19:082][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003830s)
-[2017.11.07-23.14.19:104][558]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.14.19:109][558]LogInit: FAudioDevice initialized.
-[2017.11.07-23.14.19:144][558]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.14.19:147][558]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.14.19
-[2017.11.07-23.14.19:147][558]LogWorld: Bringing up level for play took: 0.001669
-[2017.11.07-23.14.19:149][558]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.07
-[2017.11.07-23.14.38:288][696]Cmd: TRANSACTION UNDO
-[2017.11.07-23.14.38:288][696]LogEditorTransaction: Undo Edit Outer Cone Angle
-[2017.11.07-23.14.39:323][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.14.39:990][792]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.14.52:290][520]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.14.52:305][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.14.52:306][520]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:14:52)
-[2017.11.07-23.14.52:306][520]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.14.52:308][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001855s)
-[2017.11.07-23.14.52:308][520]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.14.52:309][520]LogPlayLevel: PIE: World Init took: (0.000870s)
-[2017.11.07-23.14.52:309][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003087s)
-[2017.11.07-23.14.52:330][520]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.14.52:333][520]LogInit: FAudioDevice initialized.
-[2017.11.07-23.14.52:369][520]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.14.52:371][520]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.14.52
-[2017.11.07-23.14.52:371][520]LogWorld: Bringing up level for play took: 0.001428
-[2017.11.07-23.14.52:374][520]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.845
-[2017.11.07-23.15.19:953][163]LogEditorViewport: Clicking on Component (LMB): SpotLightComponent (SpotLight)
-[2017.11.07-23.15.20:542][197]LogEditorViewport: Clicking on Component (LMB): SpotLightComponent (SpotLight)
-[2017.11.07-23.15.21:187][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.15.21:732][265]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.15.32:385][897]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.15.32:396][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.15.32:396][897]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:15:32)
-[2017.11.07-23.15.32:396][897]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.15.32:398][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002399s)
-[2017.11.07-23.15.32:400][897]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.15.32:400][897]LogPlayLevel: PIE: World Init took: (0.001214s)
-[2017.11.07-23.15.32:400][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003975s)
-[2017.11.07-23.15.32:420][897]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.15.32:424][897]LogInit: FAudioDevice initialized.
-[2017.11.07-23.15.32:459][897]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.15.32:461][897]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.15.32
-[2017.11.07-23.15.32:461][897]LogWorld: Bringing up level for play took: 0.001265
-[2017.11.07-23.15.32:464][897]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.755
-[2017.11.07-23.15.51:235][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.15.51:805][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.15.52:313][ 76]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.15.53:789][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-23.15.54:831][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.15.55:368][249]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.16.05:124][828]Cmd: TRANSACTION UNDO
-[2017.11.07-23.16.05:124][828]LogEditorTransaction: Undo Edit Attenuation Radius
-[2017.11.07-23.16.07:482][967]Cmd: TRANSACTION UNDO
-[2017.11.07-23.16.07:483][967]LogEditorTransaction: Undo Edit Source Radius
-[2017.11.07-23.16.11:274][192]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.16.11:285][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.16.11:285][192]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:16:11)
-[2017.11.07-23.16.11:285][192]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.16.11:287][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001965s)
-[2017.11.07-23.16.11:288][192]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.16.11:288][192]LogPlayLevel: PIE: World Init took: (0.000828s)
-[2017.11.07-23.16.11:288][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003065s)
-[2017.11.07-23.16.11:308][192]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.16.11:313][192]LogInit: FAudioDevice initialized.
-[2017.11.07-23.16.11:349][192]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.16.11:352][192]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.16.11
-[2017.11.07-23.16.11:352][192]LogWorld: Bringing up level for play took: 0.001659
-[2017.11.07-23.16.11:354][192]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.136
-[2017.11.07-23.16.30:891][357]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.16.37:810][767]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.16.46:500][280]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.16.46:511][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.16.46:511][280]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:16:46)
-[2017.11.07-23.16.46:511][280]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.16.46:513][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002109s)
-[2017.11.07-23.16.46:514][280]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.16.46:514][280]LogPlayLevel: PIE: World Init took: (0.001055s)
-[2017.11.07-23.16.46:514][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003447s)
-[2017.11.07-23.16.46:537][280]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.16.46:542][280]LogInit: FAudioDevice initialized.
-[2017.11.07-23.16.46:575][280]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.16.46:577][280]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.16.46
-[2017.11.07-23.16.46:577][280]LogWorld: Bringing up level for play took: 0.001222
-[2017.11.07-23.16.46:580][280]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.639
-[2017.11.07-23.16.59:560][ 52]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.17.00:374][ 99]Cmd: TRANSACTION UNDO
-[2017.11.07-23.17.00:374][ 99]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.07-23.17.00:763][121]Cmd: TRANSACTION UNDO
-[2017.11.07-23.17.00:763][121]LogEditorTransaction: Undo Rotate Components
-[2017.11.07-23.17.10:083][676]Cmd: TRANSACTION UNDO
-[2017.11.07-23.17.10:083][676]LogEditorTransaction: Undo Rotate Actors
-[2017.11.07-23.17.13:846][896]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.17.13:857][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.17.13:858][896]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:17:13)
-[2017.11.07-23.17.13:858][896]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.17.13:860][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002007s)
-[2017.11.07-23.17.13:861][896]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.17.13:861][896]LogPlayLevel: PIE: World Init took: (0.001127s)
-[2017.11.07-23.17.13:861][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003464s)
-[2017.11.07-23.17.13:880][896]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.17.13:884][896]LogInit: FAudioDevice initialized.
-[2017.11.07-23.17.13:919][896]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.17.13:921][896]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.17.13
-[2017.11.07-23.17.13:922][896]LogWorld: Bringing up level for play took: 0.001366
-[2017.11.07-23.17.13:924][896]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.706
-[2017.11.07-23.17.26:384][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.17.27:674][712]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.17.28:627][767]Cmd: TRANSACTION UNDO
-[2017.11.07-23.17.28:627][767]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.07-23.17.29:174][796]Cmd: TRANSACTION UNDO
-[2017.11.07-23.17.29:174][796]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.07-23.17.29:634][822]Cmd: TRANSACTION UNDO
-[2017.11.07-23.17.29:634][822]LogEditorTransaction: Undo Rotate Components
-[2017.11.07-23.18.06:713][961]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.18.06:725][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.18.06:725][961]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:18:06)
-[2017.11.07-23.18.06:726][961]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.18.06:728][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002096s)
-[2017.11.07-23.18.06:729][961]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.18.06:729][961]LogPlayLevel: PIE: World Init took: (0.001069s)
-[2017.11.07-23.18.06:730][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003528s)
-[2017.11.07-23.18.06:749][961]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.18.06:753][961]LogInit: FAudioDevice initialized.
-[2017.11.07-23.18.06:788][961]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.18.06:791][961]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.18.06
-[2017.11.07-23.18.06:791][961]LogWorld: Bringing up level for play took: 0.002190
-[2017.11.07-23.18.06:794][961]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.425
-[2017.11.07-23.18.29:178][288]LogSavePackage: Save=28.58ms
-[2017.11.07-23.18.29:178][288]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway6418FEBB4B13354FCE8DD0AD1EF97B5F.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
-[2017.11.07-23.18.29:184][288]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
-[2017.11.07-23.18.29:218][288]LogSavePackage: Save=8.26ms
-[2017.11.07-23.18.29:218][288]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltDataB86EF6D8487B8049639058ADC1801BF9.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
-[2017.11.07-23.18.29:221][288]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
-[2017.11.07-23.20.19:290][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.20.43:741][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.11.07-23.20.45:801][274]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.20.45:813][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.20.45:813][274]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:20:45)
-[2017.11.07-23.20.45:813][274]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.20.45:815][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002054s)
-[2017.11.07-23.20.45:817][274]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.20.45:818][274]LogPlayLevel: PIE: World Init took: (0.002582s)
-[2017.11.07-23.20.45:819][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.005140s)
-[2017.11.07-23.20.45:841][274]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.20.45:846][274]LogInit: FAudioDevice initialized.
-[2017.11.07-23.20.45:877][274]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.20.45:879][274]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.20.45
-[2017.11.07-23.20.45:879][274]LogWorld: Bringing up level for play took: 0.001330
-[2017.11.07-23.20.45:882][274]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.664
-[2017.11.07-23.21.40:162][515]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.21.40:174][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.21.40:174][515]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:21:40)
-[2017.11.07-23.21.40:174][515]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.21.40:177][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003457s)
-[2017.11.07-23.21.40:178][515]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.21.40:179][515]LogPlayLevel: PIE: World Init took: (0.001227s)
-[2017.11.07-23.21.40:179][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.005125s)
-[2017.11.07-23.21.40:200][515]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.21.40:205][515]LogInit: FAudioDevice initialized.
-[2017.11.07-23.21.40:241][515]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.21.40:244][515]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.21.40
-[2017.11.07-23.21.40:244][515]LogWorld: Bringing up level for play took: 0.001540
-[2017.11.07-23.21.40:247][515]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 1.028
-[2017.11.07-23.22.42:329][231]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.22.42:340][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.22.42:340][231]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:22:42)
-[2017.11.07-23.22.42:340][231]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.22.42:342][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001948s)
-[2017.11.07-23.22.42:343][231]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.22.42:343][231]LogPlayLevel: PIE: World Init took: (0.000912s)
-[2017.11.07-23.22.42:343][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003190s)
-[2017.11.07-23.22.42:366][231]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.22.42:372][231]LogInit: FAudioDevice initialized.
-[2017.11.07-23.22.42:403][231]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.22.42:405][231]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.22.42
-[2017.11.07-23.22.42:405][231]LogWorld: Bringing up level for play took: 0.001336
-[2017.11.07-23.22.42:407][231]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.811
-[2017.11.07-23.22.53:446][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.11.07-23.22.55:474][  0]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.22.57:069][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-23.22.58:390][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.22.58:909][195]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.23.21:800][552]Cmd: DELETE
-[2017.11.07-23.23.21:800][552]Cmd: ACTOR DELETE
-[2017.11.07-23.23.21:801][552]LogEditorActor: Deleted Actor: PointLight
-[2017.11.07-23.23.21:820][552]LogEditorActor: Deleted 1 Actors (0.020 secs)
-[2017.11.07-23.23.23:127][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-23.23.23:568][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-23.23.40:013][638]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.23.40:023][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.23.40:023][638]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:23:40)
-[2017.11.07-23.23.40:023][638]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.23.40:027][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003934s)
-[2017.11.07-23.23.40:028][638]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.23.40:029][638]LogPlayLevel: PIE: World Init took: (0.001232s)
-[2017.11.07-23.23.40:029][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.005549s)
-[2017.11.07-23.23.40:049][638]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.23.40:054][638]LogInit: FAudioDevice initialized.
-[2017.11.07-23.23.40:088][638]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.23.40:090][638]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.23.40
-[2017.11.07-23.23.40:090][638]LogWorld: Bringing up level for play took: 0.001502
-[2017.11.07-23.23.40:094][638]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.875
-[2017.11.07-23.23.51:766][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-23.24.02:232][957]Cmd: TRANSACTION UNDO
-[2017.11.07-23.24.02:232][957]LogEditorTransaction: Undo Edit Fully Occluded Samples Fraction
-[2017.11.07-23.24.13:226][517]LogSavePackage: Save=32.97ms
-[2017.11.07-23.24.13:227][517]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayCEB2B1AF4A0BB6FE7B67448E91173BE7.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
-[2017.11.07-23.24.13:231][517]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
-[2017.11.07-23.24.13:282][517]LogSavePackage: Save=9.88ms
-[2017.11.07-23.24.13:282][517]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData76A2EED3415BEB44A3D27C8D6C509AF5.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
-[2017.11.07-23.24.13:285][517]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
-[2017.11.07-23.29.13:038][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.29.13:619][821]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.29.14:357][862]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.29.15:203][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.29.16:245][970]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.30.33:933][975]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.30.33:944][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.30.33:945][975]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:30:33)
-[2017.11.07-23.30.33:945][975]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.30.33:948][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003103s)
-[2017.11.07-23.30.33:949][975]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.30.33:949][975]LogPlayLevel: PIE: World Init took: (0.001436s)
-[2017.11.07-23.30.33:950][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.005035s)
-[2017.11.07-23.30.33:972][975]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.30.33:978][975]LogInit: FAudioDevice initialized.
-[2017.11.07-23.30.34:011][975]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.30.34:012][975]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.30.34
-[2017.11.07-23.30.34:013][975]LogWorld: Bringing up level for play took: 0.001407
-[2017.11.07-23.30.34:016][975]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.798
-[2017.11.07-23.31.06:549][474]LogEditorViewport: Clicking on Component (LMB): SpotLightComponent (SpotLight)
-[2017.11.07-23.31.07:161][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.31.07:849][548]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.31.19:369][233]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.31.19:381][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.31.19:381][233]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:31:19)
-[2017.11.07-23.31.19:381][233]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.31.19:384][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003114s)
-[2017.11.07-23.31.19:386][233]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.31.19:386][233]LogPlayLevel: PIE: World Init took: (0.001062s)
-[2017.11.07-23.31.19:386][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004493s)
-[2017.11.07-23.31.19:406][233]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.31.19:410][233]LogInit: FAudioDevice initialized.
-[2017.11.07-23.31.19:442][233]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.31.19:444][233]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.31.19
-[2017.11.07-23.31.19:445][233]LogWorld: Bringing up level for play took: 0.001465
-[2017.11.07-23.31.19:448][233]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.229
-[2017.11.07-23.31.31:086][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.31.31:597][951]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.31.54:318][305]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.31.54:333][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.31.54:333][305]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:31:54)
-[2017.11.07-23.31.54:333][305]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.31.54:335][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001848s)
-[2017.11.07-23.31.54:336][305]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.31.54:336][305]LogPlayLevel: PIE: World Init took: (0.000972s)
-[2017.11.07-23.31.54:337][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003126s)
-[2017.11.07-23.31.54:357][305]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.31.54:361][305]LogInit: FAudioDevice initialized.
-[2017.11.07-23.31.54:395][305]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.31.54:397][305]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.31.54
-[2017.11.07-23.31.54:397][305]LogWorld: Bringing up level for play took: 0.001372
-[2017.11.07-23.31.54:400][305]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.819
-[2017.11.07-23.32.08:606][150]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.32.16:194][597]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.32.16:207][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.32.16:207][597]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:32:16)
-[2017.11.07-23.32.16:207][597]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.32.16:209][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001951s)
-[2017.11.07-23.32.16:210][597]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.32.16:210][597]LogPlayLevel: PIE: World Init took: (0.001134s)
-[2017.11.07-23.32.16:210][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003438s)
-[2017.11.07-23.32.16:233][597]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.32.16:236][597]LogInit: FAudioDevice initialized.
-[2017.11.07-23.32.16:270][597]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.32.16:272][597]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.32.16
-[2017.11.07-23.32.16:272][597]LogWorld: Bringing up level for play took: 0.001285
-[2017.11.07-23.32.16:274][597]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 1.056
-[2017.11.07-23.32.27:700][270]LogSavePackage: Save=26.72ms
-[2017.11.07-23.32.27:700][270]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway97B4A17A46103261844DB9813D907C39.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
-[2017.11.07-23.32.27:705][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
-[2017.11.07-23.32.27:739][270]LogSavePackage: Save=8.20ms
-[2017.11.07-23.32.27:739][270]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData1AC99CDD4EF9F0F1993C8981F09A349B.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
-[2017.11.07-23.32.27:741][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
-[2017.11.07-23.32.37:217][828]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.32.42:238][128]Cmd: EDIT COPY
-[2017.11.07-23.32.42:789][161]Cmd: EDIT PASTE
-[2017.11.07-23.32.54:966][882]Cmd: TRANSACTION UNDO
-[2017.11.07-23.32.54:966][882]LogEditorTransaction: Undo Rotate Actors
-[2017.11.07-23.33.09:500][747]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.33.09:512][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.33.09:512][747]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:33:09)
-[2017.11.07-23.33.09:512][747]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.33.09:515][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002248s)
-[2017.11.07-23.33.09:516][747]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.33.09:516][747]LogPlayLevel: PIE: World Init took: (0.000895s)
-[2017.11.07-23.33.09:516][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003418s)
-[2017.11.07-23.33.09:539][747]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.33.09:544][747]LogInit: FAudioDevice initialized.
-[2017.11.07-23.33.09:578][747]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.33.09:580][747]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.33.09
-[2017.11.07-23.33.09:581][747]LogWorld: Bringing up level for play took: 0.001557
-[2017.11.07-23.33.09:584][747]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.365
-[2017.11.07-23.33.36:215][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.11.07-23.33.37:872][433]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.33.50:772][200]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP2)
-[2017.11.07-23.33.57:235][578]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.33.57:248][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.33.57:248][578]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:33:57)
-[2017.11.07-23.33.57:248][578]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.33.57:250][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002411s)
-[2017.11.07-23.33.57:251][578]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.33.57:251][578]LogPlayLevel: PIE: World Init took: (0.000915s)
-[2017.11.07-23.33.57:251][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003596s)
-[2017.11.07-23.33.57:274][578]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.33.57:279][578]LogInit: FAudioDevice initialized.
-[2017.11.07-23.33.57:312][578]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.33.57:314][578]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.33.57
-[2017.11.07-23.33.57:314][578]LogWorld: Bringing up level for play took: 0.001286
-[2017.11.07-23.33.57:317][578]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.098
-[2017.11.07-23.34.16:024][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.34.16:567][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.34.17:141][754]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.34.26:910][332]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP2)
-[2017.11.07-23.34.32:062][636]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.34.32:072][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.34.32:073][636]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:34:32)
-[2017.11.07-23.34.32:073][636]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.34.32:075][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002687s)
-[2017.11.07-23.34.32:077][636]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.34.32:077][636]LogPlayLevel: PIE: World Init took: (0.001678s)
-[2017.11.07-23.34.32:078][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004959s)
-[2017.11.07-23.34.32:099][636]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.34.32:103][636]LogInit: FAudioDevice initialized.
-[2017.11.07-23.34.32:138][636]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.34.32:142][636]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.34.32
-[2017.11.07-23.34.32:142][636]LogWorld: Bringing up level for play took: 0.001994
-[2017.11.07-23.34.32:144][636]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.925
-[2017.11.07-23.34.43:420][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.11.07-23.34.44:050][339]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP2)
-[2017.11.07-23.34.58:846][217]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.35.11:452][967]Cmd: TRANSACTION UNDO
-[2017.11.07-23.35.11:453][967]LogEditorTransaction: Undo Edit Attenuation Radius
-[2017.11.07-23.35.24:891][769]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP2)
-[2017.11.07-23.35.33:644][285]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.35.33:655][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.35.33:655][285]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:35:33)
-[2017.11.07-23.35.33:655][285]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.35.33:658][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002486s)
-[2017.11.07-23.35.33:659][285]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.35.33:659][285]LogPlayLevel: PIE: World Init took: (0.000924s)
-[2017.11.07-23.35.33:660][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003733s)
-[2017.11.07-23.35.33:679][285]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.35.33:684][285]LogInit: FAudioDevice initialized.
-[2017.11.07-23.35.33:717][285]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.35.33:720][285]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.35.33
-[2017.11.07-23.35.33:720][285]LogWorld: Bringing up level for play took: 0.001494
-[2017.11.07-23.35.33:722][285]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.504
-[2017.11.07-23.35.47:353][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.11.07-23.35.48:486][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.11.07-23.35.48:957][186]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP2)
-[2017.11.07-23.35.52:852][414]Cmd: TRANSACTION UNDO
-[2017.11.07-23.35.52:852][414]LogEditorTransaction: Undo Move Actors
-[2017.11.07-23.36.08:823][361]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.36.08:838][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.36.08:838][361]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:36:08)
-[2017.11.07-23.36.08:838][361]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.36.08:841][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002375s)
-[2017.11.07-23.36.08:842][361]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.36.08:842][361]LogPlayLevel: PIE: World Init took: (0.001343s)
-[2017.11.07-23.36.08:842][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004016s)
-[2017.11.07-23.36.08:865][361]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.36.08:870][361]LogInit: FAudioDevice initialized.
-[2017.11.07-23.36.08:901][361]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.36.08:904][361]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.36.08
-[2017.11.07-23.36.08:905][361]LogWorld: Bringing up level for play took: 0.001673
-[2017.11.07-23.36.08:907][361]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.311
-[2017.11.07-23.36.19:472][983]LogSavePackage: Save=30.14ms
-[2017.11.07-23.36.19:472][983]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway62BBB22D483E47563782B7B2A7D71AE4.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
-[2017.11.07-23.36.19:477][983]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
-[2017.11.07-23.36.19:522][983]LogSavePackage: Save=7.36ms
-[2017.11.07-23.36.19:522][983]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData60B1CEC14DBAF4DA0D743D944729AF43.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
-[2017.11.07-23.36.19:525][983]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
-[2017.11.07-23.36.22:861][177]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP2)
-[2017.11.07-23.36.35:395][920]Cmd: EDIT COPY
-[2017.11.07-23.36.35:662][936]Cmd: EDIT PASTE
-[2017.11.07-23.36.48:096][673]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.36.48:107][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.36.48:107][673]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:36:48)
-[2017.11.07-23.36.48:108][673]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.36.48:110][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002406s)
-[2017.11.07-23.36.48:111][673]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.36.48:112][673]LogPlayLevel: PIE: World Init took: (0.001601s)
-[2017.11.07-23.36.48:112][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004397s)
-[2017.11.07-23.36.48:134][673]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.36.48:138][673]LogInit: FAudioDevice initialized.
-[2017.11.07-23.36.48:172][673]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.36.48:175][673]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.36.48
-[2017.11.07-23.36.48:175][673]LogWorld: Bringing up level for play took: 0.001819
-[2017.11.07-23.36.48:178][673]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.959
-[2017.11.07-23.37.08:593][891]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
-[2017.11.07-23.37.23:806][794]BlueprintLog: New page: Compile Light_BP
-[2017.11.07-23.37.27:514][978]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.37.27:532][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.37.27:533][978]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:37:27)
-[2017.11.07-23.37.27:533][978]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.37.27:536][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003005s)
-[2017.11.07-23.37.27:537][978]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.37.27:537][978]LogPlayLevel: PIE: World Init took: (0.001177s)
-[2017.11.07-23.37.27:538][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004529s)
-[2017.11.07-23.37.27:558][978]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.37.27:562][978]LogInit: FAudioDevice initialized.
-[2017.11.07-23.37.27:594][978]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.37.27:596][978]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.37.27
-[2017.11.07-23.37.27:596][978]LogWorld: Bringing up level for play took: 0.001393
-[2017.11.07-23.37.27:598][978]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.38
-[2017.11.07-23.37.38:115][600]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP4)
-[2017.11.07-23.37.48:731][224]Cmd: EDIT COPY
-[2017.11.07-23.37.48:920][235]Cmd: EDIT PASTE
-[2017.11.07-23.37.58:872][822]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.37.58:885][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.37.58:885][822]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:37:58)
-[2017.11.07-23.37.58:885][822]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.37.58:888][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002949s)
-[2017.11.07-23.37.58:889][822]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.37.58:890][822]LogPlayLevel: PIE: World Init took: (0.001389s)
-[2017.11.07-23.37.58:890][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004845s)
-[2017.11.07-23.37.58:914][822]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.37.58:918][822]LogInit: FAudioDevice initialized.
-[2017.11.07-23.37.58:948][822]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.37.58:951][822]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.37.58
-[2017.11.07-23.37.58:951][822]LogWorld: Bringing up level for play took: 0.001746
-[2017.11.07-23.37.58:954][822]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.265
-[2017.11.07-23.38.11:213][551]Cmd: TRANSACTION UNDO
-[2017.11.07-23.38.11:213][551]LogEditorTransaction: Undo Move Actors
-[2017.11.07-23.38.11:743][581]Cmd: TRANSACTION UNDO
-[2017.11.07-23.38.11:743][581]LogEditorTransaction: Undo Move Actors
-[2017.11.07-23.38.13:952][713]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.38.13:964][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.38.13:964][713]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:38:13)
-[2017.11.07-23.38.13:964][713]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.38.13:967][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002843s)
-[2017.11.07-23.38.13:968][713]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.38.13:968][713]LogPlayLevel: PIE: World Init took: (0.001063s)
-[2017.11.07-23.38.13:968][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004239s)
-[2017.11.07-23.38.13:990][713]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.38.13:994][713]LogInit: FAudioDevice initialized.
-[2017.11.07-23.38.14:027][713]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.38.14:030][713]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.38.14
-[2017.11.07-23.38.14:031][713]LogWorld: Bringing up level for play took: 0.002008
-[2017.11.07-23.38.14:034][713]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.815
-[2017.11.07-23.38.26:870][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.07-23.38.42:442][391]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.38.42:453][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.38.42:453][391]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:38:42)
-[2017.11.07-23.38.42:453][391]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.38.42:458][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004266s)
-[2017.11.07-23.38.42:459][391]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.38.42:459][391]LogPlayLevel: PIE: World Init took: (0.001235s)
-[2017.11.07-23.38.42:459][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.005814s)
-[2017.11.07-23.38.42:482][391]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.38.42:485][391]LogInit: FAudioDevice initialized.
-[2017.11.07-23.38.42:518][391]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.38.42:521][391]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.38.42
-[2017.11.07-23.38.42:522][391]LogWorld: Bringing up level for play took: 0.002574
-[2017.11.07-23.38.42:525][391]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.694
-[2017.11.07-23.39.12:936][203]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.39.12:947][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.39.12:948][203]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:39:12)
-[2017.11.07-23.39.12:948][203]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.39.12:950][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002163s)
-[2017.11.07-23.39.12:951][203]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.39.12:951][203]LogPlayLevel: PIE: World Init took: (0.000779s)
-[2017.11.07-23.39.12:951][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.003203s)
-[2017.11.07-23.39.12:972][203]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.39.12:977][203]LogInit: FAudioDevice initialized.
-[2017.11.07-23.39.13:015][203]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.39.13:018][203]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.39.13
-[2017.11.07-23.39.13:019][203]LogWorld: Bringing up level for play took: 0.002593
-[2017.11.07-23.39.13:022][203]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.197
-[2017.11.07-23.39.35:041][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
-[2017.11.07-23.39.38:878][728]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.39.38:889][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.39.38:889][728]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:39:38)
-[2017.11.07-23.39.38:889][728]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.39.38:892][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002509s)
-[2017.11.07-23.39.38:893][728]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.39.38:893][728]LogPlayLevel: PIE: World Init took: (0.001322s)
-[2017.11.07-23.39.38:893][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004308s)
-[2017.11.07-23.39.38:914][728]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.39.38:919][728]LogInit: FAudioDevice initialized.
-[2017.11.07-23.39.38:955][728]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.39.38:957][728]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.39.38
-[2017.11.07-23.39.38:958][728]LogWorld: Bringing up level for play took: 0.001397
-[2017.11.07-23.39.38:960][728]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.258
-[2017.11.07-23.39.46:733][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.11.07-23.39.55:233][683]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.07-23.39.55:244][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-23.39.55:244][683]PIE: New page: PIE session: Reveal_Stairway (7 Nov 2017 23:39:55)
-[2017.11.07-23.39.55:245][683]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.07-23.39.55:249][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003812s)
-[2017.11.07-23.39.55:249][683]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.07-23.39.55:249][683]LogPlayLevel: PIE: World Init took: (0.000830s)
-[2017.11.07-23.39.55:250][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004930s)
-[2017.11.07-23.39.55:270][683]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-23.39.55:275][683]LogInit: FAudioDevice initialized.
-[2017.11.07-23.39.55:306][683]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.07-23.39.55:308][683]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.07-23.39.55
-[2017.11.07-23.39.55:309][683]LogWorld: Bringing up level for play took: 0.001493
-[2017.11.07-23.39.55:311][683]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.092
-[2017.11.07-23.40.17:798][  5]LogSavePackage: Save=47.73ms
-[2017.11.07-23.40.17:798][  5]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayABDD3CD547350D647B4ED09CFC268103.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
-[2017.11.07-23.40.17:802][  5]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
-[2017.11.07-23.40.17:836][  5]LogSavePackage: Save=8.75ms
-[2017.11.07-23.40.17:836][  5]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData997A5E4A40C2BBB5C0C69A937F81E77C.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
-[2017.11.07-23.40.17:838][  5]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
-[2017.11.07-23.50.17:940][894]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.021
-[2017.11.07-23.50.17:943][894]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Class_BluePrint/Light_BP] ([1] browsable assets)...
-[2017.11.07-23.50.17:979][894]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Class_BluePrint/Light_BP.Light_BP]
-[2017.11.07-23.50.17:979][894]OBJ SavePackage: Finished generating thumbnails for package [/Game/Class_BluePrint/Light_BP]
-[2017.11.07-23.50.18:016][894]LogSavePackage: Save=31.15ms
-[2017.11.07-23.50.18:016][894]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Light_BP_Auto42B6B13024DD9162E90D499AF11B498B2.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/Light_BP_Auto4.uasset'
-[2017.11.07-23.50.18:019][894]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/Light_BP_Auto4.uasset
-[2017.11.07-23.50.18:019][894]LogFileHelpers: Auto-saving content packages took 0.077
-[2017.11.08-00.23.36:582][891]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{afe4faaa-126e-4d90-9cd3-4602c067d607} was removed. Shutting down audio device.
-[2017.11.08-00.23.36:917][892]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{afe4faaa-126e-4d90-9cd3-4602c067d607} was removed. Shutting down audio device.
-[2017.11.08-00.32.10:179][642]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.08-00.32.10:191][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.08-00.32.10:191][642]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 00:32:10)
-[2017.11.08-00.32.10:191][642]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
-[2017.11.08-00.32.10:195][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003430s)
-[2017.11.08-00.32.10:196][642]LogAIModule: Creating AISystem for world Reveal_Stairway
-[2017.11.08-00.32.10:196][642]LogPlayLevel: PIE: World Init took: (0.001071s)
-[2017.11.08-00.32.10:196][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004845s)
-[2017.11.08-00.32.10:221][642]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-00.32.10:228][642]LogInit: FAudioDevice initialized.
-[2017.11.08-00.32.10:265][642]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.08-00.32.10:269][642]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-00.32.10
-[2017.11.08-00.32.10:269][642]LogWorld: Bringing up level for play took: 0.002629
-[2017.11.08-00.32.10:273][642]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 1.055
-[2017.11.08-00.32.29:713][785]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.08-00.32.43:539][597]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.08-00.32.44:137][632]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.08-00.32.48:705][904]LogActorFactory: Actor Factory created Cube
-[2017.11.08-00.32.49:324][941]LogActorFactory: Actor Factory created Cube
-[2017.11.08-00.34.25:343][810]Cmd: EDIT COPY
-[2017.11.08-00.34.27:518][939]Cmd: TRANSACTION UNDO
-[2017.11.08-00.34.27:518][939]LogEditorTransaction: Undo Move Actors
-[2017.11.08-00.34.30:512][114]Cmd: EDIT COPY
-[2017.11.08-00.34.30:783][130]Cmd: EDIT PASTE
-[2017.11.08-00.35.29:432][600]Cmd: TRANSACTION UNDO
-[2017.11.08-00.35.29:432][600]LogEditorTransaction: Undo Attach actors
-[2017.11.08-00.35.54:247][786]LogSavePackage: Save=54.77ms
-[2017.11.08-00.35.54:247][786]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto56ADA14F14B01BB9D7EFD7685D4A0C46E.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto5.umap'
-[2017.11.08-00.35.54:248][786]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto5.umap
-[2017.11.08-00.35.54:250][786]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.086
-[2017.11.08-00.35.54:250][786]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.086
-[2017.11.08-00.36.52:226][ 79]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ReavealStairway
-[2017.11.08-00.36.52:226][ 79]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.11.08-00.36.52:226][ 79]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2017.11.08-00.36.52:226][ 79]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.11.08-00.36.52:226][ 79]LogTemp: BranchPath = DESKTOP-UTLPHC3/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-UTLPHC3/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2017.11.08-00.36.52:234][ 79]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Leszek\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.11.08-00.39.15:763][789]LogStaticMesh: Building static mesh SM_MERGED_Wall...
-[2017.11.08-00.39.15:781][789]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Meshes/SM_MERGED_Wall.SM_MERGED_Wall
-[2017.11.08-00.39.29:548][411]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.08-00.39.29:953][412]LogRenderer: Reallocating scene render targets to support 1144x748 Format 10 NumSamples 1 (Frame:1).
-[2017.11.08-00.39.36:169][774]LogEditorTransaction: Undo Edit Pivot Point at Zero
-[2017.11.08-00.40.29:342][ 71]LogStaticMesh: Building static mesh MERGED_WALL...
-[2017.11.08-00.40.29:366][ 71]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Architecture/MERGED_WALL.MERGED_WALL
-[2017.11.08-00.40.37:582][441]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.08-00.40.37:993][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
-[2017.11.08-00.40.39:569][556]Cmd: TRANSACTION UNDO
-[2017.11.08-00.40.39:569][556]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.08-00.40.56:341][509]LogActorFactory: Actor Factory created MERGED_WALL
-[2017.11.08-00.40.57:814][597]LogActorFactory: Actor Factory created MERGED_WALL
-[2017.11.08-00.40.58:284][625]LogActorFactory: Actor Factory created MERGED_WALL
-[2017.11.08-00.41.10:343][344]Cmd: DELETE
-[2017.11.08-00.41.10:343][344]Cmd: ACTOR DELETE
-[2017.11.08-00.41.10:344][344]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.08-00.41.10:362][344]LogEditorActor: Deleted 1 Actors (0.018 secs)
-[2017.11.08-00.41.12:908][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
-[2017.11.08-00.41.26:986][318]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.08-00.41.28:032][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
-[2017.11.08-00.41.31:307][566]Cmd: TRANSACTION UNDO
-[2017.11.08-00.41.31:307][566]LogEditorTransaction: Undo Move Actors
-[2017.11.08-00.43.18:440][ 66]LogStaticMesh: Building static mesh 1st_Woodblank...
-[2017.11.08-00.43.18:463][ 66]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Architecture/1st_Woodblank.1st_Woodblank
-[2017.11.08-00.43.23:460][303]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.08-00.43.24:011][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1st_Woodblank)
-[2017.11.08-00.43.29:878][679]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.08-00.43.30:411][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1st_Woodblank)
-[2017.11.08-00.43.38:303][175]Cmd: TRANSACTION UNDO
-[2017.11.08-00.43.38:303][175]LogEditorTransaction: Undo Move Actors
-[2017.11.08-00.43.42:624][427]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.08-00.43.45:417][591]Cmd: TRANSACTION UNDO
-[2017.11.08-00.43.45:417][591]LogEditorTransaction: Undo Clicking on Actors
-[2017.11.08-00.43.45:868][615]Cmd: TRANSACTION UNDO
-[2017.11.08-00.43.45:868][615]LogEditorTransaction: Undo Move Actors
-[2017.11.08-00.43.48:138][750]Cmd: TRANSACTION UNDO
-[2017.11.08-00.43.48:138][750]LogEditorTransaction: Undo Move Actors
-[2017.11.08-00.43.52:019][980]Cmd: TRANSACTION UNDO
-[2017.11.08-00.43.52:019][980]LogEditorTransaction: Undo Move Actors
-[2017.11.08-00.43.53:582][ 73]Cmd: EDIT COPY
-[2017.11.08-00.43.55:156][165]Cmd: TRANSACTION UNDO
-[2017.11.08-00.43.55:156][165]LogEditorTransaction: Undo Move Actors
-[2017.11.08-00.43.59:569][427]Cmd: TRANSACTION UNDO
-[2017.11.08-00.43.59:569][427]LogEditorTransaction: Undo Move Actors
-[2017.11.08-00.44.02:737][614]Cmd: TRANSACTION UNDO
-[2017.11.08-00.44.02:737][614]LogEditorTransaction: Undo Move Actors
-[2017.11.08-00.44.05:638][785]Cmd: TRANSACTION UNDO
-[2017.11.08-00.44.05:638][785]LogEditorTransaction: Undo Move Actors
-[2017.11.08-00.44.06:841][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.11.08-00.44.08:687][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1st_Woodblank)
-[2017.11.08-00.44.24:814][922]Cmd: TRANSACTION UNDO
-[2017.11.08-00.44.24:814][922]LogEditorTransaction: Undo Move Actors
-[2017.11.08-00.44.25:698][974]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.08-00.44.26:633][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1st_Woodblank)
-[2017.11.08-00.44.45:215][ 58]LogSavePackage: Save=55.08ms
-[2017.11.08-00.44.45:215][ 58]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway0128697347BC4E767FCDE4A8EAF11C17.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
-[2017.11.08-00.44.45:222][ 58]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
-[2017.11.08-00.44.45:293][ 58]LogSavePackage: Save=9.74ms
-[2017.11.08-00.44.45:293][ 58]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltDataD47203A840CB639A12BBCCB1219EBF10.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
-[2017.11.08-00.44.45:295][ 58]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.08-09.18.18:257][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.08-09.18.18:257][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.08-09.18.18:269][  0]LogInit: Computer: DESKTOP-UTLPHC3
+[2017.11.08-09.18.18:269][  0]LogInit: User: Leszek
+[2017.11.08-09.18.18:269][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.08-09.18.18:269][  0]LogInit: High frequency timer resolution =2.742185 MHz
+[2017.11.08-09.18.18:269][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.08-09.18.18:269][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.08-09.18.18:269][  0]LogMemory: Process Physical Memory: 279.80 MB used, 279.80 MB peak
+[2017.11.08-09.18.18:269][  0]LogMemory: Process Virtual Memory: 274.38 MB used, 274.38 MB peak
+[2017.11.08-09.18.18:269][  0]LogMemory: Physical Memory: 7593.85 MB used,  8642.10 MB free, 16235.95 MB total
+[2017.11.08-09.18.18:269][  0]LogMemory: Virtual Memory: 702.63 MB used,  8642.10 MB free, 134217728.00 MB total
+[2017.11.08-09.18.18:774][  0]LogInit: Using OS detected language (en-US).
+[2017.11.08-09.18.18:774][  0]LogInit: Using OS detected locale (en-GB).
+[2017.11.08-09.18.18:776][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.08-09.18.19:550][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.08-09.18.19:601][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.11.08-09.18.19:601][  0]LogD3D11RHI:       4031/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.08-09.18.19:610][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.11.08-09.18.19:610][  0]LogD3D11RHI:       128/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.08-09.18.19:612][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.08-09.18.19:612][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.08-09.18.19:612][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.08-09.18.19:619][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.08-09.18.19:619][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2017.11.08-09.18.19:619][  0]LogWindows: EnumDisplayDevices:
+[2017.11.08-09.18.19:619][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2017.11.08-09.18.19:619][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2017.11.08-09.18.19:620][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.08-09.18.19:620][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.08-09.18.19:620][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.11.08-09.18.19:620][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.08-09.18.19:620][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.08-09.18.19:620][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.08-09.18.19:643][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.08-09.18.19:659][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.08-09.18.19:660][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Intermediate/Shaders/WorkingDirectory/27716/).
+[2017.11.08-09.18.19:660][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Leszek/AppData/Local/Temp/UnrealShaderWorkingDir/22C2328044B1BC1F4D554B9ACD5A3580/'.
+[2017.11.08-09.18.19:660][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.08-09.18.20:712][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.08-09.18.20:793][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.08-09.18.20:871][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.08-09.18.20:951][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.08-09.18.21:035][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.08-09.18.21:118][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.08-09.18.21:205][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.08-09.18.21:284][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.08-09.18.21:358][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.08-09.18.21:438][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.08-09.18.21:522][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.08-09.18.21:603][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.08-09.18.21:682][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.08-09.18.21:760][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.08-09.18.21:840][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.08-09.18.22:000][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.08-09.18.22:000][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.08-09.18.22:069][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.08-09.18.22:201][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.08-09.18.22:245][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.08-09.18.22:322][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.08-09.18.22:399][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.08-09.18.22:479][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.08-09.18.22:562][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.08-09.18.22:562][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.08-09.18.23:430][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.08-09.18.23:514][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/Leszek/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.08-09.18.23:514][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Leszek/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.08-09.18.23:514][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.08-09.18.23:514][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.08-09.18.23:514][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.08-09.18.23:514][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.08-09.18.23:532][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.08-09.18.23:544][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Leszek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.08-09.18.23:555][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.08-09.18.23:556][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.08-09.18.23:557][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.08-09.18.23:557][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.08-09.18.23:864][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2017.11.08-09.18.24:022][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.08-09.18.24:184][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.08-09.18.24:664][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.08-09.18.24:735][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.08-09.18.24:735][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.08-09.18.24:735][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.08-09.18.24:735][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.08-09.18.24:735][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.08-09.18.25:143][  0]LogNetVersion: Reaveal_Stairway , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 489707589)
+[2017.11.08-09.18.25:433][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.053829 seconds
+[2017.11.08-09.18.25:439][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.08-09.18.25:439][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.08-09.18.25:439][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.08-09.18.25:554][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.08-09.18.29:227][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.08-09.18.29:293][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.08-09.18.30:554][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.08-09.18.31:178][  0]SourceControl: Source control is disabled
+[2017.11.08-09.18.31:178][  0]SourceControl: Source control is disabled
+[2017.11.08-09.18.31:258][  0]SourceControl: Source control is disabled
+[2017.11.08-09.18.31:336][  0]SourceControl: Source control is disabled
+[2017.11.08-09.18.32:321][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.08-09.18.32:720][  0]LogOcInput: OculusInput pre-init called
+[2017.11.08-09.18.33:114][  0]LogEngine: Initializing Engine...
+[2017.11.08-09.18.33:116][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.08-09.18.33:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.08-09.18.33:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.08-09.18.33:579][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.08-09.18.33:593][  0]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-09.18.33:604][  0]LogInit: FAudioDevice initialized.
+[2017.11.08-09.18.33:665][  0]LogDerivedDataCache: Saved boot cache 0.06s 93MB C:/Users/Leszek/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.08-09.18.33:676][  0]LogInit: Texture streaming: Enabled
+[2017.11.08-09.18.33:869][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.08-09.18.34:232][  0]LogInit: Transaction tracking system initialized
+[2017.11.08-09.18.34:779][  0]BlueprintLog: New page: Editor Load
+[2017.11.08-09.18.36:308][  0]LocalizationService: Localization service is disabled
+[2017.11.08-09.18.37:213][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.11.08-09.18.37:214][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.11.08-09.18.37:214][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.11.08-09.18.37:514][  0]LogConsoleResponse: Display: 
+[2017.11.08-09.18.37:738][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.08-09.18.37:739][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.08-09.18.37:739][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.08-09.18.38:202][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/' took 0.02s
+[2017.11.08-09.18.39:514][  0]SourceControl: Source control is disabled
+[2017.11.08-09.18.39:516][  0]LightingResults: New page: Lighting Build
+[2017.11.08-09.18.39:585][  0]MapCheck: New page: Map Check
+[2017.11.08-09.18.39:585][  0]LightingResults: New page: Lighting Build
+[2017.11.08-09.18.40:211][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.11.08-09.18.40:227][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.08-09.18.40:246][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.08-09.18.40:330][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.896ms to complete.
+[2017.11.08-09.18.40:330][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.816
+[2017.11.08-09.18.40:409][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.08-09.18.40:545][  0]LogCollectionManager: Loaded 0 collections in 0.002430 seconds
+[2017.11.08-09.18.40:672][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Collections/' took 0.01s
+[2017.11.08-09.18.40:672][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Developers/Leszek/Collections/' took 0.01s
+[2017.11.08-09.18.40:672][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Collections/' took 0.01s
+[2017.11.08-09.18.40:672][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.08-09.18.40:683][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2386 classes and 500 folders.
+[2017.11.08-09.18.40:799][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.08-09.18.40:903][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.08-09.18.40:986][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.08-09.18.41:036][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.08-09.18.41:039][  0]LogSlate: Took 0.000375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.08-09.18.41:047][  0]LogSlate: Took 0.001461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.08-09.18.41:158][  0]LogRenderer: Reallocating scene render targets to support 964x488 Format 10 NumSamples 1 (Frame:1).
+[2017.11.08-09.18.41:382][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.08-09.18.41:382][  0]LogLoad: (Engine Initialization) Total time: 25.26 seconds
+[2017.11.08-09.18.41:382][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.08-09.18.41:382][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.08-09.18.41:421][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.08-09.18.41:475][  0]LogSlate: Took 0.001020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-09.18.41:502][  1]LogAssetRegistry: Asset discovery search completed in 17.6591 seconds
+[2017.11.08-09.18.41:505][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.08-09.18.41:505][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2017.11.08-09.18.42:423][ 54]LogSlate: Took 0.000543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-09.19.37:545][357]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-09.19.37:564][357]LightingResults: New page: Lighting Build
+[2017.11.08-09.19.37:565][357]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2017.11.08-09.19.37:566][357]MapCheck: New page: Map Check
+[2017.11.08-09.19.37:566][357]LightingResults: New page: Lighting Build
+[2017.11.08-09.19.37:616][357]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.11.08-09.19.37:626][357]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.08-09.19.37:663][357]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.08-09.19.37:745][357]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.677ms to complete.
+[2017.11.08-09.19.37:746][357]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.182
+[2017.11.08-09.19.57:296][521]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-09.19.57:315][521]Cmd: MAP LOAD FILE="../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.08-09.19.57:315][521]LightingResults: New page: Lighting Build
+[2017.11.08-09.19.57:315][521]LoadErrors: New page: Loading map: Reveal_Stairway.umap
+[2017.11.08-09.19.57:316][521]MapCheck: New page: Map Check
+[2017.11.08-09.19.57:316][521]LightingResults: New page: Lighting Build
+[2017.11.08-09.19.57:334][521]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.08-09.19.57:361][521]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.08-09.19.57:440][521]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.922ms to complete.
+[2017.11.08-09.19.57:440][521]LogFileHelpers: Loading map 'Reveal_Stairway' took 0.126
+[2017.11.08-09.21.12:119][211]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ReavealStairway
+[2017.11.08-09.21.12:119][211]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.08-09.21.12:119][211]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.11.08-09.21.12:119][211]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.08-09.21.12:122][211]LogTemp: BranchPath = DESKTOP-UTLPHC3/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-UTLPHC3/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.11.08-09.21.12:160][212]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Leszek\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.08-09.21.32:632][421]LogSavePackage: Save=56.91ms
+[2017.11.08-09.21.32:632][421]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayD37591BC42E72895FE6E34A1F3BA99EF.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.08-09.21.32:634][421]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.08-09.21.32:670][421]LogSavePackage: Save=11.68ms
+[2017.11.08-09.21.32:670][421]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData09E4240145C8A17C6A422DADCCAC7F24.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.08-09.21.32:673][421]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.08-09.22.05:736][899]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.27.00:300][  2]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2017.11.08-09.27.01:106][ 48]Cmd: DELETE
+[2017.11.08-09.27.01:106][ 48]Cmd: ACTOR DELETE
+[2017.11.08-09.27.01:109][ 48]LogEditorActor: Deleted Actor: Actor
+[2017.11.08-09.27.01:119][ 48]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.11.08-09.27.02:395][125]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.27.07:751][437]LogSlate: Took 0.001184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.08-09.27.31:440][845]Cmd: TRANSACTION UNDO
+[2017.11.08-09.27.31:440][845]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.28.16:047][511]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.28.17:652][604]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.28.18:066][628]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.28.27:620][197]Cmd: SELECT NONE
+[2017.11.08-09.29.37:641][522]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.30.04:508][126]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.30.34:215][892]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.30.36:315][ 15]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.30.38:587][148]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.30.39:283][189]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2017.11.08-09.31.30:606][969]LogStaticMesh: Building static mesh Wood_blank...
+[2017.11.08-09.31.30:612][969]LogStaticMesh: Built static mesh [0.01s] /Game/Stairway_map/Wood_blank.Wood_blank
+[2017.11.08-09.31.37:942][396]LogActorFactory: Actor Factory created Wood_blank
+[2017.11.08-09.31.45:264][802]LogRenderer: Reallocating scene render targets to support 1144x748 Format 10 NumSamples 1 (Frame:1).
+[2017.11.08-09.31.49:815][ 71]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.31.50:211][ 85]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.31.51:367][146]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.31.52:220][189]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.31.56:092][404]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.31.57:591][492]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.32.32:554][562]EditorErrors: New page: Actor attachment
+[2017.11.08-09.33.32:586][103]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.11.08-09.33.33:285][103]LogSlate: Took 0.001277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.08-09.35.14:847][147]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.35.15:485][183]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.35.16:177][222]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.35.16:909][263]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.36.22:274][729]LogSavePackage: Save=53.73ms
+[2017.11.08-09.36.22:275][729]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto1148A40664A97C72F6339A8ACCC24B9AD.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto1.umap'
+[2017.11.08-09.36.22:278][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto1.umap
+[2017.11.08-09.36.22:280][729]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.102
+[2017.11.08-09.36.22:280][729]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.102
+[2017.11.08-09.36.22:285][729]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Stairway_map/Wood_blank] ([1] browsable assets)...
+[2017.11.08-09.36.22:324][729]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Stairway_map/Wood_blank.Wood_blank]
+[2017.11.08-09.36.22:324][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Stairway_map/Wood_blank]
+[2017.11.08-09.36.22:338][729]LogSavePackage: Save=11.83ms
+[2017.11.08-09.36.22:338][729]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Wood_blank_Auto1B7D7D99F42514E26434133AC0CFDB87E.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Wood_blank_Auto1.uasset'
+[2017.11.08-09.36.22:340][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Wood_blank_Auto1.uasset
+[2017.11.08-09.36.22:342][729]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Class_BluePrint/1st_Woodblank_Blueprint] ([1] browsable assets)...
+[2017.11.08-09.36.22:389][729]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Class_BluePrint/1st_Woodblank_Blueprint.1st_Woodblank_Blueprint]
+[2017.11.08-09.36.22:389][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Class_BluePrint/1st_Woodblank_Blueprint]
+[2017.11.08-09.36.22:419][729]LogSavePackage: Save=20.56ms
+[2017.11.08-09.36.22:419][729]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/1st_Woodblank_Blueprint_Auto1EAB633C941A6BA07618900941164F007.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/1st_Woodblank_Blueprint_Auto1.uasset'
+[2017.11.08-09.36.22:421][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/1st_Woodblank_Blueprint_Auto1.uasset
+[2017.11.08-09.36.22:422][729]LogFileHelpers: Auto-saving content packages took 0.138
+[2017.11.08-09.38.51:518][136]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.39.21:247][870]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.39.22:024][915]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.40.01:115][215]LogSlate: Took 0.001273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.08-09.44.16:901][121]LogEditorActor: Deleted Actor: Actor
+[2017.11.08-09.44.16:922][121]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.11.08-09.45.03:782][902]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.45.52:094][681]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.45.53:637][771]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.46.23:175][ 48]LogSavePackage: Save=61.82ms
+[2017.11.08-09.46.23:175][ 48]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto20A78B5314AD8A1A03D1B9A9393D3F7BC.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto2.umap'
+[2017.11.08-09.46.23:180][ 48]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto2.umap
+[2017.11.08-09.46.23:182][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.106
+[2017.11.08-09.46.23:182][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.106
+[2017.11.08-09.46.23:193][ 48]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Class_BluePrint/1st_Woodblank_Blueprint] ([1] browsable assets)...
+[2017.11.08-09.46.23:251][ 48]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Class_BluePrint/1st_Woodblank_Blueprint.1st_Woodblank_Blueprint]
+[2017.11.08-09.46.23:251][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/Class_BluePrint/1st_Woodblank_Blueprint]
+[2017.11.08-09.46.23:281][ 48]LogSavePackage: Save=20.99ms
+[2017.11.08-09.46.23:281][ 48]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/1st_Woodblank_Blueprint_Auto2025887DC4D18C441922AF79C9E22739B.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/1st_Woodblank_Blueprint_Auto2.uasset'
+[2017.11.08-09.46.23:283][ 48]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/1st_Woodblank_Blueprint_Auto2.uasset
+[2017.11.08-09.46.23:284][ 48]LogFileHelpers: Auto-saving content packages took 0.092
+[2017.11.08-09.46.54:197][251]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0008 seconds. Added 15 classes and 2 folders.
+[2017.11.08-09.46.54:205][251]LogInit: Transaction tracking system initialized
+[2017.11.08-09.46.54:205][251]EditorErrors: New page: Matinee Initialization
+[2017.11.08-09.47.10:754][201]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.47.19:823][740]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.47.20:355][770]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.47.22:313][885]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.47.24:408][  7]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.47.26:891][154]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.47.58:361][959]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.48.12:872][817]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.48.13:351][844]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.48.25:650][576]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.48.31:548][917]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.48.47:476][826]Cmd: TRANSACTION UNDO
+[2017.11.08-09.48.47:476][826]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.48.53:570][187]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.48.54:216][225]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.49.02:234][698]LogInit: Transaction tracking system initialized
+[2017.11.08-09.49.02:234][698]EditorErrors: New page: Matinee Initialization
+[2017.11.08-09.49.07:487][989]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.49.11:405][221]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.49.13:622][313]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor1)
+[2017.11.08-09.49.14:651][373]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.49.16:131][459]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2017.11.08-09.49.16:671][490]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.49.23:661][808]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.49.24:374][849]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor1)
+[2017.11.08-09.49.32:703][339]Cmd: DELETE
+[2017.11.08-09.49.32:703][339]Cmd: ACTOR DELETE
+[2017.11.08-09.49.32:704][339]LogEditorActor: Deleted Actor: MatineeActor
+[2017.11.08-09.49.32:722][339]LogExit: Transaction tracking system shut down
+[2017.11.08-09.49.32:723][339]LogExit: Transaction tracking system shut down
+[2017.11.08-09.49.32:724][339]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.11.08-09.49.34:432][442]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.49.48:992][239]LogInit: Transaction tracking system initialized
+[2017.11.08-09.49.48:992][239]EditorErrors: New page: Matinee Initialization
+[2017.11.08-09.50.11:556][563]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.50.12:216][602]Cmd: DELETE
+[2017.11.08-09.50.12:216][602]Cmd: ACTOR DELETE
+[2017.11.08-09.50.12:217][602]LogEditorActor: Deleted Actor: MatineeActor
+[2017.11.08-09.50.12:233][602]LogExit: Transaction tracking system shut down
+[2017.11.08-09.50.12:234][602]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.11.08-09.50.13:626][686]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.50.14:118][714]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.50.17:130][890]Cmd: TRANSACTION UNDO
+[2017.11.08-09.50.17:130][890]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.50.19:128][  5]Cmd: TRANSACTION UNDO
+[2017.11.08-09.50.19:128][  5]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.50.21:856][167]Cmd: TRANSACTION UNDO
+[2017.11.08-09.50.21:856][167]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.52.07:633][833]LogInit: Transaction tracking system initialized
+[2017.11.08-09.52.07:633][833]EditorErrors: New page: Matinee Initialization
+[2017.11.08-09.53.18:862][737]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.54.55:595][260]Cmd: TRANSACTION UNDO
+[2017.11.08-09.54.55:595][260]LogEditorTransaction: Undo Move Loop End Marker
+[2017.11.08-09.54.58:778][432]Cmd: TRANSACTION UNDO
+[2017.11.08-09.54.58:778][432]LogEditorTransaction: Undo NewTrack
+[2017.11.08-09.55.06:099][831]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.55.06:398][847]Cmd: TRANSACTION UNDO
+[2017.11.08-09.55.06:398][847]LogEditorTransaction: Undo New Group
+[2017.11.08-09.55.07:781][930]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.55.28:388][ 26]LogInit: Transaction tracking system initialized
+[2017.11.08-09.55.28:388][ 26]EditorErrors: New page: Matinee Initialization
+[2017.11.08-09.55.37:602][457]LogEditorViewport: Clicking on Actor (context menu): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.57.32:509][989]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor2)
+[2017.11.08-09.57.33:674][ 56]Cmd: DELETE
+[2017.11.08-09.57.33:674][ 56]Cmd: ACTOR DELETE
+[2017.11.08-09.57.37:531][ 56]LogEditorActor: Deleted Actor: MatineeActor
+[2017.11.08-09.57.37:554][ 56]LogExit: Transaction tracking system shut down
+[2017.11.08-09.57.37:554][ 56]LogExit: Transaction tracking system shut down
+[2017.11.08-09.57.37:555][ 56]LogEditorActor: Deleted 1 Actors (3.881 secs)
+[2017.11.08-09.57.37:692][ 57]LogSavePackage: Save=49.84ms
+[2017.11.08-09.57.37:692][ 57]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto3BD363AA54D8A89A0E6BAA8B43513F6D9.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto3.umap'
+[2017.11.08-09.57.37:695][ 57]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto3.umap
+[2017.11.08-09.57.37:697][ 57]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.087
+[2017.11.08-09.57.37:697][ 57]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.087
+[2017.11.08-09.57.39:585][169]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.57.49:808][772]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.57.52:443][927]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.58.30:283][163]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.58.31:457][231]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.58.34:797][422]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2017.11.08-09.59.11:823][414]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.59.12:207][431]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2017.11.08-09.59.12:990][476]Cmd: DELETE
+[2017.11.08-09.59.12:990][476]Cmd: ACTOR DELETE
+[2017.11.08-09.59.12:990][476]LogEditorActor: Deleted Actor: Actor
+[2017.11.08-09.59.13:008][476]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.11.08-09.59.33:965][727]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.33:965][727]LogEditorTransaction: Undo Delete Actors
+[2017.11.08-09.59.34:225][740]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.34:225][740]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.34:674][765]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.34:674][765]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.34:898][777]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.34:898][777]LogEditorTransaction: Undo Scale Components
+[2017.11.08-09.59.35:096][788]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.35:096][788]LogEditorTransaction: Undo Scale Components
+[2017.11.08-09.59.35:298][800]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.35:298][800]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.11.08-09.59.35:475][809]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.35:475][809]LogEditorTransaction: Undo Scale Actors
+[2017.11.08-09.59.35:655][819]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.35:655][819]LogEditorTransaction: Undo Scale Actors
+[2017.11.08-09.59.35:874][832]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.35:874][832]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.36:132][846]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.36:132][846]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.36:365][860]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.36:365][860]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.36:590][872]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.36:590][872]LogEditorTransaction: Undo Scale Components
+[2017.11.08-09.59.36:591][872]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Actor_5.Cube' 
+[2017.11.08-09.59.36:591][872]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Actor_5.Cube' 
+[2017.11.08-09.59.36:787][883]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.36:787][883]LogEditorTransaction: Undo Scale Components
+[2017.11.08-09.59.37:007][896]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.37:007][896]LogEditorTransaction: Undo Add Component
+[2017.11.08-09.59.37:229][908]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.37:229][908]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.59.37:448][921]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.37:448][921]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.59.37:665][934]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.37:665][934]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.59.37:881][947]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.37:881][947]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.59.38:099][960]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.38:100][960]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.59.38:284][971]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.38:284][971]LogEditorTransaction: Undo Create Actors
+[2017.11.08-09.59.38:505][983]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.38:505][983]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.38:738][995]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.38:738][995]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.59.38:961][  8]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.38:961][  8]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.44:223][320]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.44:223][320]LogEditorTransaction: Undo Scale Actors
+[2017.11.08-09.59.47:432][511]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.59.48:593][578]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.59.49:092][607]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.59.58:074][138]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.58:074][138]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.00.03:207][439]Cmd: TRANSACTION UNDO
+[2017.11.08-10.00.03:207][439]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.00.06:911][656]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.00.07:728][703]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.00.08:311][737]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.00.12:777][  1]Cmd: TRANSACTION UNDO
+[2017.11.08-10.00.12:778][  1]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.02.31:675][698]Cmd: TRANSACTION UNDO
+[2017.11.08-10.02.31:676][698]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.02.33:433][801]Cmd: TRANSACTION UNDO
+[2017.11.08-10.02.33:433][801]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.02.35:263][905]Cmd: TRANSACTION UNDO
+[2017.11.08-10.02.35:263][905]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.02.43:197][375]LogEditorViewport: Clicking on Actor (context menu): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.02.46:863][590]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.08-10.02.47:559][632]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.02.48:275][673]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.03.21:032][221]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.08-10.03.21:628][256]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.08-10.03.21:990][277]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.03.23:172][345]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.03.23:522][365]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.03.24:054][396]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.04.15:585][964]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.04.16:877][ 38]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.04.19:971][217]LogInit: Transaction tracking system initialized
+[2017.11.08-10.04.19:971][217]EditorErrors: New page: Matinee Initialization
+[2017.11.08-10.04.33:607][533]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.04.34:204][565]LogEditorViewport: Clicking on Actor (context menu): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.06.32:488][549]Cmd: TRANSACTION UNDO
+[2017.11.08-10.06.32:488][549]LogEditorTransaction: Undo NewTrack
+[2017.11.08-10.06.37:205][832]Cmd: TRANSACTION UNDO
+[2017.11.08-10.06.37:205][832]LogEditorTransaction: Undo New Group
+[2017.11.08-10.07.45:459][365]Cmd: TRANSACTION REDO
+[2017.11.08-10.07.45:459][365]LogEditorTransaction: Redo New Group
+[2017.11.08-10.07.49:904][631]Cmd: TRANSACTION REDO
+[2017.11.08-10.07.49:904][631]LogEditorTransaction: Redo NewTrack
+[2017.11.08-10.08.20:390][339]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-10.08.28:585][612]LogExit: Transaction tracking system shut down
+[2017.11.08-10.08.28:653][612]LogSavePackage: Save=53.91ms
+[2017.11.08-10.08.28:653][612]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto439D8145C494E2B46ED3C07AA8430E24C.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto4.umap'
+[2017.11.08-10.08.28:656][612]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto4.umap
+[2017.11.08-10.08.28:659][612]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.093
+[2017.11.08-10.08.28:659][612]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.093
+[2017.11.08-10.09.22:078][378]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.10.53:645][706]LogSavePackage: Save=57.70ms
+[2017.11.08-10.10.53:645][706]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayC12F429D45B097E74C5F1AA29A1234BF.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.08-10.10.53:650][706]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.08-10.10.53:692][706]LogSavePackage: Save=10.44ms
+[2017.11.08-10.10.53:692][706]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData62AC3A6D441D5FDCDD1DEAB104959EB0.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.08-10.10.53:694][706]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.08-10.12.54:707][938]Cmd: TRANSACTION UNDO
+[2017.11.08-10.12.54:707][938]LogEditorTransaction: Undo Scale Actors
+[2017.11.08-10.13.01:577][347]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.13.02:511][401]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.13.03:076][434]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-10.13.15:884][175]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.13.16:515][211]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.17.36:884][ 94]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.17.37:984][158]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-10.18.25:177][887]LogInit: Transaction tracking system initialized
+[2017.11.08-10.18.25:177][887]EditorErrors: New page: Matinee Initialization
+[2017.11.08-10.19.48:594][ 14]LogEditorViewport: Clicking Background
+[2017.11.08-10.19.50:161][107]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.20.46:284][428]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.20.47:215][482]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-10.21.02:752][396]BlueprintLog: New page: Compile Reveal_Stairway
+[2017.11.08-10.21.02:778][396]LogExit: Transaction tracking system shut down
+[2017.11.08-10.21.05:754][565]LogSavePackage: Save=68.10ms
+[2017.11.08-10.21.05:754][565]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayFF67C8AE47A48B82890DF9B13ADB64E9.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.08-10.21.05:759][565]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.08-10.21.05:797][565]LogSavePackage: Save=8.40ms
+[2017.11.08-10.21.05:797][565]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData27EC8F144E1F8E1DB98C59A7C9E84111.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.08-10.21.05:799][565]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.08-10.21.07:487][657]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-10.21.07:535][657]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.07:535][657]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.08-10.21.07:536][657]LogPlayLevel: [PlayLevel] Compiling 1st_Woodblank_Blueprint before play...
+[2017.11.08-10.21.07:816][657]LogPlayLevel: PlayLevel: Blueprint regeneration took 281 ms (1 blueprints)
+[2017.11.08-10.21.07:818][657]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 10:21:07)
+[2017.11.08-10.21.07:818][657]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-10.21.07:822][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003317s)
+[2017.11.08-10.21.07:822][657]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-10.21.07:823][657]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2017.11.08-10.21.07:823][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004904s)
+[2017.11.08-10.21.07:844][657]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-10.21.07:850][657]LogInit: FAudioDevice initialized.
+[2017.11.08-10.21.07:895][657]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-10.21.07:900][657]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-10.21.07
+[2017.11.08-10.21.07:901][657]LogWorld: Bringing up level for play took: 0.002675
+[2017.11.08-10.21.07:977][657]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.11.08-10.21.07:980][657]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.551
+[2017.11.08-10.21.07:981][657]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.33:714][192]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.33:761][192]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.34:937][258]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-10.21.34:950][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.34:950][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-10.21.34:951][258]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 10:21:34)
+[2017.11.08-10.21.34:951][258]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-10.21.34:954][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003514s)
+[2017.11.08-10.21.34:955][258]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-10.21.34:956][258]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2017.11.08-10.21.34:956][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.005019s)
+[2017.11.08-10.21.34:978][258]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-10.21.34:981][258]LogInit: FAudioDevice initialized.
+[2017.11.08-10.21.35:013][258]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-10.21.35:015][258]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-10.21.35
+[2017.11.08-10.21.35:016][258]LogWorld: Bringing up level for play took: 0.002064
+[2017.11.08-10.21.35:018][258]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.487
+[2017.11.08-10.21.35:019][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.56:226][530]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.56:269][530]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.57:391][594]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-10.21.57:405][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.57:405][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-10.21.57:405][594]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 10:21:57)
+[2017.11.08-10.21.57:405][594]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-10.21.57:409][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003513s)
+[2017.11.08-10.21.57:409][594]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-10.21.57:410][594]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2017.11.08-10.21.57:410][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004471s)
+[2017.11.08-10.21.57:430][594]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-10.21.57:434][594]LogInit: FAudioDevice initialized.
+[2017.11.08-10.21.57:470][594]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-10.21.57:473][594]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-10.21.57
+[2017.11.08-10.21.57:473][594]LogWorld: Bringing up level for play took: 0.001608
+[2017.11.08-10.21.57:475][594]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.944
+[2017.11.08-10.21.57:476][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.22.05:180][ 56]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.22.05:221][ 56]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.23.06:538][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.07:812][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.08:460][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.09:006][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.09:718][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.13:198][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.13:896][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.14:474][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.15:006][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.15:406][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.16:898][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.17:558][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.18:133][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.18:596][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.19:173][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.21:552][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.22:062][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.22:638][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.23:133][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.23:764][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.26:271][810]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP5)
+[2017.11.08-10.23.34:356][287]Cmd: TRANSACTION UNDO
+[2017.11.08-10.23.34:356][287]LogEditorTransaction: Undo Scale Components
+[2017.11.08-10.23.50:761][260]Cmd: TRANSACTION UNDO
+[2017.11.08-10.23.50:761][260]LogEditorTransaction: Undo Scale Components
+[2017.11.08-10.23.50:956][269]Cmd: TRANSACTION UNDO
+[2017.11.08-10.23.50:956][269]LogEditorTransaction: Undo Move Components
+[2017.11.08-10.23.51:124][277]Cmd: TRANSACTION UNDO
+[2017.11.08-10.23.51:124][277]LogEditorTransaction: Undo Scale Components
+[2017.11.08-10.23.51:297][285]Cmd: TRANSACTION UNDO
+[2017.11.08-10.23.51:297][285]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.11.08-10.23.51:581][301]Cmd: TRANSACTION UNDO
+[2017.11.08-10.23.51:581][301]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-10.23.54:361][464]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP5)
+[2017.11.08-10.24.58:655][303]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP6)
+[2017.11.08-10.25.07:263][810]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-10.25.07:275][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.25.07:276][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-10.25.07:276][810]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 10:25:07)
+[2017.11.08-10.25.07:276][810]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-10.25.07:281][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004920s)
+[2017.11.08-10.25.07:281][810]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-10.25.07:282][810]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2017.11.08-10.25.07:282][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.006206s)
+[2017.11.08-10.25.07:306][810]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-10.25.07:311][810]LogInit: FAudioDevice initialized.
+[2017.11.08-10.25.07:346][810]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-10.25.07:349][810]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-10.25.07
+[2017.11.08-10.25.07:349][810]LogWorld: Bringing up level for play took: 0.001962
+[2017.11.08-10.25.07:353][810]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.821
+[2017.11.08-10.25.07:353][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.25.29:708][151]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.25.29:755][151]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.25.34:519][434]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
+[2017.11.08-10.26.49:717][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.26.50:412][959]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP2)
+[2017.11.08-10.26.59:851][514]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-10.26.59:862][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.26.59:863][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-10.26.59:863][514]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 10:26:59)
+[2017.11.08-10.26.59:863][514]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-10.26.59:866][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003127s)
+[2017.11.08-10.26.59:867][514]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-10.26.59:867][514]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2017.11.08-10.26.59:868][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004840s)
+[2017.11.08-10.26.59:889][514]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-10.26.59:893][514]LogInit: FAudioDevice initialized.
+[2017.11.08-10.26.59:923][514]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-10.26.59:926][514]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-10.26.59
+[2017.11.08-10.26.59:927][514]LogWorld: Bringing up level for play took: 0.002529
+[2017.11.08-10.26.59:931][514]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.601
+[2017.11.08-10.26.59:931][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.27.10:138][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.27.10:181][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.27.11:684][205]LogSavePackage: Save=76.84ms
+[2017.11.08-10.27.11:684][205]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway117D3BD64B645203DFCFFB9DDE18B10F.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.08-10.27.11:689][205]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.08-10.27.11:736][205]LogSavePackage: Save=8.39ms
+[2017.11.08-10.27.11:736][205]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData832BAC3B470EFD1D6FC4B08F9540F396.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.08-10.27.11:738][205]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
