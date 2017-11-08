@@ -1,0 +1,1338 @@
+﻿Log file open, 11/08/17 09:18:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Reaveal_Stairway
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1027092745) SRandInit(-1027092745).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.183065
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.08-09.18.18:257][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.08-09.18.18:257][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.08-09.18.18:269][  0]LogInit: Computer: DESKTOP-UTLPHC3
+[2017.11.08-09.18.18:269][  0]LogInit: User: Leszek
+[2017.11.08-09.18.18:269][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.08-09.18.18:269][  0]LogInit: High frequency timer resolution =2.742185 MHz
+[2017.11.08-09.18.18:269][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.08-09.18.18:269][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.08-09.18.18:269][  0]LogMemory: Process Physical Memory: 279.80 MB used, 279.80 MB peak
+[2017.11.08-09.18.18:269][  0]LogMemory: Process Virtual Memory: 274.38 MB used, 274.38 MB peak
+[2017.11.08-09.18.18:269][  0]LogMemory: Physical Memory: 7593.85 MB used,  8642.10 MB free, 16235.95 MB total
+[2017.11.08-09.18.18:269][  0]LogMemory: Virtual Memory: 702.63 MB used,  8642.10 MB free, 134217728.00 MB total
+[2017.11.08-09.18.18:774][  0]LogInit: Using OS detected language (en-US).
+[2017.11.08-09.18.18:774][  0]LogInit: Using OS detected locale (en-GB).
+[2017.11.08-09.18.18:776][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.08-09.18.19:550][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.08-09.18.19:601][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.11.08-09.18.19:601][  0]LogD3D11RHI:       4031/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.08-09.18.19:610][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.11.08-09.18.19:610][  0]LogD3D11RHI:       128/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.08-09.18.19:612][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.08-09.18.19:612][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.08-09.18.19:612][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.08-09.18.19:619][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.08-09.18.19:619][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2017.11.08-09.18.19:619][  0]LogWindows: EnumDisplayDevices:
+[2017.11.08-09.18.19:619][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2017.11.08-09.18.19:619][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2017.11.08-09.18.19:620][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.11.08-09.18.19:620][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.08-09.18.19:620][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.11.08-09.18.19:620][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.08-09.18.19:620][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.08-09.18.19:620][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.08-09.18.19:643][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.08-09.18.19:659][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.08-09.18.19:660][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Intermediate/Shaders/WorkingDirectory/27716/).
+[2017.11.08-09.18.19:660][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Leszek/AppData/Local/Temp/UnrealShaderWorkingDir/22C2328044B1BC1F4D554B9ACD5A3580/'.
+[2017.11.08-09.18.19:660][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.08-09.18.20:712][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.08-09.18.20:793][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.08-09.18.20:871][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.08-09.18.20:951][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.08-09.18.21:035][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.08-09.18.21:118][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.08-09.18.21:205][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.08-09.18.21:284][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.08-09.18.21:358][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.08-09.18.21:438][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.08-09.18.21:522][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.08-09.18.21:603][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.08-09.18.21:682][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.08-09.18.21:760][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.08-09.18.21:840][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.08-09.18.22:000][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.08-09.18.22:000][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.08-09.18.22:069][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.08-09.18.22:201][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.08-09.18.22:245][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.08-09.18.22:322][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.08-09.18.22:399][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.08-09.18.22:479][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.08-09.18.22:562][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.08-09.18.22:562][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.08-09.18.23:430][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.08-09.18.23:514][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/Leszek/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.08-09.18.23:514][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Leszek/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.08-09.18.23:514][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.08-09.18.23:514][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.08-09.18.23:514][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.08-09.18.23:514][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.08-09.18.23:532][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.08-09.18.23:544][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Leszek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.08-09.18.23:555][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.08-09.18.23:556][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.08-09.18.23:557][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.08-09.18.23:557][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.08-09.18.23:864][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2017.11.08-09.18.24:022][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.08-09.18.24:184][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.08-09.18.24:664][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.08-09.18.24:735][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.08-09.18.24:735][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.08-09.18.24:735][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.08-09.18.24:735][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.08-09.18.24:735][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.08-09.18.25:143][  0]LogNetVersion: Reaveal_Stairway , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 489707589)
+[2017.11.08-09.18.25:433][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.053829 seconds
+[2017.11.08-09.18.25:439][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.08-09.18.25:439][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.08-09.18.25:439][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.08-09.18.25:554][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.08-09.18.29:227][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.08-09.18.29:293][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.08-09.18.30:554][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.08-09.18.31:178][  0]SourceControl: Source control is disabled
+[2017.11.08-09.18.31:178][  0]SourceControl: Source control is disabled
+[2017.11.08-09.18.31:258][  0]SourceControl: Source control is disabled
+[2017.11.08-09.18.31:336][  0]SourceControl: Source control is disabled
+[2017.11.08-09.18.32:321][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.08-09.18.32:720][  0]LogOcInput: OculusInput pre-init called
+[2017.11.08-09.18.33:114][  0]LogEngine: Initializing Engine...
+[2017.11.08-09.18.33:116][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.08-09.18.33:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.08-09.18.33:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.08-09.18.33:579][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.08-09.18.33:593][  0]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-09.18.33:604][  0]LogInit: FAudioDevice initialized.
+[2017.11.08-09.18.33:665][  0]LogDerivedDataCache: Saved boot cache 0.06s 93MB C:/Users/Leszek/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.08-09.18.33:676][  0]LogInit: Texture streaming: Enabled
+[2017.11.08-09.18.33:869][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.08-09.18.34:232][  0]LogInit: Transaction tracking system initialized
+[2017.11.08-09.18.34:779][  0]BlueprintLog: New page: Editor Load
+[2017.11.08-09.18.36:308][  0]LocalizationService: Localization service is disabled
+[2017.11.08-09.18.37:213][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.11.08-09.18.37:214][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.11.08-09.18.37:214][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.11.08-09.18.37:514][  0]LogConsoleResponse: Display: 
+[2017.11.08-09.18.37:738][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.08-09.18.37:739][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.08-09.18.37:739][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.08-09.18.38:202][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/' took 0.02s
+[2017.11.08-09.18.39:514][  0]SourceControl: Source control is disabled
+[2017.11.08-09.18.39:516][  0]LightingResults: New page: Lighting Build
+[2017.11.08-09.18.39:585][  0]MapCheck: New page: Map Check
+[2017.11.08-09.18.39:585][  0]LightingResults: New page: Lighting Build
+[2017.11.08-09.18.40:211][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.11.08-09.18.40:227][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.08-09.18.40:246][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.08-09.18.40:330][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.896ms to complete.
+[2017.11.08-09.18.40:330][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.816
+[2017.11.08-09.18.40:409][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.08-09.18.40:545][  0]LogCollectionManager: Loaded 0 collections in 0.002430 seconds
+[2017.11.08-09.18.40:672][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Collections/' took 0.01s
+[2017.11.08-09.18.40:672][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Developers/Leszek/Collections/' took 0.01s
+[2017.11.08-09.18.40:672][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Collections/' took 0.01s
+[2017.11.08-09.18.40:672][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.08-09.18.40:683][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2386 classes and 500 folders.
+[2017.11.08-09.18.40:799][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.08-09.18.40:903][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.08-09.18.40:986][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.08-09.18.41:036][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.08-09.18.41:039][  0]LogSlate: Took 0.000375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.08-09.18.41:047][  0]LogSlate: Took 0.001461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.08-09.18.41:158][  0]LogRenderer: Reallocating scene render targets to support 964x488 Format 10 NumSamples 1 (Frame:1).
+[2017.11.08-09.18.41:382][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.08-09.18.41:382][  0]LogLoad: (Engine Initialization) Total time: 25.26 seconds
+[2017.11.08-09.18.41:382][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.08-09.18.41:382][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.08-09.18.41:421][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.08-09.18.41:475][  0]LogSlate: Took 0.001020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-09.18.41:502][  1]LogAssetRegistry: Asset discovery search completed in 17.6591 seconds
+[2017.11.08-09.18.41:505][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.08-09.18.41:505][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2017.11.08-09.18.42:423][ 54]LogSlate: Took 0.000543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-09.19.37:545][357]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-09.19.37:564][357]LightingResults: New page: Lighting Build
+[2017.11.08-09.19.37:565][357]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2017.11.08-09.19.37:566][357]MapCheck: New page: Map Check
+[2017.11.08-09.19.37:566][357]LightingResults: New page: Lighting Build
+[2017.11.08-09.19.37:616][357]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.11.08-09.19.37:626][357]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.08-09.19.37:663][357]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.08-09.19.37:745][357]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.677ms to complete.
+[2017.11.08-09.19.37:746][357]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.182
+[2017.11.08-09.19.57:296][521]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-09.19.57:315][521]Cmd: MAP LOAD FILE="../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.08-09.19.57:315][521]LightingResults: New page: Lighting Build
+[2017.11.08-09.19.57:315][521]LoadErrors: New page: Loading map: Reveal_Stairway.umap
+[2017.11.08-09.19.57:316][521]MapCheck: New page: Map Check
+[2017.11.08-09.19.57:316][521]LightingResults: New page: Lighting Build
+[2017.11.08-09.19.57:334][521]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.08-09.19.57:361][521]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.08-09.19.57:440][521]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.922ms to complete.
+[2017.11.08-09.19.57:440][521]LogFileHelpers: Loading map 'Reveal_Stairway' took 0.126
+[2017.11.08-09.21.12:119][211]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ReavealStairway
+[2017.11.08-09.21.12:119][211]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.08-09.21.12:119][211]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.11.08-09.21.12:119][211]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.11.08-09.21.12:122][211]LogTemp: BranchPath = DESKTOP-UTLPHC3/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-UTLPHC3/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.11.08-09.21.12:160][212]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Leszek\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.08-09.21.32:632][421]LogSavePackage: Save=56.91ms
+[2017.11.08-09.21.32:632][421]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayD37591BC42E72895FE6E34A1F3BA99EF.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.08-09.21.32:634][421]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.08-09.21.32:670][421]LogSavePackage: Save=11.68ms
+[2017.11.08-09.21.32:670][421]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData09E4240145C8A17C6A422DADCCAC7F24.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.08-09.21.32:673][421]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.08-09.22.05:736][899]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.27.00:300][  2]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2017.11.08-09.27.01:106][ 48]Cmd: DELETE
+[2017.11.08-09.27.01:106][ 48]Cmd: ACTOR DELETE
+[2017.11.08-09.27.01:109][ 48]LogEditorActor: Deleted Actor: Actor
+[2017.11.08-09.27.01:119][ 48]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.11.08-09.27.02:395][125]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.27.07:751][437]LogSlate: Took 0.001184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.08-09.27.31:440][845]Cmd: TRANSACTION UNDO
+[2017.11.08-09.27.31:440][845]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.28.16:047][511]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.28.17:652][604]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.28.18:066][628]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.28.27:620][197]Cmd: SELECT NONE
+[2017.11.08-09.29.37:641][522]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.30.04:508][126]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.30.34:215][892]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.30.36:315][ 15]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.30.38:587][148]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.30.39:283][189]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2017.11.08-09.31.30:606][969]LogStaticMesh: Building static mesh Wood_blank...
+[2017.11.08-09.31.30:612][969]LogStaticMesh: Built static mesh [0.01s] /Game/Stairway_map/Wood_blank.Wood_blank
+[2017.11.08-09.31.37:942][396]LogActorFactory: Actor Factory created Wood_blank
+[2017.11.08-09.31.45:264][802]LogRenderer: Reallocating scene render targets to support 1144x748 Format 10 NumSamples 1 (Frame:1).
+[2017.11.08-09.31.49:815][ 71]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.31.50:211][ 85]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.31.51:367][146]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.31.52:220][189]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.31.56:092][404]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.31.57:591][492]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.32.32:554][562]EditorErrors: New page: Actor attachment
+[2017.11.08-09.33.32:586][103]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.11.08-09.33.33:285][103]LogSlate: Took 0.001277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.08-09.35.14:847][147]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.35.15:485][183]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.35.16:177][222]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.35.16:909][263]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.36.22:274][729]LogSavePackage: Save=53.73ms
+[2017.11.08-09.36.22:275][729]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto1148A40664A97C72F6339A8ACCC24B9AD.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto1.umap'
+[2017.11.08-09.36.22:278][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto1.umap
+[2017.11.08-09.36.22:280][729]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.102
+[2017.11.08-09.36.22:280][729]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.102
+[2017.11.08-09.36.22:285][729]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Stairway_map/Wood_blank] ([1] browsable assets)...
+[2017.11.08-09.36.22:324][729]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Stairway_map/Wood_blank.Wood_blank]
+[2017.11.08-09.36.22:324][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Stairway_map/Wood_blank]
+[2017.11.08-09.36.22:338][729]LogSavePackage: Save=11.83ms
+[2017.11.08-09.36.22:338][729]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Wood_blank_Auto1B7D7D99F42514E26434133AC0CFDB87E.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Wood_blank_Auto1.uasset'
+[2017.11.08-09.36.22:340][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Wood_blank_Auto1.uasset
+[2017.11.08-09.36.22:342][729]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Class_BluePrint/1st_Woodblank_Blueprint] ([1] browsable assets)...
+[2017.11.08-09.36.22:389][729]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Class_BluePrint/1st_Woodblank_Blueprint.1st_Woodblank_Blueprint]
+[2017.11.08-09.36.22:389][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Class_BluePrint/1st_Woodblank_Blueprint]
+[2017.11.08-09.36.22:419][729]LogSavePackage: Save=20.56ms
+[2017.11.08-09.36.22:419][729]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/1st_Woodblank_Blueprint_Auto1EAB633C941A6BA07618900941164F007.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/1st_Woodblank_Blueprint_Auto1.uasset'
+[2017.11.08-09.36.22:421][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/1st_Woodblank_Blueprint_Auto1.uasset
+[2017.11.08-09.36.22:422][729]LogFileHelpers: Auto-saving content packages took 0.138
+[2017.11.08-09.38.51:518][136]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.39.21:247][870]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.39.22:024][915]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.40.01:115][215]LogSlate: Took 0.001273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.08-09.44.16:901][121]LogEditorActor: Deleted Actor: Actor
+[2017.11.08-09.44.16:922][121]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.11.08-09.45.03:782][902]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.45.52:094][681]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.45.53:637][771]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.46.23:175][ 48]LogSavePackage: Save=61.82ms
+[2017.11.08-09.46.23:175][ 48]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto20A78B5314AD8A1A03D1B9A9393D3F7BC.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto2.umap'
+[2017.11.08-09.46.23:180][ 48]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto2.umap
+[2017.11.08-09.46.23:182][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.106
+[2017.11.08-09.46.23:182][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.106
+[2017.11.08-09.46.23:193][ 48]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Class_BluePrint/1st_Woodblank_Blueprint] ([1] browsable assets)...
+[2017.11.08-09.46.23:251][ 48]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Class_BluePrint/1st_Woodblank_Blueprint.1st_Woodblank_Blueprint]
+[2017.11.08-09.46.23:251][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/Class_BluePrint/1st_Woodblank_Blueprint]
+[2017.11.08-09.46.23:281][ 48]LogSavePackage: Save=20.99ms
+[2017.11.08-09.46.23:281][ 48]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/1st_Woodblank_Blueprint_Auto2025887DC4D18C441922AF79C9E22739B.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/1st_Woodblank_Blueprint_Auto2.uasset'
+[2017.11.08-09.46.23:283][ 48]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/1st_Woodblank_Blueprint_Auto2.uasset
+[2017.11.08-09.46.23:284][ 48]LogFileHelpers: Auto-saving content packages took 0.092
+[2017.11.08-09.46.54:197][251]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0008 seconds. Added 15 classes and 2 folders.
+[2017.11.08-09.46.54:205][251]LogInit: Transaction tracking system initialized
+[2017.11.08-09.46.54:205][251]EditorErrors: New page: Matinee Initialization
+[2017.11.08-09.47.10:754][201]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.47.19:823][740]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.47.20:355][770]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.47.22:313][885]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.47.24:408][  7]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.47.26:891][154]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.47.58:361][959]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.48.12:872][817]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.48.13:351][844]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.48.25:650][576]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.48.31:548][917]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.48.47:476][826]Cmd: TRANSACTION UNDO
+[2017.11.08-09.48.47:476][826]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.48.53:570][187]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.48.54:216][225]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.49.02:234][698]LogInit: Transaction tracking system initialized
+[2017.11.08-09.49.02:234][698]EditorErrors: New page: Matinee Initialization
+[2017.11.08-09.49.07:487][989]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.49.11:405][221]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.49.13:622][313]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor1)
+[2017.11.08-09.49.14:651][373]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.49.16:131][459]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2017.11.08-09.49.16:671][490]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.49.23:661][808]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.49.24:374][849]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor1)
+[2017.11.08-09.49.32:703][339]Cmd: DELETE
+[2017.11.08-09.49.32:703][339]Cmd: ACTOR DELETE
+[2017.11.08-09.49.32:704][339]LogEditorActor: Deleted Actor: MatineeActor
+[2017.11.08-09.49.32:722][339]LogExit: Transaction tracking system shut down
+[2017.11.08-09.49.32:723][339]LogExit: Transaction tracking system shut down
+[2017.11.08-09.49.32:724][339]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.11.08-09.49.34:432][442]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.49.48:992][239]LogInit: Transaction tracking system initialized
+[2017.11.08-09.49.48:992][239]EditorErrors: New page: Matinee Initialization
+[2017.11.08-09.50.11:556][563]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.08-09.50.12:216][602]Cmd: DELETE
+[2017.11.08-09.50.12:216][602]Cmd: ACTOR DELETE
+[2017.11.08-09.50.12:217][602]LogEditorActor: Deleted Actor: MatineeActor
+[2017.11.08-09.50.12:233][602]LogExit: Transaction tracking system shut down
+[2017.11.08-09.50.12:234][602]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.11.08-09.50.13:626][686]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.50.14:118][714]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.50.17:130][890]Cmd: TRANSACTION UNDO
+[2017.11.08-09.50.17:130][890]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.50.19:128][  5]Cmd: TRANSACTION UNDO
+[2017.11.08-09.50.19:128][  5]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.50.21:856][167]Cmd: TRANSACTION UNDO
+[2017.11.08-09.50.21:856][167]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.52.07:633][833]LogInit: Transaction tracking system initialized
+[2017.11.08-09.52.07:633][833]EditorErrors: New page: Matinee Initialization
+[2017.11.08-09.53.18:862][737]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.54.55:595][260]Cmd: TRANSACTION UNDO
+[2017.11.08-09.54.55:595][260]LogEditorTransaction: Undo Move Loop End Marker
+[2017.11.08-09.54.58:778][432]Cmd: TRANSACTION UNDO
+[2017.11.08-09.54.58:778][432]LogEditorTransaction: Undo NewTrack
+[2017.11.08-09.55.06:099][831]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.55.06:398][847]Cmd: TRANSACTION UNDO
+[2017.11.08-09.55.06:398][847]LogEditorTransaction: Undo New Group
+[2017.11.08-09.55.07:781][930]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.55.28:388][ 26]LogInit: Transaction tracking system initialized
+[2017.11.08-09.55.28:388][ 26]EditorErrors: New page: Matinee Initialization
+[2017.11.08-09.55.37:602][457]LogEditorViewport: Clicking on Actor (context menu): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.57.32:509][989]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor2)
+[2017.11.08-09.57.33:674][ 56]Cmd: DELETE
+[2017.11.08-09.57.33:674][ 56]Cmd: ACTOR DELETE
+[2017.11.08-09.57.37:531][ 56]LogEditorActor: Deleted Actor: MatineeActor
+[2017.11.08-09.57.37:554][ 56]LogExit: Transaction tracking system shut down
+[2017.11.08-09.57.37:554][ 56]LogExit: Transaction tracking system shut down
+[2017.11.08-09.57.37:555][ 56]LogEditorActor: Deleted 1 Actors (3.881 secs)
+[2017.11.08-09.57.37:692][ 57]LogSavePackage: Save=49.84ms
+[2017.11.08-09.57.37:692][ 57]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto3BD363AA54D8A89A0E6BAA8B43513F6D9.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto3.umap'
+[2017.11.08-09.57.37:695][ 57]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto3.umap
+[2017.11.08-09.57.37:697][ 57]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.087
+[2017.11.08-09.57.37:697][ 57]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.087
+[2017.11.08-09.57.39:585][169]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.57.49:808][772]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.57.52:443][927]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.58.30:283][163]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.58.31:457][231]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.58.34:797][422]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2017.11.08-09.59.11:823][414]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.59.12:207][431]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2017.11.08-09.59.12:990][476]Cmd: DELETE
+[2017.11.08-09.59.12:990][476]Cmd: ACTOR DELETE
+[2017.11.08-09.59.12:990][476]LogEditorActor: Deleted Actor: Actor
+[2017.11.08-09.59.13:008][476]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.11.08-09.59.33:965][727]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.33:965][727]LogEditorTransaction: Undo Delete Actors
+[2017.11.08-09.59.34:225][740]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.34:225][740]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.34:674][765]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.34:674][765]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.34:898][777]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.34:898][777]LogEditorTransaction: Undo Scale Components
+[2017.11.08-09.59.35:096][788]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.35:096][788]LogEditorTransaction: Undo Scale Components
+[2017.11.08-09.59.35:298][800]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.35:298][800]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.11.08-09.59.35:475][809]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.35:475][809]LogEditorTransaction: Undo Scale Actors
+[2017.11.08-09.59.35:655][819]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.35:655][819]LogEditorTransaction: Undo Scale Actors
+[2017.11.08-09.59.35:874][832]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.35:874][832]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.36:132][846]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.36:132][846]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.36:365][860]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.36:365][860]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.36:590][872]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.36:590][872]LogEditorTransaction: Undo Scale Components
+[2017.11.08-09.59.36:591][872]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Actor_5.Cube' 
+[2017.11.08-09.59.36:591][872]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Actor_5.Cube' 
+[2017.11.08-09.59.36:787][883]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.36:787][883]LogEditorTransaction: Undo Scale Components
+[2017.11.08-09.59.37:007][896]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.37:007][896]LogEditorTransaction: Undo Add Component
+[2017.11.08-09.59.37:229][908]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.37:229][908]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.59.37:448][921]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.37:448][921]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.59.37:665][934]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.37:665][934]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.59.37:881][947]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.37:881][947]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.59.38:099][960]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.38:100][960]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.59.38:284][971]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.38:284][971]LogEditorTransaction: Undo Create Actors
+[2017.11.08-09.59.38:505][983]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.38:505][983]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.38:738][995]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.38:738][995]LogEditorTransaction: Undo Move Actors
+[2017.11.08-09.59.38:961][  8]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.38:961][  8]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-09.59.44:223][320]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.44:223][320]LogEditorTransaction: Undo Scale Actors
+[2017.11.08-09.59.47:432][511]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.59.48:593][578]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-09.59.49:092][607]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-09.59.58:074][138]Cmd: TRANSACTION UNDO
+[2017.11.08-09.59.58:074][138]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.00.03:207][439]Cmd: TRANSACTION UNDO
+[2017.11.08-10.00.03:207][439]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.00.06:911][656]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.00.07:728][703]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.00.08:311][737]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.00.12:777][  1]Cmd: TRANSACTION UNDO
+[2017.11.08-10.00.12:778][  1]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.02.31:675][698]Cmd: TRANSACTION UNDO
+[2017.11.08-10.02.31:676][698]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.02.33:433][801]Cmd: TRANSACTION UNDO
+[2017.11.08-10.02.33:433][801]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.02.35:263][905]Cmd: TRANSACTION UNDO
+[2017.11.08-10.02.35:263][905]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.02.43:197][375]LogEditorViewport: Clicking on Actor (context menu): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.02.46:863][590]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.08-10.02.47:559][632]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.02.48:275][673]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.03.21:032][221]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.08-10.03.21:628][256]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.08-10.03.21:990][277]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.03.23:172][345]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.03.23:522][365]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.03.24:054][396]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.04.15:585][964]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.04.16:877][ 38]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.04.19:971][217]LogInit: Transaction tracking system initialized
+[2017.11.08-10.04.19:971][217]EditorErrors: New page: Matinee Initialization
+[2017.11.08-10.04.33:607][533]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.04.34:204][565]LogEditorViewport: Clicking on Actor (context menu): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.06.32:488][549]Cmd: TRANSACTION UNDO
+[2017.11.08-10.06.32:488][549]LogEditorTransaction: Undo NewTrack
+[2017.11.08-10.06.37:205][832]Cmd: TRANSACTION UNDO
+[2017.11.08-10.06.37:205][832]LogEditorTransaction: Undo New Group
+[2017.11.08-10.07.45:459][365]Cmd: TRANSACTION REDO
+[2017.11.08-10.07.45:459][365]LogEditorTransaction: Redo New Group
+[2017.11.08-10.07.49:904][631]Cmd: TRANSACTION REDO
+[2017.11.08-10.07.49:904][631]LogEditorTransaction: Redo NewTrack
+[2017.11.08-10.08.20:390][339]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-10.08.28:585][612]LogExit: Transaction tracking system shut down
+[2017.11.08-10.08.28:653][612]LogSavePackage: Save=53.91ms
+[2017.11.08-10.08.28:653][612]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto439D8145C494E2B46ED3C07AA8430E24C.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto4.umap'
+[2017.11.08-10.08.28:656][612]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto4.umap
+[2017.11.08-10.08.28:659][612]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.093
+[2017.11.08-10.08.28:659][612]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.093
+[2017.11.08-10.09.22:078][378]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.10.53:645][706]LogSavePackage: Save=57.70ms
+[2017.11.08-10.10.53:645][706]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayC12F429D45B097E74C5F1AA29A1234BF.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.08-10.10.53:650][706]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.08-10.10.53:692][706]LogSavePackage: Save=10.44ms
+[2017.11.08-10.10.53:692][706]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData62AC3A6D441D5FDCDD1DEAB104959EB0.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.08-10.10.53:694][706]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.08-10.12.54:707][938]Cmd: TRANSACTION UNDO
+[2017.11.08-10.12.54:707][938]LogEditorTransaction: Undo Scale Actors
+[2017.11.08-10.13.01:577][347]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.13.02:511][401]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.13.03:076][434]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-10.13.15:884][175]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.13.16:515][211]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.17.36:884][ 94]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.17.37:984][158]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-10.18.25:177][887]LogInit: Transaction tracking system initialized
+[2017.11.08-10.18.25:177][887]EditorErrors: New page: Matinee Initialization
+[2017.11.08-10.19.48:594][ 14]LogEditorViewport: Clicking Background
+[2017.11.08-10.19.50:161][107]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.20.46:284][428]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.20.47:215][482]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-10.21.02:752][396]BlueprintLog: New page: Compile Reveal_Stairway
+[2017.11.08-10.21.02:778][396]LogExit: Transaction tracking system shut down
+[2017.11.08-10.21.05:754][565]LogSavePackage: Save=68.10ms
+[2017.11.08-10.21.05:754][565]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayFF67C8AE47A48B82890DF9B13ADB64E9.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.08-10.21.05:759][565]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.08-10.21.05:797][565]LogSavePackage: Save=8.40ms
+[2017.11.08-10.21.05:797][565]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData27EC8F144E1F8E1DB98C59A7C9E84111.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.08-10.21.05:799][565]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.08-10.21.07:487][657]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-10.21.07:535][657]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.07:535][657]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.08-10.21.07:536][657]LogPlayLevel: [PlayLevel] Compiling 1st_Woodblank_Blueprint before play...
+[2017.11.08-10.21.07:816][657]LogPlayLevel: PlayLevel: Blueprint regeneration took 281 ms (1 blueprints)
+[2017.11.08-10.21.07:818][657]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 10:21:07)
+[2017.11.08-10.21.07:818][657]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-10.21.07:822][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003317s)
+[2017.11.08-10.21.07:822][657]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-10.21.07:823][657]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2017.11.08-10.21.07:823][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004904s)
+[2017.11.08-10.21.07:844][657]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-10.21.07:850][657]LogInit: FAudioDevice initialized.
+[2017.11.08-10.21.07:895][657]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-10.21.07:900][657]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-10.21.07
+[2017.11.08-10.21.07:901][657]LogWorld: Bringing up level for play took: 0.002675
+[2017.11.08-10.21.07:977][657]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.11.08-10.21.07:980][657]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.551
+[2017.11.08-10.21.07:981][657]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.33:714][192]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.33:761][192]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.34:937][258]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-10.21.34:950][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.34:950][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-10.21.34:951][258]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 10:21:34)
+[2017.11.08-10.21.34:951][258]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-10.21.34:954][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003514s)
+[2017.11.08-10.21.34:955][258]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-10.21.34:956][258]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2017.11.08-10.21.34:956][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.005019s)
+[2017.11.08-10.21.34:978][258]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-10.21.34:981][258]LogInit: FAudioDevice initialized.
+[2017.11.08-10.21.35:013][258]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-10.21.35:015][258]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-10.21.35
+[2017.11.08-10.21.35:016][258]LogWorld: Bringing up level for play took: 0.002064
+[2017.11.08-10.21.35:018][258]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.487
+[2017.11.08-10.21.35:019][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.56:226][530]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.56:269][530]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.57:391][594]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-10.21.57:405][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.21.57:405][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-10.21.57:405][594]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 10:21:57)
+[2017.11.08-10.21.57:405][594]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-10.21.57:409][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003513s)
+[2017.11.08-10.21.57:409][594]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-10.21.57:410][594]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2017.11.08-10.21.57:410][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004471s)
+[2017.11.08-10.21.57:430][594]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-10.21.57:434][594]LogInit: FAudioDevice initialized.
+[2017.11.08-10.21.57:470][594]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-10.21.57:473][594]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-10.21.57
+[2017.11.08-10.21.57:473][594]LogWorld: Bringing up level for play took: 0.001608
+[2017.11.08-10.21.57:475][594]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.944
+[2017.11.08-10.21.57:476][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.22.05:180][ 56]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.22.05:221][ 56]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.23.06:538][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.07:812][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.08:460][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.09:006][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.09:718][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.13:198][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.13:896][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.14:474][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.15:006][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.15:406][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.16:898][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.17:558][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.18:133][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.18:596][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.19:173][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.08-10.23.21:552][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.22:062][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.22:638][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.23:133][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.23:764][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.23.26:271][810]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP5)
+[2017.11.08-10.23.34:356][287]Cmd: TRANSACTION UNDO
+[2017.11.08-10.23.34:356][287]LogEditorTransaction: Undo Scale Components
+[2017.11.08-10.23.50:761][260]Cmd: TRANSACTION UNDO
+[2017.11.08-10.23.50:761][260]LogEditorTransaction: Undo Scale Components
+[2017.11.08-10.23.50:956][269]Cmd: TRANSACTION UNDO
+[2017.11.08-10.23.50:956][269]LogEditorTransaction: Undo Move Components
+[2017.11.08-10.23.51:124][277]Cmd: TRANSACTION UNDO
+[2017.11.08-10.23.51:124][277]LogEditorTransaction: Undo Scale Components
+[2017.11.08-10.23.51:297][285]Cmd: TRANSACTION UNDO
+[2017.11.08-10.23.51:297][285]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.11.08-10.23.51:581][301]Cmd: TRANSACTION UNDO
+[2017.11.08-10.23.51:581][301]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-10.23.54:361][464]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP5)
+[2017.11.08-10.24.58:655][303]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP6)
+[2017.11.08-10.25.07:263][810]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-10.25.07:275][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.25.07:276][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-10.25.07:276][810]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 10:25:07)
+[2017.11.08-10.25.07:276][810]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-10.25.07:281][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004920s)
+[2017.11.08-10.25.07:281][810]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-10.25.07:282][810]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2017.11.08-10.25.07:282][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.006206s)
+[2017.11.08-10.25.07:306][810]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-10.25.07:311][810]LogInit: FAudioDevice initialized.
+[2017.11.08-10.25.07:346][810]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-10.25.07:349][810]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-10.25.07
+[2017.11.08-10.25.07:349][810]LogWorld: Bringing up level for play took: 0.001962
+[2017.11.08-10.25.07:353][810]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.821
+[2017.11.08-10.25.07:353][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.25.29:708][151]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.25.29:755][151]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.25.34:519][434]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP)
+[2017.11.08-10.26.49:717][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.08-10.26.50:412][959]LogEditorViewport: Clicking on Actor (LMB): Light_BP_C (Light_BP2)
+[2017.11.08-10.26.59:851][514]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-10.26.59:862][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.26.59:863][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.08-10.26.59:863][514]PIE: New page: PIE session: Reveal_Stairway (8 Nov 2017 10:26:59)
+[2017.11.08-10.26.59:863][514]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.08-10.26.59:866][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003127s)
+[2017.11.08-10.26.59:867][514]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.08-10.26.59:867][514]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2017.11.08-10.26.59:868][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.004840s)
+[2017.11.08-10.26.59:889][514]LogInit: XAudio2 using 'MON-SIS289 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-10.26.59:893][514]LogInit: FAudioDevice initialized.
+[2017.11.08-10.26.59:923][514]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.08-10.26.59:926][514]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.08-10.26.59
+[2017.11.08-10.26.59:927][514]LogWorld: Bringing up level for play took: 0.002529
+[2017.11.08-10.26.59:931][514]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.601
+[2017.11.08-10.26.59:931][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.27.10:138][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.27.10:181][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.27.11:684][205]LogSavePackage: Save=76.84ms
+[2017.11.08-10.27.11:684][205]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway117D3BD64B645203DFCFFB9DDE18B10F.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.08-10.27.11:689][205]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.08-10.27.11:736][205]LogSavePackage: Save=8.39ms
+[2017.11.08-10.27.11:736][205]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData832BAC3B470EFD1D6FC4B08F9540F396.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.08-10.27.11:738][205]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.08-10.29.42:991][318]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.34.47:414][292]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.34.55:422][767]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.34.56:588][835]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.34.57:742][901]LogEditorViewport: Clicking on Actor (double click): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.35.01:930][147]Cmd: EDIT COPY
+[2017.11.08-10.35.04:665][309]Cmd: TRANSACTION UNDO
+[2017.11.08-10.35.04:665][309]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.35.12:022][742]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.35.15:090][923]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.36.23:862][ 19]Cmd: TRANSACTION UNDO
+[2017.11.08-10.36.23:862][ 19]LogEditorTransaction: Undo Move Actors
+[2017.11.08-10.36.24:217][ 39]Cmd: TRANSACTION UNDO
+[2017.11.08-10.36.24:217][ 39]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.11.08-10.36.26:162][153]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.36.27:777][248]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint)
+[2017.11.08-10.36.42:074][ 81]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.37.12:791][911]LogSavePackage: Save=73.42ms
+[2017.11.08-10.37.12:791][911]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto5D32D304142DC8A7E297AEDAECDFB5F3D.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto5.umap'
+[2017.11.08-10.37.12:794][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto5.umap
+[2017.11.08-10.37.12:797][911]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.116
+[2017.11.08-10.37.12:797][911]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.116
+[2017.11.08-10.37.12:801][911]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Class_BluePrint/1st_Woodblank_Blueprint] ([1] browsable assets)...
+[2017.11.08-10.37.12:836][911]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Class_BluePrint/1st_Woodblank_Blueprint.1st_Woodblank_Blueprint]
+[2017.11.08-10.37.12:836][911]OBJ SavePackage: Finished generating thumbnails for package [/Game/Class_BluePrint/1st_Woodblank_Blueprint]
+[2017.11.08-10.37.12:862][911]LogSavePackage: Save=17.55ms
+[2017.11.08-10.37.12:862][911]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/1st_Woodblank_Blueprint_Auto5B50723A646D07180201BA2BEFBD688F3.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/1st_Woodblank_Blueprint_Auto5.uasset'
+[2017.11.08-10.37.12:863][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/1st_Woodblank_Blueprint_Auto5.uasset
+[2017.11.08-10.37.12:864][911]LogFileHelpers: Auto-saving content packages took 0.064
+[2017.11.08-10.37.21:226][401]Cmd: EDIT COPY
+[2017.11.08-10.37.23:796][555]Cmd: EDIT PASTE
+[2017.11.08-10.39.00:505][885]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.39.01:924][968]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.39.02:688][ 13]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.39.03:222][ 44]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-10.39.06:575][178]LogInit: Transaction tracking system initialized
+[2017.11.08-10.39.06:575][178]EditorErrors: New page: Matinee Initialization
+[2017.11.08-10.39.13:274][542]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.39.26:085][224]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.39.27:185][288]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-10.39.30:203][398]LogInit: Transaction tracking system initialized
+[2017.11.08-10.39.30:203][398]EditorErrors: New page: Matinee Initialization
+[2017.11.08-10.40.30:972][290]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.40.31:376][307]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.40.33:159][412]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (2nd_Woodblank_Blueprint)
+[2017.11.08-10.40.34:988][516]Cmd: DELETE
+[2017.11.08-10.40.34:988][516]Cmd: ACTOR DELETE
+[2017.11.08-10.40.36:357][516]LogEditorActor: Deleted Actor: 1st_Woodblank_Blueprint_C
+[2017.11.08-10.40.36:375][516]LogExit: Transaction tracking system shut down
+[2017.11.08-10.40.36:375][516]LogExit: Transaction tracking system shut down
+[2017.11.08-10.40.36:376][516]LogEditorActor: Deleted 1 Actors (1.388 secs)
+[2017.11.08-10.41.23:344][300]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (2nd_woodBlank)
+[2017.11.08-10.41.23:974][337]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.41.24:640][375]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.41.25:524][424]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.41.30:798][733]Cmd: TRANSACTION UNDO
+[2017.11.08-10.41.30:798][733]LogEditorTransaction: Undo Move Components
+[2017.11.08-10.42.09:648][ 55]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.42.10:882][127]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-10.42.13:501][201]LogInit: Transaction tracking system initialized
+[2017.11.08-10.42.13:501][201]EditorErrors: New page: Matinee Initialization
+[2017.11.08-10.42.16:288][340]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.43.14:367][592]LogEditorTransaction: Undo NewTrack
+[2017.11.08-10.43.33:017][687]LogEditorTransaction: Undo NewTrack
+[2017.11.08-10.43.41:149][163]LogEditorTransaction: Undo NewTrack
+[2017.11.08-10.43.54:518][953]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.43.54:969][978]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.43.58:494][183]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.44.06:646][665]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.44.54:222][423]Cmd: TRANSACTION UNDO
+[2017.11.08-10.44.54:222][423]LogEditorTransaction: Undo Move Loop Start Marker
+[2017.11.08-10.44.54:771][456]Cmd: TRANSACTION UNDO
+[2017.11.08-10.44.54:771][456]LogEditorTransaction: Undo Enable/Disable Track
+[2017.11.08-10.44.55:205][482]Cmd: TRANSACTION UNDO
+[2017.11.08-10.44.55:205][482]LogEditorTransaction: Undo Enable/Disable Track
+[2017.11.08-10.44.58:536][662]Cmd: TRANSACTION UNDO
+[2017.11.08-10.44.58:536][662]LogEditorTransaction: Undo Move Loop End Marker
+[2017.11.08-10.44.58:753][675]Cmd: TRANSACTION UNDO
+[2017.11.08-10.44.58:753][675]LogEditorTransaction: Undo Move Loop Start Marker
+[2017.11.08-10.44.58:937][686]Cmd: TRANSACTION UNDO
+[2017.11.08-10.44.58:937][686]LogEditorTransaction: Undo NewTrack
+[2017.11.08-10.44.59:897][725]Cmd: TRANSACTION UNDO
+[2017.11.08-10.44.59:898][725]LogEditorTransaction: Undo New Group
+[2017.11.08-10.45.30:637][537]Cmd: TRANSACTION UNDO
+[2017.11.08-10.45.30:637][537]LogEditorTransaction: Undo Move Components
+[2017.11.08-10.46.14:944][181]Cmd: DELETE
+[2017.11.08-10.46.14:944][181]Cmd: ACTOR DELETE
+[2017.11.08-10.46.14:961][181]LogEditorActor: Deleted 1 Components (0.016 secs)
+[2017.11.08-10.46.21:436][565]Cmd: TRANSACTION UNDO
+[2017.11.08-10.46.21:436][565]LogEditorTransaction: Undo Move Components
+[2017.11.08-10.47.13:590][294]LogExit: Transaction tracking system shut down
+[2017.11.08-10.47.13:616][294]LogBlueprint: Error: [Compiler PersistentLevel.Reveal_Stairway] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2017.11.08-10.47.13:621][294]LogBlueprint: Warning: [Compiler PersistentLevel.Reveal_Stairway] [5337.49] Compile of PersistentLevel.Reveal_Stairway failed. 1 Fatal Issue(s) 0 Warning(s) [in 8 ms] (/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway)
+[2017.11.08-10.47.13:687][294]LogSavePackage: Save=76.40ms
+[2017.11.08-10.47.13:687][294]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto61E7CBB7442842BA5A22E5BA266EF197A.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto6.umap'
+[2017.11.08-10.47.13:692][294]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto6.umap
+[2017.11.08-10.47.13:694][294]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.130
+[2017.11.08-10.47.13:694][294]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.130
+[2017.11.08-10.51.29:583][ 65]LogWindows: LaunchFileInExternalEditor C:/Program Files/Epic Games/UE_4.17/Engine/Source/Runtime/Engine/Classes/Components/StaticMeshComponent.h 
+[2017.11.08-10.51.32:091][ 65]LogWindows: Launch application code for C:/Program Files/Epic Games/UE_4.17/Engine/Source/Runtime/Engine/Classes/Components/StaticMeshComponent.h : 42
+[2017.11.08-10.51.32:091][ 65]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2017.11.08-10.51.32:098][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:098][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:098][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:098][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:098][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:098][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:098][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:098][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:098][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:098][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:099][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:100][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:101][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:101][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:101][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:101][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:101][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:101][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:101][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:101][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:101][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:101][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:101][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:101][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:102][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:103][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:104][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:105][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:105][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:105][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:105][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:105][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:105][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:105][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:105][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:105][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:105][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:105][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:105][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:106][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:107][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:107][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:107][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:107][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:107][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:107][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:107][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:107][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:107][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:133][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:133][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:134][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:134][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:135][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:145][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:148][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:161][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:161][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:163][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:163][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:163][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.51.32:163][ 65]LogVSAccessor: Warning: Couldn't access module table
+[2017.11.08-10.55.02:003][880]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.55.04:435][ 25]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.55.05:139][ 65]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.55.17:163][778]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (2nd_woodBlank)
+[2017.11.08-10.55.22:046][ 64]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.55.25:140][240]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.08-10.55.26:410][316]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.55.29:207][480]Cmd: TRANSACTION UNDO
+[2017.11.08-10.55.29:207][480]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-10.55.29:963][523]Cmd: TRANSACTION UNDO
+[2017.11.08-10.55.29:963][523]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.11.08-10.55.43:822][347]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (2nd_woodBlank)
+[2017.11.08-10.55.49:347][673]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (2nd_woodBlank)
+[2017.11.08-10.55.51:548][802]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.55.53:312][899]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.55.54:826][989]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.56.04:805][579]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (2nd_woodBlank)
+[2017.11.08-10.56.07:812][753]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (2nd_woodBlank)
+[2017.11.08-10.56.18:044][363]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (2nd_woodBlank)
+[2017.11.08-10.56.19:609][453]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (2nd_woodBlank)
+[2017.11.08-10.56.20:929][529]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (2nd_woodBlank)
+[2017.11.08-10.56.21:927][586]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.08-10.56.24:403][728]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.08-10.56.25:480][793]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.56.27:757][926]Cmd: TRANSACTION UNDO
+[2017.11.08-10.56.27:757][926]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-10.56.28:512][969]Cmd: TRANSACTION UNDO
+[2017.11.08-10.56.28:512][969]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.11.08-10.56.32:868][222]Cmd: TRANSACTION UNDO
+[2017.11.08-10.56.32:869][222]LogEditorTransaction: Undo Move Components
+[2017.11.08-10.56.43:137][822]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (2nd_woodBlank)
+[2017.11.08-10.57.05:741][ 50]LogInit: Transaction tracking system initialized
+[2017.11.08-10.57.05:741][ 50]EditorErrors: New page: Matinee Initialization
+[2017.11.08-10.57.11:636][379]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.57.16:103][641]LogEditorViewport: Clicking on Actor (LMB): 1st_Woodblank_Blueprint_C (1st_Woodblank_Blueprint2)
+[2017.11.08-10.57.28:374][337]Cmd: TRANSACTION UNDO
+[2017.11.08-10.57.28:374][337]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.11.08-10.57.30:558][463]Cmd: TRANSACTION UNDO
+[2017.11.08-10.57.30:558][463]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.11.08-10.57.34:450][688]LogExit: Transaction tracking system shut down
+[2017.11.08-10.57.34:470][688]LogBlueprint: Error: [Compiler PersistentLevel.Reveal_Stairway] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2017.11.08-10.57.34:471][688]LogBlueprint: Warning: [Compiler PersistentLevel.Reveal_Stairway] [5958.34] Compile of PersistentLevel.Reveal_Stairway failed. 1 Fatal Issue(s) 0 Warning(s) [in 3 ms] (/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway)
+[2017.11.08-10.57.34:535][688]LogSavePackage: Save=67.75ms
+[2017.11.08-10.57.34:535][688]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto7423411D047C95CD12FABF6AB5E58BA95.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto7.umap'
+[2017.11.08-10.57.34:538][688]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto7.umap
+[2017.11.08-10.57.34:540][688]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.114
+[2017.11.08-10.57.34:540][688]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
+[2017.11.08-10.57.37:169][844]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor3)
+[2017.11.08-10.57.38:399][915]Cmd: TRANSACTION UNDO
+[2017.11.08-10.57.38:399][915]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.08-10.57.38:635][926]Cmd: TRANSACTION UNDO
+[2017.11.08-10.57.38:636][926]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.11.08-10.57.45:431][328]Cmd: TRANSACTION UNDO
+[2017.11.08-10.57.45:432][328]LogEditorTransaction: Undo Remove Components
+[2017.11.08-10.57.47:208][431]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.08-10.57.51:821][704]LogEditorActor: Deleted Actor: MatineeActor
+[2017.11.08-10.57.51:838][704]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.11.08-10.57.56:869][  4]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.08-10.57.56:882][  4]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.08-10.57.56:882][  4]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.08-10.57.56:885][  4]LogPlayLevel: [PlayLevel] Compiling Reveal_Stairway before play...
+[2017.11.08-10.57.56:887][  4]LogBlueprint: Error: [Compiler PersistentLevel.Reveal_Stairway] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2017.11.08-10.57.56:888][  4]LogBlueprint: Warning: [Compiler PersistentLevel.Reveal_Stairway] [5980.76] Compile of PersistentLevel.Reveal_Stairway failed. 1 Fatal Issue(s) 0 Warning(s) [in 4 ms] (/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway)
+[2017.11.08-10.57.56:908][  4]LogPlayLevel: PlayLevel: Blueprint regeneration took 26 ms (1 blueprints)
+[2017.11.08-10.57.56:908][  4]BlueprintLog: Blueprint Reveal_Stairway failed to compile
+[2017.11.08-10.57.59:833][ 35]LogInit: Transaction tracking system initialized
+[2017.11.08-10.57.59:833][ 35]EditorErrors: New page: Matinee Initialization
+[2017.11.08-10.58.10:022][573]LogExit: Transaction tracking system shut down
+[2017.11.08-10.58.11:573][574]Cmd: QUIT_EDITOR
+[2017.11.08-10.58.11:594][574]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.08-10.58.11:619][574]LogExit: Preparing to exit.
+[2017.11.08-10.58.12:078][574]LogDirectoryWatcher: A directory notification for 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/' was aborted.
+[2017.11.08-10.58.12:205][574]LogExit: Editor shut down
+[2017.11.08-10.58.12:234][574]LogExit: Transaction tracking system shut down
+[2017.11.08-10.58.12:476][574]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.08-10.58.12:477][574]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/' was aborted.
+[2017.11.08-10.58.12:477][574]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.08-10.58.12:477][574]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.08-10.58.12:477][574]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.08-10.58.12:623][574]LogExit: Object subsystem successfully closed.
+[2017.11.08-10.58.12:650][574]LogD3D11RHI: Shutdown
+[2017.11.08-10.58.12:650][574]LogD3D11RHI: CleanupD3DDevice
+[2017.11.08-10.58.12:775][574]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.08-10.58.12:802][574]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (544)
+[2017.11.08-10.58.12:802][574]LogModuleManager: Shutting down and abandoning module DistCurveEditor (542)
+[2017.11.08-10.58.12:802][574]LogModuleManager: Shutting down and abandoning module Matinee (540)
+[2017.11.08-10.58.12:803][574]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
+[2017.11.08-10.58.12:803][574]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
+[2017.11.08-10.58.12:803][574]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (534)
+[2017.11.08-10.58.12:803][574]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
+[2017.11.08-10.58.12:803][574]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.11.08-10.58.12:803][574]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.11.08-10.58.12:803][574]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.11.08-10.58.12:803][574]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.11.08-10.58.12:809][574]LogDirectoryWatcher: A directory notification for 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Collections/' was aborted.
+[2017.11.08-10.58.12:809][574]LogDirectoryWatcher: A directory notification for 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Developers/Leszek/Collections/' was aborted.
+[2017.11.08-10.58.12:809][574]LogDirectoryWatcher: A directory notification for 'C:/Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Collections/' was aborted.
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.08-10.58.12:809][574]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.08-10.58.12:810][574]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.08-10.58.12:811][574]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.08-10.58.12:811][574]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.08-10.58.12:811][574]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.08-10.58.12:811][574]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.08-10.58.12:811][574]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.08-10.58.13:085][574]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.08-10.58.13:085][574]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.08-10.58.13:085][574]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.08-10.58.13:085][574]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.08-10.58.13:085][574]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.08-10.58.13:085][574]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.08-10.58.13:085][574]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.08-10.58.13:085][574]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.08-10.58.13:085][574]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.08-10.58.13:086][574]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.08-10.58.13:139][574]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.08-10.58.13:139][574]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.08-10.58.13:139][574]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.08-10.58.13:139][574]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.08-10.58.13:139][574]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.08-10.58.13:139][574]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.08-10.58.13:140][574]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.08-10.58.13:140][574]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.08-10.58.13:140][574]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.08-10.58.13:140][574]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.08-10.58.13:155][574]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.08-10.58.13:155][574]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.08-10.58.13:155][574]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.08-10.58.13:155][574]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.08-10.58.13:155][574]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.08-10.58.13:155][574]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.08-10.58.13:155][574]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.08-10.58.13:157][574]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.08-10.58.13:158][574]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.08-10.58.13:376][574]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.08-10.58.13:377][574]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.08-10.58.13:377][574]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.08-10.58.13:377][574]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.08-10.58.13:377][574]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.08-10.58.13:377][574]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.08-10.58.13:377][574]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.08-10.58.13:377][574]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.08-10.58.13:377][574]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.08-10.58.13:377][574]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.08-10.58.13:377][574]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.08-10.58.13:377][574]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.08-10.58.13:377][574]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.08-10.58.13:379][574]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.08-10.58.13:379][574]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.08-10.58.13:379][574]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.08-10.58.13:380][574]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.08-10.58.13:380][574]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.08-10.58.13:380][574]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.08-10.58.13:380][574]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.08-10.58.13:380][574]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.08-10.58.13:380][574]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.08-10.58.13:380][574]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.08-10.58.13:380][574]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.08-10.58.13:481][574]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.08-10.58.13:581][574]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.08-10.58.13:581][574]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.08-10.58.13:581][574]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.08-10.58.13:581][574]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.08-10.58.13:581][574]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.08-10.58.13:581][574]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.08-10.58.13:584][574]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.08-10.58.13:584][574]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.08-10.58.13:584][574]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.08-10.58.13:584][574]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.08-10.58.13:587][574]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.08-10.58.13:587][574]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.08-10.58.13:587][574]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.08-10.58.13:587][574]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.08-10.58.13:587][574]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.08-10.58.13:587][574]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.08-10.58.13:587][574]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.08-10.58.13:587][574]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.08-10.58.13:587][574]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.08-10.58.13:587][574]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.08-10.58.13:588][574]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.08-10.58.13:588][574]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.08-10.58.13:588][574]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.08-10.58.13:588][574]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.08-10.58.13:588][574]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.08-10.58.13:588][574]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.08-10.58.13:588][574]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.08-10.58.13:588][574]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.08-10.58.13:588][574]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.08-10.58.13:588][574]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.08-10.58.13:592][574]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.08-10.58.13:598][574]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.08-10.58.13:647][574]LogDerivedDataCache: Shutdown
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.08-10.58.13:647][574]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.08-10.58.13:648][574]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.08-10.58.13:648][574]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.08-10.58.13:648][574]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.08-10.58.13:648][574]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B53EA3369-4CC2-43D7-102E-BE835FD5F8AE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=a202bbab4bfb72a6c72ab59bf5105770%7Ca6b7376151474e159cf10430cd50646e%7C20bc636a-a4d7-41a8-a2dc-7238c7cddcf0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.08-10.58.13:682][574]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.08-10.58.13:686][574]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.08-10.58.13:686][574]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.08-10.58.13:686][574]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.08-10.58.13:686][574]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.08-10.58.13:686][574]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.08-10.58.13:686][574]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.08-10.58.13:686][574]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.08-10.58.13:695][574]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.08-10.58.13:696][574]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.08-10.58.13:696][574]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.08-10.58.13:696][574]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.08-10.58.13:696][574]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.08-10.58.13:696][574]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.08-10.58.13:696][574]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.08-10.58.13:696][574]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.08-10.58.13:696][574]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.08-10.58.13:696][574]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.08-10.58.13:696][574]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.08-10.58.13:703][574]LogExit: Exiting.
+[2017.11.08-10.58.13:718][574]Log file closed, 11/08/17 10:58:13
