@@ -719,3 +719,488 @@ LogInit: Object subsystem initialized
 [2017.11.20-14.57.04:923][370]LogSavePackage: Save=7.13ms
 [2017.11.20-14.57.04:923][370]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData68A9C00A4811474B45FCE5AF99C6D38E.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
 [2017.11.20-14.57.04:926][370]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.20-14.57.56:195][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Wall)
+[2017.11.20-14.58.09:933][612]Cmd: TRANSACTION UNDO
+[2017.11.20-14.58.09:933][612]LogEditorTransaction: Undo Scale Actors
+[2017.11.20-14.58.30:608][849]Cmd: DELETE
+[2017.11.20-14.58.30:608][849]Cmd: ACTOR DELETE
+[2017.11.20-14.58.30:609][849]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.20-14.58.30:620][849]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.11.20-14.58.31:911][927]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.20-14.58.32:592][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.20-14.58.33:983][ 47]Cmd: EDIT COPY
+[2017.11.20-14.58.34:900][102]Cmd: EDIT PASTE
+[2017.11.20-14.58.39:638][382]Cmd: TRANSACTION UNDO
+[2017.11.20-14.58.39:638][382]LogEditorTransaction: Undo Move Actors
+[2017.11.20-14.59.20:753][832]Cmd: EDIT COPY
+[2017.11.20-14.59.20:970][845]Cmd: EDIT PASTE
+[2017.11.20-14.59.34:244][634]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.20-14.59.34:256][634]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-14.59.34:256][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.20-14.59.34:256][634]PIE: New page: PIE session: Reveal_Stairway (20 Nov 2017 14:59:34)
+[2017.11.20-14.59.34:256][634]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.20-14.59.34:262][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005454s)
+[2017.11.20-14.59.34:263][634]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.20-14.59.34:263][634]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2017.11.20-14.59.34:263][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.006980s)
+[2017.11.20-14.59.34:276][634]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.20-14.59.34:288][634]LogInit: FAudioDevice initialized.
+[2017.11.20-14.59.34:319][634]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.20-14.59.34:322][634]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.20-14.59.34
+[2017.11.20-14.59.34:322][634]LogWorld: Bringing up level for play took: 0.002130
+[2017.11.20-14.59.34:325][634]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.306
+[2017.11.20-14.59.34:325][634]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-14.59.37:825][844]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-14.59.37:872][844]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-14.59.40:828][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.11.20-14.59.49:944][551]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.20-14.59.49:956][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-14.59.49:956][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.20-14.59.49:956][551]PIE: New page: PIE session: Reveal_Stairway (20 Nov 2017 14:59:49)
+[2017.11.20-14.59.49:956][551]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.20-14.59.49:962][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005261s)
+[2017.11.20-14.59.49:963][551]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.20-14.59.49:963][551]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2017.11.20-14.59.49:963][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.006823s)
+[2017.11.20-14.59.49:975][551]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.20-14.59.49:988][551]LogInit: FAudioDevice initialized.
+[2017.11.20-14.59.50:019][551]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.20-14.59.50:022][551]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.20-14.59.50
+[2017.11.20-14.59.50:022][551]LogWorld: Bringing up level for play took: 0.001935
+[2017.11.20-14.59.50:024][551]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.606
+[2017.11.20-14.59.50:025][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-14.59.51:610][646]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-14.59.51:669][646]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-14.59.53:880][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.11.20-14.59.54:805][827]Cmd: EDIT COPY
+[2017.11.20-14.59.54:989][838]Cmd: EDIT PASTE
+[2017.11.20-15.00.24:267][579]Cmd: TRANSACTION UNDO
+[2017.11.20-15.00.24:267][579]LogEditorTransaction: Undo Move Actors
+[2017.11.20-15.00.24:624][600]Cmd: TRANSACTION UNDO
+[2017.11.20-15.00.24:624][600]LogEditorTransaction: Undo Scale Actors
+[2017.11.20-15.00.30:472][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.11.20-15.00.31:533][ 11]Cmd: EDIT COPY
+[2017.11.20-15.00.31:733][ 23]Cmd: EDIT PASTE
+[2017.11.20-15.00.49:744][ 92]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.20-15.00.49:756][ 92]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.00.49:757][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.20-15.00.49:757][ 92]PIE: New page: PIE session: Reveal_Stairway (20 Nov 2017 15:00:49)
+[2017.11.20-15.00.49:757][ 92]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.20-15.00.49:763][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005429s)
+[2017.11.20-15.00.49:763][ 92]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.20-15.00.49:764][ 92]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2017.11.20-15.00.49:764][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.006764s)
+[2017.11.20-15.00.49:776][ 92]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.20-15.00.49:787][ 92]LogInit: FAudioDevice initialized.
+[2017.11.20-15.00.49:820][ 92]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.20-15.00.49:828][ 92]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.20-15.00.49
+[2017.11.20-15.00.49:829][ 92]LogWorld: Bringing up level for play took: 0.005721
+[2017.11.20-15.00.49:834][ 92]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.796
+[2017.11.20-15.00.49:835][ 92]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.00.54:401][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.00.54:477][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.00.57:256][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.11.20-15.01.02:486][832]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.20-15.01.02:497][832]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.01.02:498][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.20-15.01.02:498][832]PIE: New page: PIE session: Reveal_Stairway (20 Nov 2017 15:01:02)
+[2017.11.20-15.01.02:498][832]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.20-15.01.02:502][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004362s)
+[2017.11.20-15.01.02:503][832]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.20-15.01.02:503][832]LogPlayLevel: PIE: World Init took: (0.001186s)
+[2017.11.20-15.01.02:504][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.005862s)
+[2017.11.20-15.01.02:515][832]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.20-15.01.02:526][832]LogInit: FAudioDevice initialized.
+[2017.11.20-15.01.02:559][832]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.20-15.01.02:562][832]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 60) at 2017.11.20-15.01.02
+[2017.11.20-15.01.02:562][832]LogWorld: Bringing up level for play took: 0.002121
+[2017.11.20-15.01.02:564][832]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.066
+[2017.11.20-15.01.02:564][832]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.01.06:217][ 51]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.01.06:295][ 51]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.01.10:892][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.11.20-15.01.14:143][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.11.20-15.01.43:719][210]LogStaticMesh: Building static mesh WALL_for_DDoor...
+[2017.11.20-15.01.43:748][210]LogStaticMesh: Built static mesh [0.03s] /Game/WALL_for_DDoor.WALL_for_DDoor
+[2017.11.20-15.01.55:378][799]LogSavePackage: Save=13.20ms
+[2017.11.20-15.01.55:378][799]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/WALL_for_DDoorB9096B824A0C448EBC634383CB290B3D.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Class_BluePrint/WALL_for_DDoor.uasset'
+[2017.11.20-15.01.55:382][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Class_BluePrint/WALL_for_DDoor.uasset
+[2017.11.20-15.02.10:190][641]LogSavePackage: Save=104.02ms
+[2017.11.20-15.02.10:190][641]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayE103473B4C6DCC3C9B622BAE80BA622E.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.20-15.02.10:194][641]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.20-15.02.10:243][641]LogSavePackage: Save=8.07ms
+[2017.11.20-15.02.10:243][641]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData99B1A41949D39CAD51C3C5ABB57FA074.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.20-15.02.10:245][641]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.20-15.02.20:756][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WALL_for_DDoor)
+[2017.11.20-15.02.21:755][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.11.20-15.02.24:388][472]Cmd: TRANSACTION UNDO
+[2017.11.20-15.02.24:388][472]LogEditorTransaction: Undo Move Actors
+[2017.11.20-15.02.24:762][494]Cmd: TRANSACTION UNDO
+[2017.11.20-15.02.24:762][494]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.20-15.02.25:692][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.11.20-15.02.27:293][642]Cmd: TRANSACTION UNDO
+[2017.11.20-15.02.27:293][642]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.20-15.02.27:780][670]Cmd: TRANSACTION UNDO
+[2017.11.20-15.02.27:780][670]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.20-15.02.28:235][696]Cmd: TRANSACTION UNDO
+[2017.11.20-15.02.28:235][696]LogEditorTransaction: Undo Move Actors
+[2017.11.20-15.02.29:188][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WALL_for_DDoor)
+[2017.11.20-15.02.34:133][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.11.20-15.02.51:128][ 52]Cmd: TRANSACTION UNDO
+[2017.11.20-15.02.51:128][ 52]LogEditorTransaction: Undo Move Actors
+[2017.11.20-15.02.58:351][483]Cmd: TRANSACTION UNDO
+[2017.11.20-15.02.58:351][483]LogEditorTransaction: Undo Move Actors
+[2017.11.20-15.03.04:940][875]Cmd: TRANSACTION UNDO
+[2017.11.20-15.03.04:940][875]LogEditorTransaction: Undo Move Actors
+[2017.11.20-15.03.10:636][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WALL_for_DDoor)
+[2017.11.20-15.03.11:278][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.11.20-15.03.13:082][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WALL_for_DDoor)
+[2017.11.20-15.03.20:144][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.11.20-15.03.27:456][200]Cmd: TRANSACTION UNDO
+[2017.11.20-15.03.27:456][200]LogEditorTransaction: Undo Move Actors
+[2017.11.20-15.03.27:878][225]Cmd: TRANSACTION UNDO
+[2017.11.20-15.03.27:878][225]LogEditorTransaction: Undo Scale Actors
+[2017.11.20-15.03.48:458][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WALL_for_DDoor)
+[2017.11.20-15.03.53:494][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WALL_for_DDoor)
+[2017.11.20-15.03.54:853][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.11.20-15.04.02:280][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.11.20-15.04.03:266][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.11.20-15.04.06:962][544]Cmd: EDIT COPY
+[2017.11.20-15.04.07:178][557]Cmd: EDIT PASTE
+[2017.11.20-15.04.35:924][266]Cmd: EDIT COPY
+[2017.11.20-15.04.36:142][279]Cmd: EDIT PASTE
+[2017.11.20-15.04.40:124][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2017.11.20-15.04.40:764][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.11.20-15.04.44:173][749]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.20-15.04.47:845][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.11.20-15.05.12:047][933]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.20-15.05.12:758][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.20-15.05.13:199][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.11.20-15.05.14:364][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2017.11.20-15.05.22:155][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.11.20-15.05.23:212][234]Cmd: DELETE
+[2017.11.20-15.05.23:212][234]Cmd: ACTOR DELETE
+[2017.11.20-15.05.23:213][234]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.20-15.05.23:221][234]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.20-15.05.24:457][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2017.11.20-15.05.34:077][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.11.20-15.05.35:013][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.11.20-15.05.39:862][172]Cmd: TRANSACTION UNDO
+[2017.11.20-15.05.39:862][172]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.20-15.06.03:905][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.11.20-15.06.04:607][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.11.20-15.06.23:060][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2017.11.20-15.06.47:493][176]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.20-15.06.47:505][176]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.06.47:505][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.20-15.06.47:506][176]PIE: New page: PIE session: Reveal_Stairway (20 Nov 2017 15:06:47)
+[2017.11.20-15.06.47:506][176]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.20-15.06.47:511][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005155s)
+[2017.11.20-15.06.47:512][176]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.20-15.06.47:512][176]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2017.11.20-15.06.47:512][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.006519s)
+[2017.11.20-15.06.47:524][176]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.20-15.06.47:536][176]LogInit: FAudioDevice initialized.
+[2017.11.20-15.06.47:565][176]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.20-15.06.47:568][176]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 0) at 2017.11.20-15.06.47
+[2017.11.20-15.06.47:568][176]LogWorld: Bringing up level for play took: 0.002394
+[2017.11.20-15.06.47:571][176]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.94
+[2017.11.20-15.06.47:571][176]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.06.52:139][723]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.06.52:192][723]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.06.58:638][444]LogSavePackage: Save=109.03ms
+[2017.11.20-15.06.58:638][444]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway6B4B66EB4F5CDE4BB548BC9BC6D14CA6.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.20-15.06.58:643][444]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.20-15.06.58:680][444]LogSavePackage: Save=7.10ms
+[2017.11.20-15.06.58:681][444]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltDataA7C0731D46DC0A52D1E9B285225F63E4.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.20-15.06.58:682][444]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.20-15.07.01:242][671]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0012 seconds. Added 1 classes and 0 folders.
+[2017.11.20-15.07.01:244][671]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.01:351][671]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.01:367][671]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.01:413][671]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.20-15.07.01:425][671]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.20-15.07.01:647][674]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.20-15.07.02:715][737]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.11.20-15.07.02:715][737]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.07.02:715][737]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.20-15.07.08:706][267]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.08:722][267]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.20-15.07.09:815][331]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.11.20-15.07.09:815][331]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.07.09:815][331]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.20-15.07.12:308][553]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.12:322][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.20-15.07.13:092][597]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.13:112][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.20-15.07.14:394][679]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.11.20-15.07.14:395][679]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.07.14:395][679]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.20-15.07.22:256][442]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.20-15.07.22:267][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.07.22:267][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.20-15.07.22:267][442]PIE: New page: PIE session: Reveal_Stairway (20 Nov 2017 15:07:22)
+[2017.11.20-15.07.22:267][442]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.20-15.07.22:272][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004542s)
+[2017.11.20-15.07.22:273][442]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.20-15.07.22:274][442]LogPlayLevel: PIE: World Init took: (0.001702s)
+[2017.11.20-15.07.22:274][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.006654s)
+[2017.11.20-15.07.22:285][442]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.20-15.07.22:297][442]LogInit: FAudioDevice initialized.
+[2017.11.20-15.07.22:328][442]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.20-15.07.22:331][442]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 0) at 2017.11.20-15.07.22
+[2017.11.20-15.07.22:331][442]LogWorld: Bringing up level for play took: 0.001992
+[2017.11.20-15.07.22:333][442]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.297
+[2017.11.20-15.07.22:333][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.07.23:977][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.07.24:029][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.07.30:259][372]LogMaterialEditor: Applying material BasicShapeMaterial
+[2017.11.20-15.07.30:817][372]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.30:861][372]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.30:934][372]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.30:998][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.31:552][372]TextureStreamingBuild: Display: Compiling optional shaders took 0.562 seconds.
+[2017.11.20-15.07.36:560][726]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.20-15.07.36:582][726]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.07.36:582][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.20-15.07.36:582][726]PIE: New page: PIE session: Reveal_Stairway (20 Nov 2017 15:07:36)
+[2017.11.20-15.07.36:583][726]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.20-15.07.36:590][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007617s)
+[2017.11.20-15.07.36:591][726]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.20-15.07.36:591][726]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2017.11.20-15.07.36:592][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.009181s)
+[2017.11.20-15.07.36:611][726]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.20-15.07.36:630][726]LogInit: FAudioDevice initialized.
+[2017.11.20-15.07.36:669][726]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.20-15.07.36:673][726]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 0) at 2017.11.20-15.07.36
+[2017.11.20-15.07.36:674][726]LogWorld: Bringing up level for play took: 0.004070
+[2017.11.20-15.07.36:677][726]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.047
+[2017.11.20-15.07.36:678][726]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.07.37:869][859]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.11.20-15.07.37:869][859]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.07.37:869][859]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.20-15.07.40:247][144]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.07.40:296][144]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.07.42:561][405]Cmd: TRANSACTION UNDO
+[2017.11.20-15.07.42:561][405]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.11.20-15.07.42:564][405]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.42:584][405]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.42:602][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.20-15.07.43:112][429]Cmd: TRANSACTION UNDO
+[2017.11.20-15.07.43:112][429]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.11.20-15.07.43:119][429]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.43:143][429]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.43:191][429]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.20-15.07.44:007][487]Cmd: TRANSACTION UNDO
+[2017.11.20-15.07.44:007][487]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.11.20-15.07.44:013][487]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.44:038][487]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.07.44:085][487]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.20-15.07.45:538][589]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.11.20-15.07.45:538][589]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.07.45:538][589]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.20-15.07.49:230][  8]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.20-15.07.49:242][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.07.49:242][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.20-15.07.49:242][  8]PIE: New page: PIE session: Reveal_Stairway (20 Nov 2017 15:07:49)
+[2017.11.20-15.07.49:242][  8]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.20-15.07.49:248][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005612s)
+[2017.11.20-15.07.49:248][  8]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.20-15.07.49:249][  8]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2017.11.20-15.07.49:249][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.006657s)
+[2017.11.20-15.07.49:259][  8]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.20-15.07.49:269][  8]LogInit: FAudioDevice initialized.
+[2017.11.20-15.07.49:298][  8]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.20-15.07.49:301][  8]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 0) at 2017.11.20-15.07.49
+[2017.11.20-15.07.49:301][  8]LogWorld: Bringing up level for play took: 0.002032
+[2017.11.20-15.07.49:304][  8]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.674
+[2017.11.20-15.07.49:305][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.07.54:613][644]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.07.54:661][644]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.08.01:302][420]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.08.01:316][420]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.20-15.08.02:409][543]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.11.20-15.08.02:409][543]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.08.02:409][543]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.20-15.08.02:467][550]LogMaterialEditor: Applying material BasicShapeMaterial
+[2017.11.20-15.08.02:994][550]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.08.03:042][550]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.08.03:114][550]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.08.03:184][550]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.11.20-15.08.03:747][550]TextureStreamingBuild: Display: Compiling optional shaders took 0.571 seconds.
+[2017.11.20-15.08.06:364][709]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.20-15.08.06:434][709]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.08.06:434][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.20-15.08.06:435][709]PIE: New page: PIE session: Reveal_Stairway (20 Nov 2017 15:08:06)
+[2017.11.20-15.08.06:435][709]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.20-15.08.06:461][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026381s)
+[2017.11.20-15.08.06:463][709]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.20-15.08.06:464][709]LogPlayLevel: PIE: World Init took: (0.002406s)
+[2017.11.20-15.08.06:465][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.029744s)
+[2017.11.20-15.08.06:518][709]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.20-15.08.06:579][709]LogInit: FAudioDevice initialized.
+[2017.11.20-15.08.06:637][709]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.20-15.08.06:648][709]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 0) at 2017.11.20-15.08.06
+[2017.11.20-15.08.06:650][709]LogWorld: Bringing up level for play took: 0.010814
+[2017.11.20-15.08.06:662][709]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway 0.031
+[2017.11.20-15.08.06:663][709]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.08.14:942][ 44]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.08.15:094][ 44]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.08.19:493][271]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.11.20-15.08.19:493][271]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.08.19:493][271]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.20-15.08.24:165][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-15.08.40:223][293]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.08.40:286][293]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.08.40:300][293]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.08.41:572][417]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.11.20-15.08.41:572][417]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.08.41:572][417]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.20-15.09.16:856][377]LogSavePackage: Save=13.31ms
+[2017.11.20-15.09.16:856][377]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Door_Material9DBE47234E0960FD0A53F2A7D0B053A3.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Class_BluePrint/Door_Material.uasset'
+[2017.11.20-15.09.16:859][377]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Class_BluePrint/Door_Material.uasset
+[2017.11.20-15.09.27:550][604]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.09.27:562][604]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.20-15.09.28:631][728]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.11.20-15.09.28:631][728]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.09.28:631][728]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.20-15.10.15:143][220]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.10.15:144][220]LogMaterial: Warning: Failed to compile Material /Engine/Transient.NewMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.20-15.10.15:144][220]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.11.20-15.10.15:152][220]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.20-15.10.15:175][220]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2017.11.20-15.10.32:450][279]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.10.34:037][441]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.11.20-15.10.34:037][441]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.10.34:037][441]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.20-15.10.57:292][209]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.10.57:305][209]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.10.57:306][209]LogMaterial: Warning: Failed to compile Material /Engine/Transient.NewMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.20-15.10.57:306][209]LogMaterial: Warning: 	(Node Desaturation) Missing Desaturation input
+[2017.11.20-15.10.57:309][209]MaterialEditorStats: Error: [SM5] (Node Desaturation) Missing Desaturation input
+[2017.11.20-15.10.58:974][407]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.11.00:530][579]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.11.20-15.11.00:530][579]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.11.00:530][579]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.20-15.11.43:752][730]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.11.43:765][730]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.11.45:331][906]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.11.20-15.11.45:331][906]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.11.45:331][906]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.20-15.11.59:821][637]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.12.01:200][788]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.11.20-15.12.01:200][788]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.12.01:200][788]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.20-15.12.32:948][578]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.12.32:963][578]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.12.34:521][750]MaterialEditorStats: Base pass shader: 82 instructions
+[2017.11.20-15.12.34:521][750]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.12.34:521][750]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.20-15.12.36:707][ 12]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.12.36:722][ 12]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.12.37:981][155]MaterialEditorStats: Base pass shader: 82 instructions
+[2017.11.20-15.12.37:981][155]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.12.37:981][155]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.20-15.12.40:350][439]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.12.40:364][439]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.12.41:551][574]MaterialEditorStats: Base pass shader: 82 instructions
+[2017.11.20-15.12.41:551][574]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.12.41:551][574]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.20-15.12.58:757][628]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.12.58:813][628]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.20-15.12.58:822][628]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.20-15.13.02:202][927]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.11.20-15.13.02:202][927]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.13.02:202][927]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.20-15.13.05:225][274]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.13.06:666][431]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.11.20-15.13.06:666][431]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.13.06:666][431]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.20-15.13.33:162][584]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.13.33:174][584]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.20-15.13.34:680][750]MaterialEditorStats: Base pass shader: 82 instructions
+[2017.11.20-15.13.34:680][750]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.13.34:680][750]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.20-15.13.55:713][824]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Leszek/Pictures/TEXTURES/wildtextures-old-wood-original-file.jpg)
+[2017.11.20-15.13.55:932][824]LogTexture: Display: Building textures: wildtextures-old-wood-original-file (AutoDXT, 3000X2000)
+[2017.11.20-15.14.27:458][270]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.14.27:475][270]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.20-15.14.28:979][429]MaterialEditorStats: Base pass shader: 82 instructions
+[2017.11.20-15.14.28:979][429]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.20-15.14.28:980][429]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.20-15.14.31:080][676]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.14.31:098][676]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.20-15.14.32:306][799]MaterialEditorStats: Base pass shader: 85 instructions
+[2017.11.20-15.14.32:306][799]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.20-15.14.32:306][799]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.20-15.14.32:306][799]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.20-15.14.35:428][172]LogMaterialEditor: Applying material Door_Material
+[2017.11.20-15.14.35:971][172]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.20-15.14.36:033][172]LogMaterial: Missing cached shader map for material Door_Material, compiling. 
+[2017.11.20-15.14.36:073][172]LogMaterial: Missing cached shader map for material Door_Material, compiling. 
+[2017.11.20-15.14.36:128][172]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Door_Material, compiling. 
+[2017.11.20-15.14.37:242][172]TextureStreamingBuild: Display: Compiling optional shaders took 1.125 seconds.
+[2017.11.20-15.14.40:204][385]MaterialEditorStats: Base pass shader: 85 instructions
+[2017.11.20-15.14.40:204][385]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.20-15.14.40:204][385]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.20-15.14.40:204][385]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.20-15.14.50:527][529]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.20-15.14.50:548][529]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.14.50:548][529]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.20-15.14.50:548][529]PIE: New page: PIE session: Reveal_Stairway (20 Nov 2017 15:14:50)
+[2017.11.20-15.14.50:548][529]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.20-15.14.50:553][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005296s)
+[2017.11.20-15.14.50:554][529]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.20-15.14.50:554][529]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2017.11.20-15.14.50:555][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.006554s)
+[2017.11.20-15.14.50:568][529]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.20-15.14.50:580][529]LogInit: FAudioDevice initialized.
+[2017.11.20-15.14.50:613][529]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.20-15.14.50:616][529]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 0) at 2017.11.20-15.14.50
+[2017.11.20-15.14.50:616][529]LogWorld: Bringing up level for play took: 0.002309
+[2017.11.20-15.14.50:618][529]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.012
+[2017.11.20-15.14.50:619][529]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.15.14:313][371]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.15.14:366][371]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.15.28:038][968]LogSavePackage: Save=111.92ms
+[2017.11.20-15.15.28:038][968]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayF4815F4A49E27647BCFB74842C841C0E.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.20-15.15.28:042][968]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.20-15.15.28:094][968]LogSavePackage: Save=7.66ms
+[2017.11.20-15.15.28:094][968]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData2EA3C55C4091ADA78A7FDEAD0B91745A.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.20-15.15.28:095][968]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.20-15.25.28:662][ 77]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.022
+[2017.11.20-15.25.28:666][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/BasicShapes/BasicShapeMaterial] ([1] browsable assets)...
+[2017.11.20-15.25.28:698][ 77]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial]
+[2017.11.20-15.25.28:698][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Engine/BasicShapes/BasicShapeMaterial]
+[2017.11.20-15.25.28:730][ 77]LogSavePackage: Save=15.12ms
+[2017.11.20-15.25.28:730][ 77]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/BasicShapeMaterial_Auto34F829936491BA45420BA59A8BBFD4681.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Engine/BasicShapes/BasicShapeMaterial_Auto3.uasset'
+[2017.11.20-15.25.28:731][ 77]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Engine/BasicShapes/BasicShapeMaterial_Auto3.uasset
+[2017.11.20-15.25.28:732][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Class_BluePrint/wildtextures-old-wood-original-file] ([1] browsable assets)...
+[2017.11.20-15.25.28:738][ 77]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Class_BluePrint/wildtextures-old-wood-original-file.wildtextures-old-wood-original-file]
+[2017.11.20-15.25.28:738][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Class_BluePrint/wildtextures-old-wood-original-file]
+[2017.11.20-15.25.28:770][ 77]LogSavePackage: Save=29.58ms
+[2017.11.20-15.25.28:770][ 77]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/wildtextures-old-wood-original-file_Auto32C2AD3024E86F63A04F28D9DBF022CB2.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/wildtextures-old-wood-original-file_Auto3.uasset'
+[2017.11.20-15.25.28:773][ 77]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/wildtextures-old-wood-original-file_Auto3.uasset
+[2017.11.20-15.25.28:774][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Class_BluePrint/Door_Material] ([1] browsable assets)...
+[2017.11.20-15.25.28:807][ 77]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Class_BluePrint/Door_Material.Door_Material]
+[2017.11.20-15.25.28:807][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Class_BluePrint/Door_Material]
+[2017.11.20-15.25.28:835][ 77]LogSavePackage: Save=16.78ms
+[2017.11.20-15.25.28:836][ 77]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Door_Material_Auto373941FEA4DE8C38FAD9B34B769BD4490.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/Door_Material_Auto3.uasset'
+[2017.11.20-15.25.28:842][ 77]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Class_BluePrint/Door_Material_Auto3.uasset
+[2017.11.20-15.25.28:842][ 77]LogFileHelpers: Auto-saving content packages took 0.179
+[2017.11.20-15.31.16:264][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.31.47:529][953]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0007 seconds. Added 15 classes and 2 folders.
+[2017.11.20-15.31.47:532][953]LogInit: Transaction tracking system initialized
+[2017.11.20-15.31.47:532][953]EditorErrors: New page: Matinee Initialization
+[2017.11.20-15.31.55:124][430]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.31.55:175][430]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.31.55:243][430]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.20-15.31.55:301][430]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.11.20-15.31.56:200][430]TextureStreamingBuild: Display: Compiling optional shaders took 0.905 seconds.
+[2017.11.20-15.32.10:500][493]LogExit: Transaction tracking system shut down
+[2017.11.20-15.32.10:635][493]LogSavePackage: Save=114.50ms
+[2017.11.20-15.32.10:635][493]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayDD71F5FF478FA6E09610999DC04A584E.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.20-15.32.10:640][493]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.20-15.32.10:680][493]LogSavePackage: Save=8.06ms
+[2017.11.20-15.32.10:680][493]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData3C6F837E4BB80F15FA6D22A054B7A04C.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.20-15.32.10:682][493]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
