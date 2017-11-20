@@ -1204,3 +1204,418 @@ LogInit: Object subsystem initialized
 [2017.11.20-15.32.10:680][493]LogSavePackage: Save=8.06ms
 [2017.11.20-15.32.10:680][493]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData3C6F837E4BB80F15FA6D22A054B7A04C.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
 [2017.11.20-15.32.10:682][493]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.20-15.41.07:224][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.41.26:387][860]LogInit: Transaction tracking system initialized
+[2017.11.20-15.41.26:387][860]EditorErrors: New page: Matinee Initialization
+[2017.11.20-15.41.32:304][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.42.33:195][ 90]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Left)
+[2017.11.20-15.42.42:226][701]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.20-15.42.46:177][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-15.42.51:248][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.42.52:918][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-15.42.53:882][841]Cmd: DELETE
+[2017.11.20-15.42.53:882][841]Cmd: ACTOR DELETE
+[2017.11.20-15.42.53:883][841]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.20-15.42.53:893][841]LogExit: Transaction tracking system shut down
+[2017.11.20-15.42.53:893][841]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.11.20-15.42.55:021][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.42.55:817][ 64]Cmd: EDIT COPY
+[2017.11.20-15.42.56:078][ 95]Cmd: EDIT PASTE
+[2017.11.20-15.43.00:303][572]LogSavePackage: Save=113.83ms
+[2017.11.20-15.43.00:303][572]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto4FB5062F846C2EC09017DE8907DE44F78.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto4.umap'
+[2017.11.20-15.43.00:306][572]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto4.umap
+[2017.11.20-15.43.00:308][572]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.145
+[2017.11.20-15.43.00:308][572]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.145
+[2017.11.20-15.43.00:311][572]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/BasicShapes/BasicShapeMaterial] ([1] browsable assets)...
+[2017.11.20-15.43.00:343][572]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial]
+[2017.11.20-15.43.00:343][572]OBJ SavePackage: Finished generating thumbnails for package [/Engine/BasicShapes/BasicShapeMaterial]
+[2017.11.20-15.43.00:382][572]LogSavePackage: Save=17.01ms
+[2017.11.20-15.43.00:382][572]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/BasicShapeMaterial_Auto4B57AB83E4C9B8342523DC2A78282E8FE.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Engine/BasicShapes/BasicShapeMaterial_Auto4.uasset'
+[2017.11.20-15.43.00:384][572]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Engine/BasicShapes/BasicShapeMaterial_Auto4.uasset
+[2017.11.20-15.43.00:384][572]LogFileHelpers: Auto-saving content packages took 0.074
+[2017.11.20-15.43.30:157][726]LogSavePackage: Save=113.01ms
+[2017.11.20-15.43.30:157][726]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayA63A872647F1EC092E38C4B4EA043A5B.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.20-15.43.30:161][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.20-15.43.30:206][726]LogSavePackage: Save=8.81ms
+[2017.11.20-15.43.30:206][726]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltDataA37D5EF343B963BDC6911E8AF8771D74.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.20-15.43.30:209][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.20-15.43.33:860][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.43.35:755][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-15.43.38:352][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.11.20-15.43.40:771][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.43.41:329][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-15.43.47:395][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-15.43.48:560][533]Cmd: DELETE
+[2017.11.20-15.43.48:560][533]Cmd: ACTOR DELETE
+[2017.11.20-15.43.48:560][533]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.20-15.43.48:571][533]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.11.20-15.43.49:010][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.43.51:245][844]Cmd: EDIT COPY
+[2017.11.20-15.43.51:446][867]Cmd: EDIT PASTE
+[2017.11.20-15.44.01:073][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.44.05:907][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-15.44.16:919][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.44.19:763][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-15.44.23:552][626]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Left2)
+[2017.11.20-15.44.28:704][ 96]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.20-15.44.30:365][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.44.32:850][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-15.44.47:284][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.11.20-15.44.50:326][624]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.20-15.44.50:340][624]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.44.50:340][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.20-15.44.50:340][624]PIE: New page: PIE session: Reveal_Stairway (20 Nov 2017 15:44:50)
+[2017.11.20-15.44.50:340][624]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.20-15.44.50:345][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005025s)
+[2017.11.20-15.44.50:346][624]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.20-15.44.50:346][624]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2017.11.20-15.44.50:346][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.006211s)
+[2017.11.20-15.44.50:358][624]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.20-15.44.50:373][624]LogInit: FAudioDevice initialized.
+[2017.11.20-15.44.50:404][624]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.20-15.44.50:407][624]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 0) at 2017.11.20-15.44.50
+[2017.11.20-15.44.50:408][624]LogWorld: Bringing up level for play took: 0.002416
+[2017.11.20-15.44.50:411][624]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.22
+[2017.11.20-15.44.50:411][624]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.44.55:662][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.44.55:731][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.44.56:549][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-15.44.57:296][413]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.45.01:022][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-15.45.06:151][452]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Left2)
+[2017.11.20-15.45.09:226][726]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.20-15.45.10:048][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.45.12:547][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-15.45.22:072][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WALL_for_DDoor)
+[2017.11.20-15.45.22:471][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-15.45.23:896][412]LogSavePackage: Save=119.19ms
+[2017.11.20-15.45.23:896][412]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway45D738814186F85E03D7888EAC05542E.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.20-15.45.23:900][412]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.20-15.45.23:956][412]LogSavePackage: Save=9.77ms
+[2017.11.20-15.45.23:956][412]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData97F91C5B4FF2D97274E217BC0A8E1ADA.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.20-15.45.23:962][412]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.20-15.45.56:766][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.46.00:086][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-15.46.03:098][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.46.19:502][793]LogInit: Transaction tracking system initialized
+[2017.11.20-15.46.19:502][793]EditorErrors: New page: Matinee Initialization
+[2017.11.20-15.46.26:496][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.46.28:062][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-15.46.28:675][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.46.54:418][161]LogEditorTransaction: Undo Move Selected Keys
+[2017.11.20-15.47.34:098][608]Cmd: TRANSACTION UNDO
+[2017.11.20-15.47.34:099][608]LogEditorTransaction: Undo Move Selected Keys
+[2017.11.20-15.47.35:626][765]Cmd: TRANSACTION UNDO
+[2017.11.20-15.47.35:626][765]LogEditorTransaction: Undo Add Key
+[2017.11.20-15.47.53:692][633]LogInit: Transaction tracking system initialized
+[2017.11.20-15.47.53:692][633]EditorErrors: New page: Matinee Initialization
+[2017.11.20-15.48.03:525][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.48.28:869][864]LogEditorTransaction: Undo Move Selected Keys
+[2017.11.20-15.48.40:838][  6]LogEditorTransaction: Undo Move Selected Keys
+[2017.11.20-15.49.22:812][791]Cmd: TRANSACTION UNDO
+[2017.11.20-15.49.22:812][791]LogEditorTransaction: Undo Move Selected Keys
+[2017.11.20-15.49.42:216][598]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.20-15.49.44:091][708]LogInit: Transaction tracking system initialized
+[2017.11.20-15.49.44:091][708]EditorErrors: New page: Matinee Initialization
+[2017.11.20-15.49.47:184][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.49.58:480][898]LogEditorTransaction: Undo Move Selected Keys
+[2017.11.20-15.50.02:448][214]LogEditorTransaction: Undo Move Selected Keys
+[2017.11.20-15.50.03:157][278]LogEditorTransaction: Undo Add Key
+[2017.11.20-15.50.07:575][656]LogEditorTransaction: Undo Move Selected Keys
+[2017.11.20-15.50.17:276][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.50.30:469][519]LogEditorTransaction: Undo Add Key
+[2017.11.20-15.50.35:447][965]Cmd: TRANSACTION REDO
+[2017.11.20-15.50.35:447][965]LogEditorTransaction: Redo Add Key
+[2017.11.20-15.51.19:684][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.51.20:495][930]Cmd: TRANSACTION UNDO
+[2017.11.20-15.51.20:495][930]LogEditorTransaction: Undo Add Key
+[2017.11.20-15.51.27:094][525]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.20-15.51.30:174][667]LogInit: Transaction tracking system initialized
+[2017.11.20-15.51.30:174][667]EditorErrors: New page: Matinee Initialization
+[2017.11.20-15.51.33:554][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.51.44:394][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.52.42:688][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.52.56:646][610]Cmd: TRANSACTION UNDO
+[2017.11.20-15.52.56:646][610]LogEditorTransaction: Undo Scale Actors
+[2017.11.20-15.53.08:320][965]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.20-15.53.08:333][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.53.08:333][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.20-15.53.08:333][965]PIE: New page: PIE session: Reveal_Stairway (20 Nov 2017 15:53:08)
+[2017.11.20-15.53.08:334][965]LogPlayLevel: Creating play world package: /Game/Stairway_map/UEDPIE_0_Reveal_Stairway
+[2017.11.20-15.53.08:341][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006853s)
+[2017.11.20-15.53.08:341][965]LogAIModule: Creating AISystem for world Reveal_Stairway
+[2017.11.20-15.53.08:342][965]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2017.11.20-15.53.08:342][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stairway_map/Reveal_Stairway.Reveal_Stairway to /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway (0.008316s)
+[2017.11.20-15.53.08:353][965]LogExit: Transaction tracking system shut down
+[2017.11.20-15.53.08:353][965]LogExit: Transaction tracking system shut down
+[2017.11.20-15.53.08:353][965]LogExit: Transaction tracking system shut down
+[2017.11.20-15.53.08:353][965]LogExit: Transaction tracking system shut down
+[2017.11.20-15.53.08:358][965]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.20-15.53.08:371][965]LogInit: FAudioDevice initialized.
+[2017.11.20-15.53.08:401][965]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.20-15.53.08:404][965]LogWorld: Bringing World /Game/Stairway_map/UEDPIE_0_Reveal_Stairway.Reveal_Stairway up for play (max tick rate 0) at 2017.11.20-15.53.08
+[2017.11.20-15.53.08:404][965]LogWorld: Bringing up level for play took: 0.002600
+[2017.11.20-15.53.08:407][965]PIE: Play in editor start time for /Game/Stairway_map/UEDPIE_0_Reveal_Stairway -0.224
+[2017.11.20-15.53.08:407][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.53.13:205][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.53.13:273][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel' has LevelScriptBlueprint '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway' with GeneratedClass '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway_C' with ClassGeneratedBy '/Game/Stairway_map/Reveal_Stairway.Reveal_Stairway:PersistentLevel.Reveal_Stairway'
+[2017.11.20-15.53.23:761][444]Cmd: TRANSACTION UNDO
+[2017.11.20-15.53.23:762][444]LogEditorTransaction: Undo Create Actors
+[2017.11.20-15.53.24:200][469]Cmd: TRANSACTION UNDO
+[2017.11.20-15.53.24:200][469]LogEditorTransaction: Undo Create Actors
+[2017.11.20-15.53.24:511][491]Cmd: TRANSACTION UNDO
+[2017.11.20-15.53.24:511][491]LogEditorTransaction: Undo Move Actors
+[2017.11.20-15.53.24:864][518]Cmd: TRANSACTION UNDO
+[2017.11.20-15.53.24:864][518]LogEditorTransaction: Undo Move Actors
+[2017.11.20-15.53.25:250][549]Cmd: TRANSACTION UNDO
+[2017.11.20-15.53.25:250][549]LogEditorTransaction: Undo Scale Actors
+[2017.11.20-15.53.30:178][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WALL_for_DDoor)
+[2017.11.20-15.53.38:182][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.54.29:192][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.11.20-15.54.34:252][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.54.46:709][183]Cmd: TRANSACTION UNDO
+[2017.11.20-15.54.46:709][183]LogEditorTransaction: Undo Move Actors
+[2017.11.20-15.54.56:750][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WALL_for_DDoor)
+[2017.11.20-15.54.59:146][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-15.55.17:561][798]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.11.20-15.55.19:146][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.11.20-15.55.22:591][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-15.55.41:334][575]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Right)
+[2017.11.20-15.55.44:196][832]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.20-15.55.45:013][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.56.05:029][288]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Left)
+[2017.11.20-15.56.10:370][752]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.20-15.56.11:298][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-15.56.20:929][981]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Right)
+[2017.11.20-15.56.24:870][322]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.20-15.56.26:546][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.56.36:673][624]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.20-15.56.39:887][858]LogInit: Transaction tracking system initialized
+[2017.11.20-15.56.39:888][858]EditorErrors: New page: Matinee Initialization
+[2017.11.20-15.56.44:795][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.56.59:091][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.57.27:117][ 15]Cmd: TRANSACTION UNDO
+[2017.11.20-15.57.27:117][ 15]LogEditorTransaction: Undo Add Key
+[2017.11.20-15.57.27:630][ 72]Cmd: TRANSACTION UNDO
+[2017.11.20-15.57.27:630][ 72]LogEditorTransaction: Undo Add Key
+[2017.11.20-15.57.33:964][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WALL_for_DDoor)
+[2017.11.20-15.57.34:576][689]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.20-15.57.36:669][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-15.57.37:494][ 22]Cmd: DELETE
+[2017.11.20-15.57.37:494][ 22]Cmd: ACTOR DELETE
+[2017.11.20-15.57.37:494][ 22]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.20-15.57.37:504][ 22]LogExit: Transaction tracking system shut down
+[2017.11.20-15.57.37:505][ 22]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.11.20-15.57.40:402][366]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WALL_for_DDoor)
+[2017.11.20-15.57.41:460][487]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.20-15.57.41:766][498]LogSavePackage: Save=114.81ms
+[2017.11.20-15.57.41:766][498]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto5291C86DB4D3A46ECA0763397E59D97B1.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto5.umap'
+[2017.11.20-15.57.41:769][498]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto5.umap
+[2017.11.20-15.57.41:771][498]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.147
+[2017.11.20-15.57.41:771][498]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.147
+[2017.11.20-15.57.43:819][590]LogInit: Transaction tracking system initialized
+[2017.11.20-15.57.43:819][590]EditorErrors: New page: Matinee Initialization
+[2017.11.20-15.57.50:200][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-15.58.10:624][743]LogExit: Transaction tracking system shut down
+[2017.11.20-15.58.10:742][743]LogSavePackage: Save=104.39ms
+[2017.11.20-15.58.10:742][743]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway818281684A8EE7A76BB76B89B015AB83.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.20-15.58.10:747][743]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.20-15.58.10:787][743]LogSavePackage: Save=7.74ms
+[2017.11.20-15.58.10:787][743]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData455563674B2BC0AF36DD72A145ABC483.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.20-15.58.10:789][743]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.20-16.02.48:314][307]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.20-16.02.50:542][411]LogInit: Transaction tracking system initialized
+[2017.11.20-16.02.50:542][411]EditorErrors: New page: Matinee Initialization
+[2017.11.20-16.02.54:555][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.02.58:008][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-16.03.15:311][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-16.03.21:838][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.03.22:743][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-16.03.23:660][897]Cmd: DELETE
+[2017.11.20-16.03.23:660][897]Cmd: ACTOR DELETE
+[2017.11.20-16.03.23:660][897]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.20-16.03.23:670][897]LogExit: Transaction tracking system shut down
+[2017.11.20-16.03.23:671][897]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.11.20-16.03.24:306][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.03.53:120][808]Cmd: EDIT COPY
+[2017.11.20-16.03.53:321][832]Cmd: EDIT PASTE
+[2017.11.20-16.03.57:665][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.03.58:647][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.03.59:788][589]Cmd: DELETE
+[2017.11.20-16.03.59:788][589]Cmd: ACTOR DELETE
+[2017.11.20-16.03.59:789][589]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.20-16.03.59:798][589]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.20-16.04.00:269][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.04.08:773][651]Cmd: EDIT COPY
+[2017.11.20-16.04.08:999][678]Cmd: EDIT PASTE
+[2017.11.20-16.04.15:098][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.04.15:805][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.04.16:732][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.04.17:305][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.04.18:280][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.04.21:279][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.04.26:327][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.04.29:008][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.04.29:353][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.04.46:945][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.11.20-16.04.48:983][366]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.04.51:138][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.04.51:645][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.05.00:224][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.05.08:604][655]Cmd: TRANSACTION UNDO
+[2017.11.20-16.05.08:604][655]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.20-16.05.09:002][691]Cmd: TRANSACTION UNDO
+[2017.11.20-16.05.09:002][691]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.20-16.05.09:325][724]Cmd: TRANSACTION UNDO
+[2017.11.20-16.05.09:325][724]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.20-16.05.09:579][750]Cmd: TRANSACTION UNDO
+[2017.11.20-16.05.09:579][750]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.20-16.05.09:985][795]Cmd: TRANSACTION UNDO
+[2017.11.20-16.05.09:985][795]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.20-16.05.10:304][830]Cmd: TRANSACTION UNDO
+[2017.11.20-16.05.10:304][830]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.20-16.05.10:633][866]Cmd: TRANSACTION UNDO
+[2017.11.20-16.05.10:633][866]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.20-16.05.11:003][907]Cmd: TRANSACTION UNDO
+[2017.11.20-16.05.11:003][907]LogEditorTransaction: Undo Move Actors
+[2017.11.20-16.05.11:347][947]Cmd: TRANSACTION UNDO
+[2017.11.20-16.05.11:347][947]LogEditorTransaction: Undo Move Actors
+[2017.11.20-16.05.11:810][  2]Cmd: TRANSACTION UNDO
+[2017.11.20-16.05.11:810][  2]LogEditorTransaction: Undo Rotate Actors
+[2017.11.20-16.05.16:746][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.05.22:575][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.05.40:615][374]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Left2)
+[2017.11.20-16.05.43:269][579]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.20-16.05.45:323][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.05.48:170][100]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.20-16.05.50:110][209]LogInit: Transaction tracking system initialized
+[2017.11.20-16.05.50:110][209]EditorErrors: New page: Matinee Initialization
+[2017.11.20-16.05.52:433][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.06.11:585][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.06.54:336][491]Cmd: TRANSACTION UNDO
+[2017.11.20-16.06.54:336][491]LogEditorTransaction: Undo Rotate Actors
+[2017.11.20-16.08.09:420][954]LogExit: Transaction tracking system shut down
+[2017.11.20-16.08.09:566][954]LogSavePackage: Save=117.83ms
+[2017.11.20-16.08.09:566][954]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto620F6198249DA89BC5CD8EB99BA881CBD.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto6.umap'
+[2017.11.20-16.08.09:568][954]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto6.umap
+[2017.11.20-16.08.09:570][954]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.165
+[2017.11.20-16.08.09:570][954]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.165
+[2017.11.20-16.10.00:806][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.10.02:520][225]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Left)
+[2017.11.20-16.10.11:975][176]Cmd: PIVOT CENTERSELECTION
+[2017.11.20-16.10.18:970][957]Cmd: TRANSACTION UNDO
+[2017.11.20-16.10.18:970][957]LogEditorTransaction: Undo Move Actors
+[2017.11.20-16.10.20:770][111]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Left)
+[2017.11.20-16.10.23:858][372]Cmd: PIVOT CENTERSELECTION
+[2017.11.20-16.10.48:052][225]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Left)
+[2017.11.20-16.10.50:713][452]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.20-16.10.52:758][682]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Left)
+[2017.11.20-16.11.03:413][704]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.20-16.11.05:751][816]LogInit: Transaction tracking system initialized
+[2017.11.20-16.11.05:751][816]EditorErrors: New page: Matinee Initialization
+[2017.11.20-16.11.09:468][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.11.35:815][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.12.22:055][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.13.17:218][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.13.32:091][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.13.33:061][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.13.59:522][965]Cmd: TRANSACTION UNDO
+[2017.11.20-16.13.59:522][965]LogEditorTransaction: Undo New Group
+[2017.11.20-16.14.04:249][296]Cmd: TRANSACTION UNDO
+[2017.11.20-16.14.04:249][296]LogEditorTransaction: Undo New Group
+[2017.11.20-16.14.27:919][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.14.31:351][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.14.40:865][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.14.43:952][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.14.46:382][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.14.49:013][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.14.55:637][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.14.56:186][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.15.37:767][324]Cmd: TRANSACTION UNDO
+[2017.11.20-16.15.37:767][324]LogEditorTransaction: Undo Update Key Frame
+[2017.11.20-16.15.39:032][462]Cmd: TRANSACTION UNDO
+[2017.11.20-16.15.39:032][462]LogEditorTransaction: Undo Update Key Frame
+[2017.11.20-16.15.52:548][694]Cmd: TRANSACTION UNDO
+[2017.11.20-16.15.52:548][694]LogEditorTransaction: Undo Update Key Frame
+[2017.11.20-16.15.53:123][759]Cmd: TRANSACTION UNDO
+[2017.11.20-16.15.53:123][759]LogEditorTransaction: Undo Update Key Frame
+[2017.11.20-16.15.55:377][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.15.56:131][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.15.56:616][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left3)
+[2017.11.20-16.16.11:619][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left3)
+[2017.11.20-16.16.16:698][209]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.20-16.16.18:872][361]LogInit: Transaction tracking system initialized
+[2017.11.20-16.16.18:873][361]EditorErrors: New page: Matinee Initialization
+[2017.11.20-16.16.29:930][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.17.17:200][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.17.19:775][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.18.10:247][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.18.16:382][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left3)
+[2017.11.20-16.18.21:055][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.11.20-16.18.25:247][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.18.37:546][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left3)
+[2017.11.20-16.18.38:270][508]Cmd: DELETE
+[2017.11.20-16.18.38:270][508]Cmd: ACTOR DELETE
+[2017.11.20-16.18.38:271][508]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.20-16.18.38:282][508]LogExit: Transaction tracking system shut down
+[2017.11.20-16.18.38:282][508]LogExit: Transaction tracking system shut down
+[2017.11.20-16.18.38:283][508]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.11.20-16.18.40:296][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.18.41:099][836]Cmd: DELETE
+[2017.11.20-16.18.41:099][836]Cmd: ACTOR DELETE
+[2017.11.20-16.18.41:099][836]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.20-16.18.41:111][836]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.11.20-16.18.41:643][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.18.43:858][144]Cmd: EDIT COPY
+[2017.11.20-16.18.44:099][168]Cmd: EDIT PASTE
+[2017.11.20-16.18.45:456][288]LogSavePackage: Save=145.30ms
+[2017.11.20-16.18.45:456][288]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_Auto78BF6EDD44C265285B7AC779D65E2FB6A.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto7.umap'
+[2017.11.20-16.18.45:459][288]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Autosaves/Game/Stairway_map/Reveal_Stairway_Auto7.umap
+[2017.11.20-16.18.45:461][288]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Stairway_map/Reveal_Stairway' took 0.187
+[2017.11.20-16.18.45:461][288]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.187
+[2017.11.20-16.18.48:580][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.18.50:715][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.18.51:470][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.18.52:353][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.19.00:965][ 49]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Left)
+[2017.11.20-16.19.02:098][154]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Left2)
+[2017.11.20-16.19.02:672][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left2)
+[2017.11.20-16.19.06:167][608]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door_Left2)
+[2017.11.20-16.19.09:120][843]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.20-16.19.35:482][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WALL_for_DDoor)
+[2017.11.20-16.19.36:039][393]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.11.20-16.19.37:931][499]LogInit: Transaction tracking system initialized
+[2017.11.20-16.19.37:931][499]EditorErrors: New page: Matinee Initialization
+[2017.11.20-16.19.39:962][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-16.20.08:397][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-16.20.08:473][841]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.20-16.20.09:466][934]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.20-16.20.10:181][  0]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.20-16.20.10:262][  6]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Door_Right)
+[2017.11.20-16.20.23:631][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-16.20.23:709][ 58]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.20-16.20.31:105][682]Cmd: TRANSACTION UNDO
+[2017.11.20-16.20.31:105][682]LogEditorTransaction: Undo Update Key Frame
+[2017.11.20-16.20.32:055][765]Cmd: TRANSACTION UNDO
+[2017.11.20-16.20.32:055][765]LogEditorTransaction: Undo Update Key Frame
+[2017.11.20-16.20.37:106][212]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-16.20.37:168][213]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.20-16.20.38:012][292]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.20-16.20.38:627][350]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.20-16.20.39:174][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left)
+[2017.11.20-16.20.39:879][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-16.21.02:807][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Right)
+[2017.11.20-16.22.24:736][736]LogExit: Transaction tracking system shut down
+[2017.11.20-16.22.24:882][736]LogSavePackage: Save=130.20ms
+[2017.11.20-16.22.24:883][736]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_StairwayBFD8936D4899DDAB54818EBE8DF9174D.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.20-16.22.24:888][736]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.20-16.22.24:941][736]LogSavePackage: Save=15.60ms
+[2017.11.20-16.22.24:942][736]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltDataB73927A6429D7D58E23A10957886DF87.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.20-16.22.24:944][736]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
+[2017.11.20-16.23.09:694][717]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0060 seconds. Added 113 classes and 0 folders.
+[2017.11.20-16.23.41:377][945]LogSavePackage: Save=247.65ms
+[2017.11.20-16.23.41:377][945]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway323C17FD4A29A84FCB38E8922E919950.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap'
+[2017.11.20-16.23.41:387][945]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway.umap
+[2017.11.20-16.23.41:479][945]LogSavePackage: Save=14.84ms
+[2017.11.20-16.23.41:479][945]LogSavePackage: Moving '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Saved/Reveal_Stairway_BuiltData474B5D0145E8815121C4779D9308D862.tmp' to '../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset'
+[2017.11.20-16.23.41:483][945]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leszek/Documents/Unreal Projects/Reveal_Stairway/Reaveal_Stairway/Content/Stairway_map/Reveal_Stairway_BuiltData.uasset
